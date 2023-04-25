@@ -1,0 +1,1 @@
+Mad Bomber NAME_END 3 ATK_END 2 DEF_END 2 COST_END -1 DUR_END Minion TYPE_END NEUTRAL PLAYER_CLS_END NIL RACE_END COMMON RARITY_END < b > battlecry : < /b > deal 3 damage randomly split between all other characters .

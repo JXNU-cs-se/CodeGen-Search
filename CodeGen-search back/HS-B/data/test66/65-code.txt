@@ -1,0 +1,9 @@
+
+class SolemnVigil(SpellCard ) : 
+    def __init__ (self) :
+        super().__init__("Solemn Vigil", 5, CHARACTER_CLASS.PALADIN, CARD_RARITY.COMMON, target_func = hearthbreaker.targeting.find_spell_target, costs = Buff(ManaChange(ManaChange(ManaChange(Count(DeadMinionSelector()))), -1), Selector( players = BothPlayer()), picker = game.other_player.hero))
+
+    def cards (player, player) :
+        super().can_use(player, game)
+
+

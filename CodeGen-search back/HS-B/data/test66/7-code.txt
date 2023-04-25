@@ -1,0 +1,9 @@
+
+class MagmaRager(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Magma Rager", 3, CHARACTER_CLASS.ALL, CARD_RARITY.FREE)
+
+    def create_minion (self, player) :
+        return Minion(5, 1)
+
+

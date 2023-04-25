@@ -1,0 +1,10 @@
+root Lambda variable $0 ^ ^ type e ^ ^ body And arguments Apply predicate flight ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ Apply predicate from ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity ci0 ^ ^ ^ End ^ ^ ^ Apply predicate to ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity ci1 ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^ ^ ^
+-1.1136202490164435e-05
+root Lambda variable $0 ^ ^ type e ^ ^ body And arguments Apply predicate flight ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ Apply predicate to ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity ci1 ^ ^ ^ End ^ ^ ^ Apply predicate from ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity ci0 ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^ ^ ^
+-1.1499163723312325
+root Lambda variable $0 ^ ^ type e ^ ^ body And arguments Apply predicate flight ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ Apply predicate from ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity ci0 ^ ^ ^ End ^ ^ ^ Apply predicate to ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity ci1 ^ ^ ^ End ^ ^ ^ Apply predicate weekday ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^ ^ ^
+-1.2711439238867916
+root Lambda variable $0 ^ ^ type e ^ ^ body And arguments Apply predicate flight ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ Apply predicate from ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity ci0 ^ ^ ^ End ^ ^ ^ Apply predicate to ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity ci1 ^ ^ ^ End ^ ^ ^ Apply predicate from ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity ci0 ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^ ^ ^
+-1.394523588252168
+root Lambda variable $0 ^ ^ type e ^ ^ body And arguments Apply predicate flight ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ Apply predicate from ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity ci0 ^ ^ ^ End ^ ^ ^ Apply predicate to ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity ci1 ^ ^ ^ End ^ ^ ^ Apply predicate time_elapsed ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^ ^ ^
+-1.5588163438709783

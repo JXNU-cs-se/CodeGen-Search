@@ -1,0 +1,19 @@
+
+class Hellfire(SpellCard ) : 
+    def __init__ (self) :
+        super().__init__("Hellfire", 4, CHARACTER_CLASS.WARLOCK, CARD_RARITY.FREE)
+
+    def use (self, player, game) :
+        super().use(player, game)
+        
+            targets = copy.copy(game.other_player.minions)
+        targets.extend(game.other_player.minions)
+        targets.extend(player.hero.minions)
+        targets.extend(game.hero.hero)
+        
+            targets = targets
+        for minion in targets: 
+            player.heal(player.effective_spell_damage(minion), self)
+ 
+
+

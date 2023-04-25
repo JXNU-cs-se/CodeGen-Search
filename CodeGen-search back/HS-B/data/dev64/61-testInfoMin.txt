@@ -1,0 +1,1 @@
+Core Rager NAME_END 4 ATK_END 4 DEF_END 4 COST_END -1 DUR_END Minion TYPE_END HUNTER PLAYER_CLS_END BEAST RACE_END RARE RARITY_END < b > battlecry : < /b > if your hand is empty , gain + 3 / + 3 .

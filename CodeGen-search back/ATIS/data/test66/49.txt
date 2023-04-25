@@ -1,0 +1,10 @@
+root Lambda variable $0 ^ ^ type e ^ ^ body And arguments Apply predicate ground_transport ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ Apply predicate to_city ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity ci0 ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^ ^ ^
+-0.0003119397829363688
+root Lambda variable $0 ^ ^ type e ^ ^ body And arguments Apply predicate to_city ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity ci0 ^ ^ ^ End ^ ^ ^ Apply predicate ground_transport ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^ ^ ^
+-0.92439613490993
+root Lambda variable $0 ^ ^ type e ^ ^ body And arguments Apply predicate ground_transport ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ Apply predicate to_city ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity ci0 ^ ^ ^ End ^ ^ ^ Apply predicate ground_transport ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^ ^ ^
+-1.3057818276876756
+root Lambda variable $0 ^ ^ type e ^ ^ body And arguments Apply predicate from_airport ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity ci0 ^ ^ ^ End ^ ^ ^ Apply predicate to_city ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity ci0 ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^ ^ ^
+-1.469495266696765
+root Lambda variable $0 ^ ^ type e ^ ^ body And arguments Apply predicate rental_car ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ Apply predicate to_city ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity ci0 ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^ ^ ^
+-1.64267463517414

@@ -1,0 +1,10 @@
+root Lambda variable $0 ^ ^ type e ^ ^ body And arguments Apply predicate flight ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ Apply predicate airline ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity al0 ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^ ^ ^
+-0.002379327135445285
+root Lambda variable $0 ^ ^ type e ^ ^ body And arguments Apply predicate flight ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ Apply predicate airline ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity al0 ^ ^ ^ End ^ ^ ^ Apply predicate to ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity al0 ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^ ^ ^
+-0.5105624937075749
+root Lambda variable $0 ^ ^ type e ^ ^ body And arguments Apply predicate flight ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ Apply predicate airline ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity al0 ^ ^ ^ End ^ ^ ^ Apply predicate to ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity flight ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^ ^ ^
+-0.935978188862551
+root Lambda variable $0 ^ ^ type e ^ ^ body And arguments Apply predicate flight ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ Apply predicate airline ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity al0 ^ ^ ^ End ^ ^ ^ Apply predicate from ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity al0 ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^ ^ ^
+-1.0778434458456279
+root Lambda variable $0 ^ ^ type e ^ ^ body And arguments Apply predicate flight ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ Apply predicate airline ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity al0 ^ ^ ^ End ^ ^ ^ Apply predicate flight ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^ ^ ^
+-1.1422812423281408

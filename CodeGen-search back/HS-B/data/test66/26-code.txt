@@ -1,0 +1,9 @@
+
+class ScarletPurifier(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Scarlet Purifier", 3, CHARACTER_CLASS.PALADIN, CARD_RARITY.RARE, battlecry = Battlecry(Damage(2), CharacterSelector( players =  not (player(MinionSelector(MinionSelector(MinionHasDeathrattle(), BothPlayer(), deathrattle = MurlocTidecaller), deathrattle()))))))
+
+    def create_minion (self, player) :
+        return Minion(4, 3)
+
+

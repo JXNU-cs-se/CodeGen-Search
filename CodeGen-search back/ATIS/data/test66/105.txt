@@ -1,0 +1,10 @@
+root Lambda variable $0 ^ ^ type e ^ ^ body And arguments Apply predicate flight ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ Apply predicate from ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity ci0 ^ ^ ^ End ^ ^ ^ Apply predicate to ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity ci1 ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^ ^ ^
+-1.7372362081232607e-05
+root Lambda variable $0 ^ ^ type e ^ ^ body And arguments Apply predicate flight ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ Apply predicate to ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity ci1 ^ ^ ^ End ^ ^ ^ Apply predicate from ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity ci0 ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^ ^ ^
+-1.1590026933536908
+root Lambda variable $0 ^ ^ type e ^ ^ body And arguments Apply predicate flight ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ Apply predicate from ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity ci0 ^ ^ ^ End ^ ^ ^ Apply predicate to ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity ci1 ^ ^ ^ End ^ ^ ^ Apply predicate today ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^ ^ ^
+-1.3404056517661045
+root Lambda variable $0 ^ ^ type e ^ ^ body And arguments Apply predicate flight ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ Apply predicate from ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity ci0 ^ ^ ^ End ^ ^ ^ Apply predicate to ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity ci1 ^ ^ ^ End ^ ^ ^ Apply predicate day ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity ci1 ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^ ^ ^
+-1.3558127148399617
+root Lambda variable $0 ^ ^ type e ^ ^ body And arguments Apply predicate to ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity ci1 ^ ^ ^ End ^ ^ ^ Apply predicate from ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity ci0 ^ ^ ^ End ^ ^ ^ Apply predicate to ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity ci1 ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^ ^ ^
+-1.5052319367179163

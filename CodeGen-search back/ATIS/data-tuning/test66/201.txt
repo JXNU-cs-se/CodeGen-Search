@@ -1,0 +1,10 @@
+root Apply predicate capacity ^ ^ arguments Entity entity ac0 ^ ^ ^ End ^ ^ ^ ^
+-0.006970270943641259
+root Count variable $0 ^ ^ body And arguments Apply predicate flight ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ Apply predicate aircraft_code ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity ac0 ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^ ^ ^
+-0.6843902310813068
+root Count variable $0 ^ ^ body And arguments Apply predicate flight ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ Apply predicate aircraft_code ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity ac0 ^ ^ ^ End ^ ^ ^ Apply predicate stop ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity ac0 ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^ ^ ^
+-1.0292942801157259
+root Lambda variable $0 ^ ^ type e ^ ^ body And arguments Apply predicate flight ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ Apply predicate aircraft_code ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity ac0 ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^ ^ ^
+-1.3300316381549195
+root Count variable $0 ^ ^ body And arguments Apply predicate flight ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ Apply predicate aircraft_code ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity ac0 ^ ^ ^ End ^ ^ ^ Apply predicate loc:t ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity ac0 ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^ ^ ^
+-1.4210957446044283

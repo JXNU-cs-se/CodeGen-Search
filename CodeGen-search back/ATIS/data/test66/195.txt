@@ -1,0 +1,10 @@
+root Lambda variable $0 ^ ^ type e ^ ^ body And arguments Apply predicate flight ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ Apply predicate from ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity ci0 ^ ^ ^ End ^ ^ ^ Apply predicate to ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity ci1 ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^ ^ ^
+-2.7719350154734218e-05
+root Lambda variable $0 ^ ^ type e ^ ^ body And arguments Apply predicate flight ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ Apply predicate to ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity ci1 ^ ^ ^ End ^ ^ ^ Apply predicate from ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity ci0 ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^ ^ ^
+-1.2574228196739183
+root Lambda variable $0 ^ ^ type e ^ ^ body And arguments Apply predicate flight ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ Apply predicate from ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity ci0 ^ ^ ^ End ^ ^ ^ Apply predicate to ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity ci1 ^ ^ ^ End ^ ^ ^ Apply predicate day ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity ci1 ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^ ^ ^
+-1.3984786938596512
+root Lambda variable $0 ^ ^ type e ^ ^ body And arguments Apply predicate flight ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ Apply predicate from ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity ci0 ^ ^ ^ End ^ ^ ^ Apply predicate to ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity ci1 ^ ^ ^ End ^ ^ ^ Apply predicate weekday ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^ ^ ^
+-1.4619014670974377
+root Lambda variable $0 ^ ^ type e ^ ^ body And arguments Apply predicate flight ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ Apply predicate from ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity ci0 ^ ^ ^ End ^ ^ ^ Apply predicate to ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity ci1 ^ ^ ^ End ^ ^ ^ Apply predicate has_stops ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^ ^ ^
+-1.4866448938778327

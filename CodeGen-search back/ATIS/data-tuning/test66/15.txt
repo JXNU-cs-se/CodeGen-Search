@@ -1,0 +1,10 @@
+root Lambda variable $0 ^ ^ type e ^ ^ body And arguments Apply predicate economy ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ Apply predicate from ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity ci0 ^ ^ ^ End ^ ^ ^ Apply predicate to ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity ci1 ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^ ^ ^
+-0.0001861244657323334
+root Lambda variable $0 ^ ^ type e ^ ^ body And arguments Apply predicate economy ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ Apply predicate from ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity ci0 ^ ^ ^ End ^ ^ ^ Apply predicate to ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity ci1 ^ ^ ^ End ^ ^ ^ Apply predicate next_days ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^ ^ ^
+-0.7761421065952262
+root Lambda variable $0 ^ ^ type e ^ ^ body And arguments Apply predicate economy ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ Apply predicate economy ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ Apply predicate from ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity ci0 ^ ^ ^ End ^ ^ ^ Apply predicate to ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity ci1 ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^ ^ ^
+-0.8840061255043463
+root Lambda variable $0 ^ ^ type e ^ ^ body And arguments Apply predicate economy ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ Apply predicate from ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity ci0 ^ ^ ^ End ^ ^ ^ Apply predicate to ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity ci1 ^ ^ ^ End ^ ^ ^ Apply predicate economy ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^ ^ ^
+-0.9602366619706247
+root Lambda variable $0 ^ ^ type e ^ ^ body And arguments Apply predicate economy ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ Apply predicate from ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity ci0 ^ ^ ^ End ^ ^ ^ Apply predicate to ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity ci1 ^ ^ ^ End ^ ^ ^ Apply predicate class_type ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity ci0 ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^ ^ ^
+-0.9636948591149843

@@ -1,0 +1,1 @@
+Claw NAME_END -1 ATK_END -1 DEF_END 1 COST_END -1 DUR_END Spell TYPE_END DRUID PLAYER_CLS_END NIL RACE_END FREE RARITY_END give your hero + 2 attack this turn and 2 armor .

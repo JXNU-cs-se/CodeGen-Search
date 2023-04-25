@@ -1,0 +1,10 @@
+root Entity entity rc0 ^ ^ ^ ^
+-6.166480646183376e-08
+root Lambda variable $0 ^ ^ type e ^ ^ body And arguments Apply predicate miles_distant ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ Apply predicate from_airport ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity rc0 ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^ ^ ^
+-3.5488035446726243
+root Lambda variable $0 ^ ^ type e ^ ^ body And arguments Apply predicate miles_distant ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ Apply predicate from_airport ^ ^ arguments Entity entity rc0 ^ ^ ^ Variable variable $0 ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^ ^ ^
+-3.6043427127345646
+root Lambda variable $0 ^ ^ type e ^ ^ body And arguments Apply predicate miles_distant ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ Apply predicate aircraft_code ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity rc0 ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^ ^ ^
+-3.847651736506633
+root Lambda variable $0 ^ ^ type e ^ ^ body And arguments Apply predicate miles_distant ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ Apply predicate aircraft_code ^ ^ arguments Entity entity rc0 ^ ^ ^ Variable variable $0 ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^ ^ ^
+-4.233249391098335

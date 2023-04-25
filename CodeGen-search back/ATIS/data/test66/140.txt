@@ -1,0 +1,10 @@
+root Entity entity ac0 ^ ^ ^ ^
+-2.158268437505999e-07
+root Lambda variable $0 ^ ^ type e ^ ^ body Exists variable $1 ^ ^ body And arguments Apply predicate flight ^ ^ arguments Variable variable $1 ^ ^ ^ End ^ ^ ^ Apply predicate aircraft_code ^ ^ arguments Variable variable $1 ^ ^ ^ Entity entity ac0 ^ ^ ^ End ^ ^ ^ Compare op Equal ^ ^ left Apply predicate aircraft_code ^ ^ arguments Variable variable $1 ^ ^ ^ End ^ ^ ^ ^ right Variable variable $0 ^ ^ ^ ^ ^ End ^ ^ ^ ^ ^ ^ ^ ^
+-2.124456344042459
+root Lambda variable $0 ^ ^ type e ^ ^ body Exists variable $1 ^ ^ body And arguments Apply predicate aircraft_code ^ ^ arguments Variable variable $1 ^ ^ ^ Entity entity ac0 ^ ^ ^ End ^ ^ ^ Compare op Equal ^ ^ left Apply predicate aircraft_code ^ ^ arguments Variable variable $1 ^ ^ ^ End ^ ^ ^ ^ right Variable variable $0 ^ ^ ^ ^ ^ End ^ ^ ^ ^ ^ ^ ^ ^
+-2.371705232999179
+root Lambda variable $0 ^ ^ type e ^ ^ body And arguments Apply predicate flight ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ Apply predicate aircraft_code ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity ac0 ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^ ^ ^
+-2.813536410781343
+root Lambda variable $0 ^ ^ type e ^ ^ body Exists variable $1 ^ ^ body And arguments Apply predicate flight ^ ^ arguments Variable variable $1 ^ ^ ^ End ^ ^ ^ Apply predicate aircraft_code ^ ^ arguments Variable variable $1 ^ ^ ^ Entity entity ac0 ^ ^ ^ End ^ ^ ^ Compare op Equal ^ ^ left Apply predicate aircraft_code ^ ^ arguments Variable variable $1 ^ ^ ^ End ^ ^ ^ ^ right Variable variable $1 ^ ^ ^ ^ ^ End ^ ^ ^ ^ ^ ^ ^ ^
+-2.950573168116561

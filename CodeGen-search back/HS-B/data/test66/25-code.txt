@@ -1,0 +1,9 @@
+
+class PilotedSkyGolem(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Piloted Sky Golem", 6, CHARACTER_CLASS.ALL, CARD_RARITY.EPIC, minion_type = MINION_TYPE.MECH)
+
+    def create_minion (self, player) :
+        return Minion(6, 4, deathrattle = Deathrattle(Summon( +(self( source_list = Deathrattle(Summon(Summon(Summon.LIST.LIST.LIST.LIST.node_genattrattrattrattr(), Call), Call), Call)attrattrattrattrattrattrattrattrattrattrattrattrattrattrattrattrattrattrattrattrattrattrattrattrattrattrattrattrattrattrattr)), Call), Call))
+
+

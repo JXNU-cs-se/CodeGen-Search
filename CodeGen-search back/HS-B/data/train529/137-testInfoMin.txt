@@ -1,0 +1,1 @@
+Wee Spellstopper NAME_END 2 ATK_END 5 DEF_END 4 COST_END -1 DUR_END Minion TYPE_END MAGE PLAYER_CLS_END NIL RACE_END EPIC RARITY_END adjacent minions can ' t be targeted by spells or hero powers .

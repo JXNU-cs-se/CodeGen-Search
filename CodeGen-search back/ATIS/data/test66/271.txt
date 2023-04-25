@@ -1,0 +1,10 @@
+root Lambda variable $0 ^ ^ type e ^ ^ body And arguments Apply predicate ground_transport ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ Apply predicate to_city ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity ci0 ^ ^ ^ End ^ ^ ^ Apply predicate from_airport ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity ap0 ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^ ^ ^
+-0.00010703008013714148
+root Lambda variable $0 ^ ^ type e ^ ^ body And arguments Apply predicate ground_transport ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ Apply predicate to_city ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity ci0 ^ ^ ^ End ^ ^ ^ Apply predicate from_airport ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity ap0 ^ ^ ^ End ^ ^ ^ Apply predicate to_city ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity ci0 ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^ ^ ^
+-0.9307871260661232
+root Lambda variable $0 ^ ^ type e ^ ^ body And arguments Apply predicate ground_transport ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ Apply predicate to_city ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity ci0 ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^ ^ ^
+-1.1300206592277862
+root Lambda variable $0 ^ ^ type e ^ ^ body And arguments Apply predicate ground_transport ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ Apply predicate to_city ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity ci0 ^ ^ ^ End ^ ^ ^ Apply predicate from_airport ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity ap0 ^ ^ ^ End ^ ^ ^ Apply predicate ground_transport ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^ ^ ^
+-1.154859502488666
+root Lambda variable $0 ^ ^ type e ^ ^ body And arguments Apply predicate miles_distant ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ Apply predicate to_city ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity ci0 ^ ^ ^ End ^ ^ ^ Apply predicate from_airport ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity ap0 ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^ ^ ^
+-1.205573376509619

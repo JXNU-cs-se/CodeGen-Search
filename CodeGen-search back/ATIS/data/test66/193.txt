@@ -1,0 +1,10 @@
+root Count variable $0 ^ ^ body And arguments Apply predicate flight ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ Apply predicate airline ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity al0 ^ ^ ^ End ^ ^ ^ Apply predicate from ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity ap0 ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^ ^ ^
+-0.00013120433307791697
+root Count variable $0 ^ ^ body And arguments Apply predicate flight ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ Apply predicate airline ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity al0 ^ ^ ^ End ^ ^ ^ Apply predicate from ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity ap0 ^ ^ ^ End ^ ^ ^ Apply predicate flight ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^ ^ ^
+-0.9859959785713811
+root Count variable $0 ^ ^ body And arguments Apply predicate flight ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ Apply predicate airline ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity al0 ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^ ^ ^
+-1.1188944824700024
+root Count variable $0 ^ ^ body And arguments Apply predicate flight ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ Apply predicate airline ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity al0 ^ ^ ^ End ^ ^ ^ Apply predicate to ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity al0 ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^ ^ ^
+-1.5652173636185316
+root Count variable $0 ^ ^ body And arguments Apply predicate flight ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ Apply predicate airline ^ ^ arguments Entity entity al0 ^ ^ ^ End ^ ^ ^ Apply predicate from ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity ap0 ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^ ^ ^
+-1.578287544481985

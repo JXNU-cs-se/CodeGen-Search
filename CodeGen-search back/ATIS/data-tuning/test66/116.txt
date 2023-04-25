@@ -1,0 +1,10 @@
+root Entity entity al0 ^ ^ ^ ^
+-0.14067137823831405
+root Lambda variable $0 ^ ^ type e ^ ^ body Exists variable $1 ^ ^ body And arguments Apply predicate airline ^ ^ arguments Variable variable $1 ^ ^ ^ Entity entity al0 ^ ^ ^ End ^ ^ ^ Compare op Equal ^ ^ left Apply predicate booking_class ^ ^ arguments Variable variable $1 ^ ^ ^ End ^ ^ ^ ^ right Variable variable $0 ^ ^ ^ ^ ^ End ^ ^ ^ ^ ^ ^ ^ ^
+-0.2258956694761854
+root Lambda variable $0 ^ ^ type e ^ ^ body Exists variable $1 ^ ^ body And arguments Apply predicate fare_basis_code ^ ^ arguments Variable variable $1 ^ ^ ^ Entity entity al0 ^ ^ ^ End ^ ^ ^ Compare op Equal ^ ^ left Apply predicate booking_class ^ ^ arguments Variable variable $1 ^ ^ ^ End ^ ^ ^ ^ right Variable variable $0 ^ ^ ^ ^ ^ End ^ ^ ^ ^ ^ ^ ^ ^
+-0.5082727200947054
+root Lambda variable $0 ^ ^ type e ^ ^ body Exists variable $1 ^ ^ body And arguments Apply predicate flight ^ ^ arguments Variable variable $1 ^ ^ ^ End ^ ^ ^ Apply predicate airline ^ ^ arguments Variable variable $1 ^ ^ ^ Entity entity al0 ^ ^ ^ End ^ ^ ^ Compare op Equal ^ ^ left Apply predicate booking_class ^ ^ arguments Variable variable $1 ^ ^ ^ End ^ ^ ^ ^ right Variable variable $0 ^ ^ ^ ^ ^ End ^ ^ ^ ^ ^ ^ ^ ^
+-0.6086904367724371
+root Lambda variable $0 ^ ^ type e ^ ^ body Exists variable $1 ^ ^ body And arguments Apply predicate airline ^ ^ arguments Variable variable $1 ^ ^ ^ Entity entity al0 ^ ^ ^ End ^ ^ ^ Compare op Equal ^ ^ left Apply predicate meal ^ ^ arguments Variable variable $1 ^ ^ ^ End ^ ^ ^ ^ right Variable variable $0 ^ ^ ^ ^ ^ End ^ ^ ^ ^ ^ ^ ^ ^
+-0.6146532568035316

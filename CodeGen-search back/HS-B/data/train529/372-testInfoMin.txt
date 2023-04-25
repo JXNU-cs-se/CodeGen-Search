@@ -1,0 +1,1 @@
+The Black Knight NAME_END 4 ATK_END 5 DEF_END 6 COST_END -1 DUR_END Minion TYPE_END NEUTRAL PLAYER_CLS_END NIL RACE_END LEGENDARY RARITY_END < b > battlecry : < /b > destroy an enemy minion with < b > taunt < /b > .

@@ -1,0 +1,10 @@
+root Entity entity fb0 ^ ^ ^ ^
+-3.699889490363239e-07
+root Apply predicate fare_basis_code ^ ^ arguments Entity entity fb0 ^ ^ ^ Variable variable $0 ^ ^ ^ End ^ ^ ^ ^
+-4.176165275689009
+root Apply predicate fare_basis_code ^ ^ arguments Entity entity fb0 ^ ^ ^ End ^ ^ ^ ^
+-4.549857630515721
+root Apply predicate capacity ^ ^ arguments Entity entity fb0 ^ ^ ^ End ^ ^ ^ ^
+-5.126793852609536
+root Apply predicate services ^ ^ arguments Entity entity fb0 ^ ^ ^ End ^ ^ ^ ^
+-5.2905487950961065

@@ -1,0 +1,1 @@
+Coghammer NAME_END 2 ATK_END -1 DEF_END 3 COST_END 3 DUR_END Weapon TYPE_END PALADIN PLAYER_CLS_END NIL RACE_END EPIC RARITY_END < b > battlecry : < /b > give a random friendly minion < b > divine_shield < /b > and < b > taunt < /b > .

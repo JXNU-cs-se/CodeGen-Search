@@ -1,0 +1,10 @@
+root Entity entity rc0 ^ ^ ^ ^
+-9.249721244938269e-08
+root Apply predicate equals ^ ^ arguments Entity entity rc0 ^ ^ ^ End ^ ^ ^ ^
+-5.614195886208214
+root Entity entity delta:al ^ ^ ^ ^
+-9.015760397593272
+root Entity entity b:fb ^ ^ ^ ^
+-9.088297414503606
+root Entity entity boeing:mf ^ ^ ^ ^
+-9.46981612343538

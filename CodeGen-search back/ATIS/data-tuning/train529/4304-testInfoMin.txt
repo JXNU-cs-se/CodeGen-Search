@@ -1,0 +1,1 @@
+which al0 flight fli from ci1 to ci0 and make a stopov in ci2

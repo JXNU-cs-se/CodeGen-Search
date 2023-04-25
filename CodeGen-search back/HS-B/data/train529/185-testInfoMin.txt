@@ -1,0 +1,1 @@
+Windspeaker NAME_END 3 ATK_END 3 DEF_END 4 COST_END -1 DUR_END Minion TYPE_END SHAMAN PLAYER_CLS_END NIL RACE_END COMMON RARITY_END < b > battlecry : < /b > give a friendly minion < b > windfury < /b > .

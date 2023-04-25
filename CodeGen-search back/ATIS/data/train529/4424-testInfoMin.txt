@@ -1,0 +1,1 @@
+round trip fare from ci0 to ci1 less than do0 or round trip fare from ci2 to ci1 less than do0 or round trip fare from ci3 to ci1 less than do0

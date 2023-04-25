@@ -1,0 +1,1 @@
+Baron Geddon NAME_END 7 ATK_END 5 DEF_END 7 COST_END -1 DUR_END Minion TYPE_END NEUTRAL PLAYER_CLS_END NIL RACE_END LEGENDARY RARITY_END at the end of your turn , deal 2 damage to all other characters .

@@ -1,0 +1,1 @@
+Questing Adventurer NAME_END 2 ATK_END 2 DEF_END 3 COST_END -1 DUR_END Minion TYPE_END NEUTRAL PLAYER_CLS_END NIL RACE_END RARE RARITY_END whenever you play a card , gain + 1 / + 1 .

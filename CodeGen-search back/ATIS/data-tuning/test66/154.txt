@@ -1,0 +1,10 @@
+root Lambda variable $0 ^ ^ type e ^ ^ body And arguments Apply predicate ground_transport ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ Apply predicate from_airport ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity ap0 ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^ ^ ^
+-0.004757347664643632
+root Lambda variable $0 ^ ^ type e ^ ^ body And arguments Apply predicate from_airport ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity ap0 ^ ^ ^ End ^ ^ ^ Apply predicate ground_transport ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^ ^ ^
+-0.5157625447069497
+root Lambda variable $0 ^ ^ type e ^ ^ body And arguments Apply predicate taxi ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ Apply predicate from_airport ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity ap0 ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^ ^ ^
+-1.2899221236614409
+root Lambda variable $0 ^ ^ type e ^ ^ body And arguments Apply predicate from_airport ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity ap0 ^ ^ ^ End ^ ^ ^ Apply predicate from_airport ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity ap0 ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^ ^ ^
+-1.3108023287495714
+root Lambda variable $0 ^ ^ type e ^ ^ body And arguments Apply predicate from_airport ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity ap0 ^ ^ ^ End ^ ^ ^ Apply predicate from_airport ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity morning:pd ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^ ^ ^
+-4.497915097016412

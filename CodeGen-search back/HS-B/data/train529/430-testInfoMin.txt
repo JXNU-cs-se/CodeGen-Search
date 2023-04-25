@@ -1,0 +1,1 @@
+Guardian of Kings NAME_END 5 ATK_END 6 DEF_END 7 COST_END -1 DUR_END Minion TYPE_END PALADIN PLAYER_CLS_END NIL RACE_END COMMON RARITY_END < b > battlecry : < /b > restore 6 health to your hero .

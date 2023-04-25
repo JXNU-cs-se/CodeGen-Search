@@ -1,0 +1,10 @@
+root Lambda variable $0 ^ ^ type e ^ ^ body And arguments Apply predicate economy ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ Apply predicate economy ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ Apply predicate from ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity ci1 ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^ ^ ^
+-0.022466794902051827
+root Lambda variable $0 ^ ^ type e ^ ^ body And arguments Apply predicate economy ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ Apply predicate economy ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ Apply predicate to_city ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity ci0 ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^ ^ ^
+-0.35510203019171405
+root Lambda variable $0 ^ ^ type e ^ ^ body And arguments Apply predicate economy ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ Apply predicate economy ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ Apply predicate to ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity ci0 ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^ ^ ^
+-0.37925476018714666
+root Lambda variable $0 ^ ^ type e ^ ^ body And arguments Apply predicate economy ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ Apply predicate from ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity ci1 ^ ^ ^ End ^ ^ ^ Apply predicate to ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity ci0 ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^ ^ ^
+-0.39230528024243677
+root Lambda variable $0 ^ ^ type e ^ ^ body And arguments Apply predicate economy ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ Apply predicate fare ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity ci0 ^ ^ ^ End ^ ^ ^ Apply predicate from ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity ci1 ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^ ^ ^
+-0.650324295439988

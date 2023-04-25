@@ -1,0 +1,1 @@
+Cenarius NAME_END 5 ATK_END 8 DEF_END 9 COST_END -1 DUR_END Minion TYPE_END DRUID PLAYER_CLS_END NIL RACE_END LEGENDARY RARITY_END < b > choose_one < /b > - give your other minions + 2 / + 2 ; or summon two 2/2 treants with < b > taunt < /b > .

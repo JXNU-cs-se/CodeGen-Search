@@ -1,0 +1,1 @@
+all flight and fare from ci0 to ci1 round trip after ti0 less than do0

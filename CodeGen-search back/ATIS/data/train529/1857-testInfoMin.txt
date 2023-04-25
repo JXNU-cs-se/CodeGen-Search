@@ -1,0 +1,1 @@
+show me the lowest price fare from ci0 to ci1

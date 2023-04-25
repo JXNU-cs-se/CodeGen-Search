@@ -1,0 +1,1 @@
+Pit Lord NAME_END 5 ATK_END 6 DEF_END 4 COST_END -1 DUR_END Minion TYPE_END WARLOCK PLAYER_CLS_END DEMON RACE_END EPIC RARITY_END < b > battlecry : < /b > deal 5 damage to your hero .

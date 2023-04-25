@@ -1,0 +1,10 @@
+root Lambda variable $0 ^ ^ type e ^ ^ body And arguments Apply predicate city ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ Apply predicate airline ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity al0 ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^ ^ ^
+-0.41458398147018594
+root Lambda variable $0 ^ ^ type e ^ ^ body And arguments Apply predicate airport ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ Apply predicate airline ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity al0 ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^ ^ ^
+-0.5806900935775181
+root Lambda variable $0 ^ ^ type e ^ ^ body And arguments Apply predicate flight ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ Apply predicate airline ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity al0 ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^ ^ ^
+-0.9370614198454269
+root Lambda variable $0 ^ ^ type e ^ ^ body And arguments Apply predicate airport ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ Apply predicate airline ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity al0 ^ ^ ^ End ^ ^ ^ Apply predicate to ^ ^ arguments Variable variable $0 ^ ^ ^ Variable variable $0 ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^ ^ ^
+-0.9858842253224268
+root Lambda variable $0 ^ ^ type e ^ ^ body And arguments Apply predicate city ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ Apply predicate airline ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity al0 ^ ^ ^ End ^ ^ ^ Apply predicate to ^ ^ arguments Variable variable $0 ^ ^ ^ Variable variable $0 ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^ ^ ^
+-0.998103455185098

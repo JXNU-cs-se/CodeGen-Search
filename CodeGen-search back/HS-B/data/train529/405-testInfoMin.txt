@@ -1,0 +1,1 @@
+Vitality Totem NAME_END 0 ATK_END 3 DEF_END 2 COST_END -1 DUR_END Minion TYPE_END SHAMAN PLAYER_CLS_END TOTEM RACE_END RARE RARITY_END at the end of your turn , restore 4 health to your hero .

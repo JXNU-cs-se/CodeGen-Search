@@ -1,0 +1,10 @@
+root Lambda variable $0 ^ ^ type e ^ ^ body And arguments Apply predicate airport ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ Apply predicate loc:t ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity ci0 ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^ ^ ^
+-4.6363651546120316e-05
+root Lambda variable $0 ^ ^ type e ^ ^ body And arguments Apply predicate airport ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ Apply predicate loc:t ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity ci0 ^ ^ ^ End ^ ^ ^ Apply predicate airport ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^ ^ ^
+-1.1261354826692256
+root Lambda variable $0 ^ ^ type e ^ ^ body And arguments Apply predicate city ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ Apply predicate loc:t ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity ci0 ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^ ^ ^
+-1.5305565319139027
+root Lambda variable $0 ^ ^ type e ^ ^ body And arguments Apply predicate airport ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ Apply predicate loc:t ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity ci0 ^ ^ ^ End ^ ^ ^ Apply predicate tomorrow ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^ ^ ^
+-1.5483235070549055
+root Lambda variable $0 ^ ^ type e ^ ^ body And arguments Apply predicate miles_distant ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ Apply predicate loc:t ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity ci0 ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^ ^ ^
+-1.5813393801668285

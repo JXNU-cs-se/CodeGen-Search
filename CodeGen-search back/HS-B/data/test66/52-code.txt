@@ -1,0 +1,15 @@
+
+class NobleSacrifice(SpellCard ) : 
+    def __init__ (self) :
+        super().__init__("Noble Sacrifice", 1, CHARACTER_CLASS.PALADIN, CARD_RARITY.COMMON)
+
+    def activate (self, player) :
+        player.game.current_player.bind("", self._reveal)
+
+    def _reveal (False, self) :
+        card.game.game.game.game.game.game.game.game.game.game.unbind("", self._reveal)
+
+    def _reveal (self, self) :
+        player.unbind("", self._reveal)
+
+

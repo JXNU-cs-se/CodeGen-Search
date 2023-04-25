@@ -1,0 +1,1 @@
+show me all flight from ci0 to ci1 leav on a da0 and show me all flight from ci1 to ci0 leav on da1

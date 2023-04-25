@@ -1,0 +1,10 @@
+root Lambda variable $0 ^ ^ type e ^ ^ body And arguments Apply predicate aircraft ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ Apply predicate airline ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity al0 ^ ^ ^ End ^ ^ ^ Apply predicate from ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity ci1 ^ ^ ^ End ^ ^ ^ Apply predicate to ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity ci0 ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^ ^ ^
+-0.1566546948980833
+root Lambda variable $0 ^ ^ type e ^ ^ body And arguments Apply predicate flight ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ Apply predicate airline ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity al0 ^ ^ ^ End ^ ^ ^ Apply predicate from ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity ci1 ^ ^ ^ End ^ ^ ^ Apply predicate to ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity ci0 ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^ ^ ^
+-0.23156778211205592
+root Apply predicate capacity ^ ^ arguments Entity entity al0 ^ ^ ^ End ^ ^ ^ ^
+-0.26465008282371466
+root Lambda variable $0 ^ ^ type e ^ ^ body And arguments Apply predicate aircraft ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ Apply predicate airline ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity al0 ^ ^ ^ End ^ ^ ^ Apply predicate from ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity ci1 ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^ ^ ^
+-0.2854692442793557
+root Sum variable $0 ^ ^ domain And arguments Apply predicate aircraft ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ Apply predicate airline ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity al0 ^ ^ ^ End ^ ^ ^ Apply predicate from ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity ci1 ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^ body Apply predicate capacity ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ ^ ^ ^
+-1.33176728392648

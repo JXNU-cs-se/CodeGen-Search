@@ -1,0 +1,1 @@
+flight from ci1 to ci0 depart after ti0

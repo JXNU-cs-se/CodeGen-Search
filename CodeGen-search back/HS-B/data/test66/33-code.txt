@@ -1,0 +1,9 @@
+
+class Voidcaller(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Voidcaller", 4, CHARACTER_CLASS.WARLOCK, CARD_RARITY.COMMON, minion_type = MINION_TYPE.DEMON)
+
+    def create_minion (self, player) :
+        return Minion(3, 4, deathrattle = Deathrattle( +( +( +(IsClass( +( +( +( +( +(player(self( deathrattle = Deathrattle( +(self(), 4( source = node_genattrattrattrattrattrattrattrattrattrattrattrattrattrattrattrattrattrattrattr)), Call))))))))))), Num), Call))
+
+

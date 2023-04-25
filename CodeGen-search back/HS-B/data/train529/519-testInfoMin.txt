@@ -1,0 +1,1 @@
+Neptulon NAME_END 7 ATK_END 7 DEF_END 7 COST_END -1 DUR_END Minion TYPE_END SHAMAN PLAYER_CLS_END NIL RACE_END LEGENDARY RARITY_END < b > battlecry : < /b > add 4 random murlocs to your hand . < b > overload : < /b > ( 3)

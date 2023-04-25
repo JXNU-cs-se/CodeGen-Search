@@ -1,0 +1,1 @@
+Mirror Image NAME_END -1 ATK_END -1 DEF_END 1 COST_END -1 DUR_END Spell TYPE_END MAGE PLAYER_CLS_END NIL RACE_END COMMON RARITY_END summon two 0/2 minions with < b > taunt < /b > .

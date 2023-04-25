@@ -1,0 +1,10 @@
+root Apply predicate equals ^ ^ arguments Entity entity al0 ^ ^ ^ End ^ ^ ^ ^
+-0.27817501064110933
+root Apply predicate equals ^ ^ arguments Entity entity al0 ^ ^ ^ Apply predicate abbrev ^ ^ arguments Entity entity delta:al ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^
+-0.31987804083213156
+root Apply predicate equals ^ ^ arguments Entity entity al0 ^ ^ ^ Apply predicate abbrev ^ ^ arguments Entity entity al0 ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^
+-0.5139549052815545
+root Apply predicate equals ^ ^ arguments Entity entity delta:al ^ ^ ^ End ^ ^ ^ ^
+-0.5878168440459
+root Apply predicate equals ^ ^ arguments Entity entity breakfast:me ^ ^ ^ Apply predicate abbrev ^ ^ arguments Entity entity delta:al ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^
+-0.777107905793097

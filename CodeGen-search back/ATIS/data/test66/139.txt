@@ -1,0 +1,10 @@
+root Lambda variable $0 ^ ^ type e ^ ^ body And arguments Apply predicate city ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ Apply predicate services ^ ^ arguments Entity entity al0 ^ ^ ^ Variable variable $0 ^ ^ ^ End ^ ^ ^ Apply predicate city ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^ ^ ^
+-0.09769184908379344
+root Lambda variable $0 ^ ^ type e ^ ^ body And arguments Apply predicate city ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ Apply predicate services ^ ^ arguments Entity entity al0 ^ ^ ^ Variable variable $0 ^ ^ ^ End ^ ^ ^ Apply predicate flight ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^ ^ ^
+-0.2076453283328154
+root Lambda variable $0 ^ ^ type e ^ ^ body And arguments Apply predicate city ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ Apply predicate services ^ ^ arguments Entity entity al0 ^ ^ ^ Variable variable $0 ^ ^ ^ End ^ ^ ^ Apply predicate to ^ ^ arguments Entity entity al0 ^ ^ ^ Variable variable $0 ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^ ^ ^
+-0.28569166583596145
+root Lambda variable $0 ^ ^ type e ^ ^ body And arguments Apply predicate city ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ Apply predicate services ^ ^ arguments Entity entity al0 ^ ^ ^ Variable variable $0 ^ ^ ^ End ^ ^ ^ Apply predicate to ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^ ^ ^
+-0.34990682137748297
+root Lambda variable $0 ^ ^ type e ^ ^ body And arguments Apply predicate city ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ Apply predicate services ^ ^ arguments Entity entity al0 ^ ^ ^ Variable variable $0 ^ ^ ^ End ^ ^ ^ Apply predicate to ^ ^ arguments Variable variable $0 ^ ^ ^ Variable variable $0 ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^ ^ ^
+-0.4639914809351867

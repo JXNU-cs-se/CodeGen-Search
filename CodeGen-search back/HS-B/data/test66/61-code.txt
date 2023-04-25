@@ -1,0 +1,9 @@
+
+class Wisp(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Wisp", 0, CHARACTER_CLASS.ALL, CARD_RARITY.COMMON)
+
+    def create_minion (self, player) :
+        return Minion(1, 1)
+
+

@@ -1,0 +1,9 @@
+
+class ManaWraith(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Mana Wraith", 2, CHARACTER_CLASS.ALL, CARD_RARITY.RARE)
+
+    def create_minion (self, player) :
+        return Minion(2, 2, auras = [Aura(ManaChange(ChangeHealth(-1)), Selector())])
+
+

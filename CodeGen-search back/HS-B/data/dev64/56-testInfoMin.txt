@@ -1,0 +1,1 @@
+Ancient Mage NAME_END 2 ATK_END 5 DEF_END 4 COST_END -1 DUR_END Minion TYPE_END NEUTRAL PLAYER_CLS_END NIL RACE_END RARE RARITY_END < b > battlecry : < /b > give adjacent minions < b > spell_damage + 1 < /b > .

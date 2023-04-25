@@ -1,0 +1,9 @@
+
+class Infernal(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Infernal", 6, CHARACTER_CLASS.WARLOCK, CARD_RARITY.COMMON, minion_type = MINION_TYPE.DEMON)
+
+    def create_minion (self, player) :
+        return Minion(6, 6)
+
+

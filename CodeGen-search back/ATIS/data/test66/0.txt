@@ -1,0 +1,10 @@
+root Lambda variable $0 ^ ^ type e ^ ^ body Apply predicate airport ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ ^ ^ ^
+-0.0006799792879857312
+root Lambda variable $0 ^ ^ type e ^ ^ body And arguments Apply predicate airport ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^ ^ ^
+-2.154663971184932
+root Entity entity sa:dc ^ ^ ^ ^
+-3.1006301210192593
+root Lambda variable $0 ^ ^ type e ^ ^ body Apply predicate airline ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ ^ ^ ^
+-3.243919623957844
+root Lambda variable $0 ^ ^ type e ^ ^ body Apply predicate airport ^ ^ arguments End ^ ^ ^ ^ ^ ^
+-3.5807462173818085

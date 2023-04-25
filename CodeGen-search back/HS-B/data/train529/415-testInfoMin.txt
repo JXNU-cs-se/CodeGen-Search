@@ -1,0 +1,1 @@
+Revenge NAME_END -1 ATK_END -1 DEF_END 2 COST_END -1 DUR_END Spell TYPE_END WARRIOR PLAYER_CLS_END NIL RACE_END RARE RARITY_END deal $ 1 damage to all minions . if you have 12 or less health , deal $ 3 damage instead .

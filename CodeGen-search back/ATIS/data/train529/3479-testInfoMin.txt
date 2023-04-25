@@ -1,0 +1,1 @@
+list the flight arriv in ci0 from ci1 on mn0 dn0

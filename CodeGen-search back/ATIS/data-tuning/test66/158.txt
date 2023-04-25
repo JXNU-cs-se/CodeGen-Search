@@ -1,0 +1,10 @@
+root Lambda variable $0 ^ ^ type e ^ ^ body And arguments Apply predicate airport ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ Apply predicate loc:t ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity st1 ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^ ^ ^
+-0.10754115977682645
+root Lambda variable $0 ^ ^ type e ^ ^ body And arguments Apply predicate airport ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ Apply predicate loc:t ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity st0 ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^ ^ ^
+-0.13381216736171764
+root Lambda variable $0 ^ ^ type e ^ ^ body And arguments Apply predicate city ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ Apply predicate loc:t ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity st1 ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^ ^ ^
+-0.46065955374032863
+root Lambda variable $0 ^ ^ type e ^ ^ body And arguments Apply predicate city ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ Apply predicate loc:t ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity st0 ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^ ^ ^
+-0.4916566250454876
+root Lambda variable $0 ^ ^ type e ^ ^ body And arguments Apply predicate airport ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ Or arguments Apply predicate loc:t ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity st0 ^ ^ ^ End ^ ^ ^ Apply predicate loc:t ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity st1 ^ ^ ^ End ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^ ^ ^
+-0.5780846206791632

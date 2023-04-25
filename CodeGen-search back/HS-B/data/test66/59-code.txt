@@ -1,0 +1,9 @@
+
+class ThrallmarFarseer(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Thrallmar Farseer", 3, CHARACTER_CLASS.ALL, CARD_RARITY.COMMON)
+
+    def create_minion (self, player) :
+        return Minion(2, 3, windfury = True)
+
+

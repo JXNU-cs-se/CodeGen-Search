@@ -1,0 +1,1 @@
+Webspinner NAME_END 1 ATK_END 1 DEF_END 1 COST_END -1 DUR_END Minion TYPE_END HUNTER PLAYER_CLS_END BEAST RACE_END COMMON RARITY_END < b > deathrattle : < /b > add a random beast card to your hand .

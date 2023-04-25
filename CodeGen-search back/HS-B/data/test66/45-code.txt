@@ -1,0 +1,9 @@
+
+class Gnoll(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Gnoll", 2, CHARACTER_CLASS.ALL, CARD_RARITY.COMMON, False)
+
+    def create_minion (self, p) :
+        return Minion(2, 2, taunt = True)
+
+

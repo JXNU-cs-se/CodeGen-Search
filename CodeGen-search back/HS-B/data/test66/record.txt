@@ -1,0 +1,2115 @@
+
+------------number:-----0---------------------
+------------modelGenCode:--------------------------
+
+class Archmage(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Archmage", 6, CHARACTER_CLASS.ALL, CARD_RARITY.COMMON)
+
+    def create_minion (self, player) :
+        return Minion(4, 7, spell_damage = 1)
+
+
+------------GroundTrueCode:--------------------------
+
+class Archmage(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Archmage", 6, CHARACTER_CLASS.ALL, CARD_RARITY.COMMON)
+
+    def create_minion (self, player) :
+        return Minion(4, 7, spell_damage = 1)
+
+
+------------bleu:  1.0  --------------------------
+------------acc:  1  --------------------------
+------------bleu2:  1.0  --------------------------
+------------acc2:  1  --------------------------
+-------number: 1------Complete Match----------------
+
+------------number:-----1---------------------
+------------modelGenCode:--------------------------
+
+class BootyBayBodyguard(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Booty Bay Bodyguard", 5, CHARACTER_CLASS.ALL, CARD_RARITY.COMMON)
+
+    def create_minion (self, player) :
+        return Minion(5, 4, taunt = True)
+
+
+------------GroundTrueCode:--------------------------
+
+class BootyBayBodyguard(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Booty Bay Bodyguard", 5, CHARACTER_CLASS.ALL, CARD_RARITY.COMMON)
+
+    def create_minion (self, player) :
+        return Minion(5, 4, taunt = True)
+
+
+------------bleu:  1.0  --------------------------
+------------acc:  2  --------------------------
+------------bleu2:  1.0  --------------------------
+------------acc2:  2  --------------------------
+-------number: 2------Complete Match----------------
+
+------------number:-----2---------------------
+------------modelGenCode:--------------------------
+
+class DarkscaleHealer(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Darkscale Healer", 5, CHARACTER_CLASS.ALL, CARD_RARITY.COMMON, battlecry = Battlecry(Heal(2), CharacterSelector( condition = Heal(WeaponSelector()))))
+
+    def create_minion (player, None) :
+        return Minion(4, 5)
+
+
+------------GroundTrueCode:--------------------------
+
+class DarkscaleHealer(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Darkscale Healer", 5, CHARACTER_CLASS.ALL, CARD_RARITY.COMMON, battlecry = Battlecry(Heal(2), CharacterSelector()))
+
+    def create_minion (self, player) :
+        return Minion(4, 5)
+
+
+------------bleu:  0.8113177962933324  --------------------------
+------------acc:  2  --------------------------
+------------bleu2:  0.81610139573183  --------------------------
+------------acc2:  2  --------------------------
+-------number: 3------Complete Match----------------
+
+------------number:-----3---------------------
+------------modelGenCode:--------------------------
+
+class FieryWarAxe(WeaponCard ) : 
+    def __init__ (self) :
+        super().__init__("Fiery War Axe", 2, CHARACTER_CLASS.WARRIOR, CARD_RARITY.FREE)
+
+    def create_weapon (self, player) :
+        return Weapon(3, 2)
+
+
+------------GroundTrueCode:--------------------------
+
+class FieryWarAxe(WeaponCard ) : 
+    def __init__ (self) :
+        super().__init__("Fiery War Axe", 2, CHARACTER_CLASS.WARRIOR, CARD_RARITY.FREE)
+
+    def create_weapon (self, player) :
+        return Weapon(3, 2)
+
+
+------------bleu:  1.0  --------------------------
+------------acc:  3  --------------------------
+------------bleu2:  1.0  --------------------------
+------------acc2:  3  --------------------------
+-------number: 4------Complete Match----------------
+
+------------number:-----4---------------------
+------------modelGenCode:--------------------------
+
+class FrostwolfWarlord(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Frostwolf Warlord", 5, CHARACTER_CLASS.ALL, CARD_RARITY.COMMON, battlecry = Battlecry(Give([Give(ChangeAttack(ChangeAttack(ChangeAttack(ChangeAttack(BothPlayer())))), picker = UserPicker()), Battlecry(Kill(), MinionSelector(MinionSelector(TargetAdjacent(), Count(PlayerSelector())), UserPicker()))]), MinionSelector()))
+
+    def create_minion () :
+        return Minion(4, 4)
+
+
+------------GroundTrueCode:--------------------------
+
+class FrostwolfWarlord(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Frostwolf Warlord", 5, CHARACTER_CLASS.ALL, CARD_RARITY.COMMON, battlecry = Battlecry(Give([Buff(ChangeAttack(Count(MinionSelector()))), Buff(ChangeHealth(Count(MinionSelector())))]), SelfSelector()))
+
+    def create_minion (self, player) :
+        return Minion(4, 4)
+
+
+------------bleu:  0.5681418856423566  --------------------------
+------------acc:  3  --------------------------
+------------bleu2:  0.5912929148198123  --------------------------
+------------acc2:  3  --------------------------
+-------number: 5------Complete Match----------------
+
+------------number:-----5---------------------
+------------modelGenCode:--------------------------
+
+class Hellfire(SpellCard ) : 
+    def __init__ (self) :
+        super().__init__("Hellfire", 4, CHARACTER_CLASS.WARLOCK, CARD_RARITY.FREE)
+
+    def use (self, player, game) :
+        super().use(player, game)
+        
+            targets = copy.copy(game.other_player.minions)
+        targets.extend(game.other_player.minions)
+        targets.extend(player.hero.minions)
+        targets.extend(game.hero.hero)
+        
+            targets = targets
+        for minion in targets: 
+            player.heal(player.effective_spell_damage(minion), self)
+ 
+
+
+------------GroundTrueCode:--------------------------
+
+class Hellfire(SpellCard ) : 
+    def __init__ (self) :
+        super().__init__("Hellfire", 4, CHARACTER_CLASS.WARLOCK, CARD_RARITY.FREE)
+
+    def use (self, player, game) :
+        super().use(player, game)
+        
+            targets = copy.copy(game.other_player.minions)
+        targets.extend(game.current_player.minions)
+        targets.append(game.other_player.hero)
+        targets.append(game.current_player.hero)
+        for minion in targets: 
+            minion.damage(player.effective_spell_damage(3), self)
+ 
+
+
+------------bleu:  0.7897210579988461  --------------------------
+------------acc:  3  --------------------------
+------------bleu2:  0.7897177729242628  --------------------------
+------------acc2:  3  --------------------------
+-------number: 6------Complete Match----------------
+
+------------number:-----6---------------------
+------------modelGenCode:--------------------------
+
+class Innervate(SpellCard ) : 
+    def __init__ (self) :
+        super().__init__("Innervate", 0, CHARACTER_CLASS.DRUID, CARD_RARITY.FREE)
+
+    def use (self, player, game) :
+        super().use(player, game)
+        if  player.max_mana < 10 : 
+            player.max_mana += 1
+
+
+
+------------GroundTrueCode:--------------------------
+
+class Innervate(SpellCard ) : 
+    def __init__ (self) :
+        super().__init__("Innervate", 0, CHARACTER_CLASS.DRUID, CARD_RARITY.FREE)
+
+    def use (self, player, game) :
+        super().use(player, game)
+        if  player.mana < 8 : 
+            player.mana += 2
+
+            else : 
+            player.mana = 10
+
+
+------------bleu:  0.7990957837346372  --------------------------
+------------acc:  3  --------------------------
+------------bleu2:  0.7967017766808483  --------------------------
+------------acc2:  3  --------------------------
+-------number: 7------Complete Match----------------
+
+------------number:-----7---------------------
+------------modelGenCode:--------------------------
+
+class MagmaRager(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Magma Rager", 3, CHARACTER_CLASS.ALL, CARD_RARITY.FREE)
+
+    def create_minion (self, player) :
+        return Minion(5, 1)
+
+
+------------GroundTrueCode:--------------------------
+
+class MagmaRager(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Magma Rager", 3, CHARACTER_CLASS.ALL, CARD_RARITY.FREE)
+
+    def create_minion (self, player) :
+        return Minion(5, 1)
+
+
+------------bleu:  1.0  --------------------------
+------------acc:  4  --------------------------
+------------bleu2:  1.0  --------------------------
+------------acc2:  4  --------------------------
+-------number: 8------Complete Match----------------
+
+------------number:-----8---------------------
+------------modelGenCode:--------------------------
+
+class MortalCoil(SpellCard ) : 
+    def __init__ (self) :
+        super().__init__("Mortal Coil", 1, CHARACTER_CLASS.WARLOCK, CARD_RARITY.COMMON, target_func = hearthbreaker.targeting.find_minion_spell_target)
+
+    def use (self, player, game) :
+        super().use(player, game)
+        self.target.damage(player.effective_spell_damage(1), self, target_func = player.minions)
+        if  self.target.target.minion_type.player.player is node_genattrattrattrattrattrattrattrattrattrattrattrattrattrattrattrattrattrattrattrattrattrattrattrattrattrattrattrattrattrattr : body
+
+
+------------GroundTrueCode:--------------------------
+
+class MortalCoil(SpellCard ) : 
+    def __init__ (self) :
+        super().__init__("Mortal Coil", 1, CHARACTER_CLASS.WARLOCK, CARD_RARITY.COMMON, target_func = hearthbreaker.targeting.find_minion_spell_target)
+
+    def use (self, player, game) :
+        super().use(player, game)
+        if  self.target.health <= player.effective_spell_damage(1) and  not self.target.divine_shield : 
+            self.target.damage(player.effective_spell_damage(1), self)
+            player.draw()
+
+            else : self.target.damage(player.effective_spell_damage(1), self)
+
+
+------------bleu:  0.6860930902100503  --------------------------
+------------acc:  4  --------------------------
+------------bleu2:  0.6735942332257862  --------------------------
+------------acc2:  4  --------------------------
+-------number: 9------Complete Match----------------
+
+------------number:-----9---------------------
+------------modelGenCode:--------------------------
+
+class Polymorph(SpellCard ) : 
+    def __init__ (self) :
+        super().__init__("Polymorph", 4, CHARACTER_CLASS.MAGE, CARD_RARITY.FREE, target_func = hearthbreaker.targeting.find_minion_spell_target)
+
+    def use (self, player, game) :
+        super().use(player, game)
+        
+            sheep = hearthbreaker.cards.minions.neutral.neutral.neutral.Frog()
+        
+            dude = player.card.card
+        if  temp_attack is 0 : 
+            player.put_back(player.game, node_genattrattrattrattrattrattrattrattrattrattrattrattrattrattrattrattrattrattrattrattrattrattrattrattrattr, Call)
+
+
+
+------------GroundTrueCode:--------------------------
+
+class Polymorph(SpellCard ) : 
+    def __init__ (self) :
+        super().__init__("Polymorph", 4, CHARACTER_CLASS.MAGE, CARD_RARITY.FREE, target_func = hearthbreaker.targeting.find_minion_spell_target)
+
+    def use (self, player, game) :
+        super().use(player, game)
+        from hearthbreaker.cards.minions.mage import Sheep
+        
+            sheep = Sheep()
+        
+            minion = sheep.create_minion(None)
+        
+            minion.card = sheep
+        self.target.replace(minion)
+
+
+------------bleu:  0.6704118421529216  --------------------------
+------------acc:  4  --------------------------
+------------bleu2:  0.6707526730556512  --------------------------
+------------acc2:  4  --------------------------
+-------number: 10------Complete Match----------------
+
+------------number:-----10---------------------
+------------modelGenCode:--------------------------
+
+class SearingTotem(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Searing Totem", 1, CHARACTER_CLASS.SHAMAN, CARD_RARITY.FREE, False, minion_type = MINION_TYPE.TOTEM)
+
+    def create_minion (self, player) :
+        return Minion(1, 1)
+
+
+------------GroundTrueCode:--------------------------
+
+class SearingTotem(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Searing Totem", 1, CHARACTER_CLASS.SHAMAN, CARD_RARITY.FREE, False, MINION_TYPE.TOTEM)
+
+    def create_minion (self, player) :
+        return Minion(1, 1)
+
+
+------------bleu:  0.9377200024313009  --------------------------
+------------acc:  4  --------------------------
+------------bleu2:  0.9374009563674955  --------------------------
+------------acc2:  4  --------------------------
+-------number: 11------Complete Match----------------
+
+------------number:-----11---------------------
+------------modelGenCode:--------------------------
+
+class SilverbackPatriarch(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Silverback Patriarch", 3, CHARACTER_CLASS.ALL, CARD_RARITY.COMMON, minion_type = MINION_TYPE.BEAST)
+
+    def create_minion (self, player) :
+        return Minion(1, 4, taunt = True)
+
+
+------------GroundTrueCode:--------------------------
+
+class SilverbackPatriarch(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Silverback Patriarch", 3, CHARACTER_CLASS.ALL, CARD_RARITY.COMMON, minion_type = MINION_TYPE.BEAST)
+
+    def create_minion (self, player) :
+        return Minion(1, 4, taunt = True)
+
+
+------------bleu:  1.0  --------------------------
+------------acc:  5  --------------------------
+------------bleu2:  1.0  --------------------------
+------------acc2:  5  --------------------------
+-------number: 12------Complete Match----------------
+
+------------number:-----12---------------------
+------------modelGenCode:--------------------------
+
+class StormwindKnight(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Stormwind Knight", 4, CHARACTER_CLASS.ALL, CARD_RARITY.COMMON)
+
+    def create_minion (self, player) :
+        return Minion(2, 5, charge = True)
+
+
+------------GroundTrueCode:--------------------------
+
+class StormwindKnight(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Stormwind Knight", 4, CHARACTER_CLASS.ALL, CARD_RARITY.COMMON)
+
+    def create_minion (self, player) :
+        return Minion(2, 5, charge = True)
+
+
+------------bleu:  1.0  --------------------------
+------------acc:  6  --------------------------
+------------bleu2:  1.0  --------------------------
+------------acc2:  6  --------------------------
+-------number: 13------Complete Match----------------
+
+------------number:-----13---------------------
+------------modelGenCode:--------------------------
+
+class VoodooDoctor(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Voodoo Doctor", 1, CHARACTER_CLASS.ALL, CARD_RARITY.FREE, battlecry = Battlecry(Heal(2), CharacterSelector(Heal(2), WeaponSelector())))
+
+    def create_minion (False, player) :
+        return Minion(2, 1)
+
+
+------------GroundTrueCode:--------------------------
+
+class VoodooDoctor(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Voodoo Doctor", 1, CHARACTER_CLASS.ALL, CARD_RARITY.FREE, battlecry = Battlecry(Heal(2), CharacterSelector( players = BothPlayer(), picker = UserPicker())))
+
+    def create_minion (self, player) :
+        return Minion(2, 1)
+
+
+------------bleu:  0.8149833698120232  --------------------------
+------------acc:  6  --------------------------
+------------bleu2:  0.8147081466434831  --------------------------
+------------acc2:  6  --------------------------
+-------number: 14------Complete Match----------------
+
+------------number:-----14---------------------
+------------modelGenCode:--------------------------
+
+class WrathOfAirTotem(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Wrath of Air Totem", 1, CHARACTER_CLASS.SHAMAN, CARD_RARITY.FREE, minion_type = MINION_TYPE.TOTEM)
+
+    def create_minion (self, player) :
+        return Minion(0, 2, spell_damage = 1)
+
+
+------------GroundTrueCode:--------------------------
+
+class WrathOfAirTotem(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Wrath of Air Totem", 1, CHARACTER_CLASS.SHAMAN, CARD_RARITY.FREE, False, MINION_TYPE.TOTEM)
+
+    def create_minion (self, player) :
+        return Minion(0, 2, spell_damage = 1)
+
+
+------------bleu:  0.9434724611166208  --------------------------
+------------acc:  6  --------------------------
+------------bleu2:  0.9434724611166208  --------------------------
+------------acc2:  6  --------------------------
+-------number: 15------Complete Match----------------
+
+------------number:-----15---------------------
+------------modelGenCode:--------------------------
+
+class AstralCommunion(SpellCard ) : 
+    def __init__ (self) :
+        super().__init__("Astral Communion", 4, CHARACTER_CLASS.DRUID, CARD_RARITY.EPIC)
+
+    def use (self, player, game) :
+        super().use(player, game)
+        if  player.hand < 10 : 
+            player.max_mana += 1
+
+            else : player.bind_once()
+            player.upcoming_overload = player
+
+
+------------GroundTrueCode:--------------------------
+
+class AstralCommunion(SpellCard ) : 
+    def __init__ (self) :
+        super().__init__("Astral Communion", 4, CHARACTER_CLASS.DRUID, CARD_RARITY.EPIC)
+
+    def use (self, player, game) :
+        super().use(player, game)
+        for card in player.hand: 
+            card.unattach()
+            player.trigger("card discarded", card)
+ 
+        
+            player.hand = [elts]
+        
+            player.max_mana = 10
+        
+            player.mana = 10
+
+
+------------bleu:  0.6481688700470047  --------------------------
+------------acc:  6  --------------------------
+------------bleu2:  0.6400485394849666  --------------------------
+------------acc2:  6  --------------------------
+-------number: 16------Complete Match----------------
+
+------------number:-----16---------------------
+------------modelGenCode:--------------------------
+
+class AnnoyoTron(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Annoy-o-Tron", 2, CHARACTER_CLASS.ALL, CARD_RARITY.COMMON, minion_type = MINION_TYPE.MECH)
+
+    def create_minion (self, player) :
+        return Minion(1, 2, divine_shield = True, taunt = True)
+
+
+------------GroundTrueCode:--------------------------
+
+class AnnoyoTron(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Annoy-o-Tron", 2, CHARACTER_CLASS.ALL, CARD_RARITY.COMMON, minion_type = MINION_TYPE.MECH)
+
+    def create_minion (self, player) :
+        return Minion(1, 2, divine_shield = True, taunt = True)
+
+
+------------bleu:  1.0  --------------------------
+------------acc:  7  --------------------------
+------------bleu2:  1.0  --------------------------
+------------acc2:  7  --------------------------
+-------number: 17------Complete Match----------------
+
+------------number:-----17---------------------
+------------modelGenCode:--------------------------
+
+class BurlyRockjawTrogg(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Burly Rockjaw Trogg", 4, CHARACTER_CLASS.ALL, CARD_RARITY.COMMON)
+
+    def create_minion (self, player) :
+        return Minion(3, 5, effects = [Effect(SpellCast(ManaCost(2, player = MinionIsTarget()), SelfSelector()), ActionTag(2(), SelfSelector()))])
+
+
+------------GroundTrueCode:--------------------------
+
+class BurlyRockjawTrogg(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Burly Rockjaw Trogg", 4, CHARACTER_CLASS.ALL, CARD_RARITY.COMMON)
+
+    def create_minion (self, player) :
+        return Minion(3, 5, effects = [Effect(SpellCast( player = EnemyPlayer()), ActionTag(Give(ChangeAttack(2)), SelfSelector()))])
+
+
+------------bleu:  0.8015149434927116  --------------------------
+------------acc:  7  --------------------------
+------------bleu2:  0.802891837028805  --------------------------
+------------acc2:  7  --------------------------
+-------number: 18------Complete Match----------------
+
+------------number:-----18---------------------
+------------modelGenCode:--------------------------
+
+class CogmastersWrench(WeaponCard ) : 
+    def __init__ (self) :
+        super().__init__("Cogmaster's Wrench", 3, CHARACTER_CLASS.ROGUE, CARD_RARITY.EPIC)
+
+    def create_weapon (self, player) :
+        return Weapon(1, 3, buffs = [Aura(ChangeAttack(ChangeAttack(-1)), ManaChange(-1))])
+
+
+------------GroundTrueCode:--------------------------
+
+class CogmastersWrench(WeaponCard ) : 
+    def __init__ (self) :
+        super().__init__("Cogmaster's Wrench", 3, CHARACTER_CLASS.ROGUE, CARD_RARITY.EPIC)
+
+    def create_weapon (self, player) :
+        return Weapon(1, 3, buffs = [Buff(ChangeAttack(2), GreaterThan(Count(MinionSelector(IsType(MINION_TYPE.MECH))), value = 0))])
+
+
+------------bleu:  0.6969486215527873  --------------------------
+------------acc:  7  --------------------------
+------------bleu2:  0.6922121132852224  --------------------------
+------------acc2:  7  --------------------------
+-------number: 19------Complete Match----------------
+
+------------number:-----19---------------------
+------------modelGenCode:--------------------------
+
+class EchoOfMedivh(SpellCard ) : 
+    def __init__ (self) :
+        super().__init__("Echo of Medivh", 4, CHARACTER_CLASS.MAGE, CARD_RARITY.EPIC, target_func = hearthbreaker.targeting.find_friendly_minion_spell_target)
+
+    def use (self, player, game) :
+        super().use(player, game)
+        if  len(self.target.card) > 0 : 
+            
+                copy = copy.copy(copy)
+            copy.summon(player, player)
+            
+                player.copy = player
+
+
+
+------------GroundTrueCode:--------------------------
+
+class EchoOfMedivh(SpellCard ) : 
+    def __init__ (self) :
+        super().__init__("Echo of Medivh", 4, CHARACTER_CLASS.MAGE, CARD_RARITY.EPIC)
+
+    def use (self, player, game) :
+        super().use(player, game)
+        for minion in sorted(copy.copy(player.minions), key =  lambda  minion : 
+            minion.born
+): 
+            if  len(player.hand) < 10 : 
+                player.hand.append(minion.card)
+
+ 
+
+
+------------bleu:  0.6317183359365293  --------------------------
+------------acc:  7  --------------------------
+------------bleu2:  0.6317223650173929  --------------------------
+------------acc2:  7  --------------------------
+-------number: 20------Complete Match----------------
+
+------------number:-----20---------------------
+------------modelGenCode:--------------------------
+
+class FloatingWatcher(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Floating Watcher", 5, CHARACTER_CLASS.WARLOCK, CARD_RARITY.COMMON, minion_type = MINION_TYPE.DEMON)
+
+    def create_minion (self, player) :
+        return Minion(4, 4, effects = [Effect(Damaged(LaughingSister(), ActionTag(Give([Buff([Buff(Buff(Buff(ChangeAttack(Buff(Buff(ChangeAttack(2(2(2()))))))))), LaughingSister(player(4(), Heal()), Draw(node_gen(), Call))]), Call]), Call)), Call)])
+
+
+------------GroundTrueCode:--------------------------
+
+class FloatingWatcher(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Floating Watcher", 5, CHARACTER_CLASS.WARLOCK, CARD_RARITY.COMMON, minion_type = MINION_TYPE.DEMON)
+
+    def create_minion (self, player) :
+        return Minion(4, 4, effects = [Effect(CharacterDamaged(and(IsHero(), OwnersTurn())), ActionTag(Give([Buff(ChangeAttack(2)), Buff(ChangeHealth(2))]), SelfSelector()))])
+
+
+------------bleu:  0.570818433622957  --------------------------
+------------acc:  7  --------------------------
+------------bleu2:  0.5937555928629161  --------------------------
+------------acc2:  7  --------------------------
+-------number: 21------Complete Match----------------
+
+------------number:-----21---------------------
+------------modelGenCode:--------------------------
+
+class GnomishExperimenter(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Gnomish Experimenter", 3, CHARACTER_CLASS.ALL, CARD_RARITY.RARE, battlecry = Battlecry(Draw(), PlayerSelector( players = BothPlayer(), picker = Battlecry(MinionIsNotTarget(), PlayerSelector()))))
+
+    def create_minion (self, player) :
+        return Minion(3, 2)
+
+
+------------GroundTrueCode:--------------------------
+
+class GnomishExperimenter(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Gnomish Experimenter", 3, CHARACTER_CLASS.ALL, CARD_RARITY.RARE, battlecry = Battlecry(Draw(), PlayerSelector()), Battlecry(Transform(GnomishChicken()), LastDrawnSelector(), Matches(LastDrawnSelector(), IsMinion())))
+
+    def create_minion (self, player) :
+        return Minion(3, 2)
+
+
+------------bleu:  0.7351635067469726  --------------------------
+------------acc:  7  --------------------------
+------------bleu2:  0.7333315934454596  --------------------------
+------------acc2:  7  --------------------------
+-------number: 22------Complete Match----------------
+
+------------number:-----22---------------------
+------------modelGenCode:--------------------------
+
+class IronJuggernaut(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Iron Juggernaut", 6, CHARACTER_CLASS.WARRIOR, CARD_RARITY.LEGENDARY, minion_type = MINION_TYPE.MECH, battlecry = Battlecry( +( +( +( +(self()))), players = EnemyPlayer()), PlayerSelector()))
+
+    def MECH (False, player) :
+        return Minion(6, 5)
+
+
+------------GroundTrueCode:--------------------------
+
+class IronJuggernaut(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Iron Juggernaut", 6, CHARACTER_CLASS.WARRIOR, CARD_RARITY.LEGENDARY, minion_type = MINION_TYPE.MECH, battlecry = Battlecry(AddCard(BurrowingMine(), add_to_deck = True), PlayerSelector(EnemyPlayer())))
+
+    def create_minion (self, player) :
+        return Minion(6, 5)
+
+
+------------bleu:  0.7432249482468405  --------------------------
+------------acc:  7  --------------------------
+------------bleu2:  0.7441478018994412  --------------------------
+------------acc2:  7  --------------------------
+-------number: 23------Complete Match----------------
+
+------------number:-----23---------------------
+------------modelGenCode:--------------------------
+
+class MadderBomber(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Madder Bomber", 5, CHARACTER_CLASS.ALL, CARD_RARITY.RARE, battlecry = Battlecry(Damage(6), CharacterSelector( players =  not (CharacterSelector(CharacterSelector(CharacterSelector(Adjacent(), picker = CARD_SOURCE.other_player), 6()))))))
+
+    def 6 (self, player) :
+        return Minion(5, 4)
+
+
+------------GroundTrueCode:--------------------------
+
+class MadderBomber(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Madder Bomber", 5, CHARACTER_CLASS.ALL, CARD_RARITY.RARE, battlecry = Battlecry(Damage(1), CharacterSelector( players = BothPlayer(), picker = RandomPicker(6))))
+
+    def create_minion (self, player) :
+        return Minion(5, 4)
+
+
+------------bleu:  0.6790284853644124  --------------------------
+------------acc:  7  --------------------------
+------------bleu2:  0.6891635724947209  --------------------------
+------------acc2:  7  --------------------------
+-------number: 24------Complete Match----------------
+
+------------number:-----24---------------------
+------------modelGenCode:--------------------------
+
+class MiniMage(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Mini-Mage", 4, CHARACTER_CLASS.ALL, CARD_RARITY.EPIC)
+
+    def create_minion (self, player) :
+        return Minion(4, 1, stealth = True)
+
+
+------------GroundTrueCode:--------------------------
+
+class MiniMage(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Mini-Mage", 4, CHARACTER_CLASS.ALL, CARD_RARITY.EPIC)
+
+    def create_minion (self, player) :
+        return Minion(4, 1, stealth = True, spell_damage = 1)
+
+
+------------bleu:  0.9172068673456387  --------------------------
+------------acc:  7  --------------------------
+------------bleu2:  0.9166616257493662  --------------------------
+------------acc2:  7  --------------------------
+-------number: 25------Complete Match----------------
+
+------------number:-----25---------------------
+------------modelGenCode:--------------------------
+
+class PilotedSkyGolem(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Piloted Sky Golem", 6, CHARACTER_CLASS.ALL, CARD_RARITY.EPIC, minion_type = MINION_TYPE.MECH)
+
+    def create_minion (self, player) :
+        return Minion(6, 4, deathrattle = Deathrattle(Summon( +(self( source_list = Deathrattle(Summon(Summon(Summon.LIST.LIST.LIST.LIST.node_genattrattrattrattr(), Call), Call), Call)attrattrattrattrattrattrattrattrattrattrattrattrattrattrattrattrattrattrattrattrattrattrattrattrattrattrattrattrattrattrattr)), Call), Call))
+
+
+------------GroundTrueCode:--------------------------
+
+class PilotedSkyGolem(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Piloted Sky Golem", 6, CHARACTER_CLASS.ALL, CARD_RARITY.EPIC, minion_type = MINION_TYPE.MECH)
+
+    def create_minion (self, player) :
+        return Minion(6, 4, deathrattle = Deathrattle(Summon(CardQuery( conditions = [ManaCost(4), IsMinion()])), PlayerSelector()))
+
+
+------------bleu:  0.6216572005465304  --------------------------
+------------acc:  7  --------------------------
+------------bleu2:  0.6309468850245269  --------------------------
+------------acc2:  7  --------------------------
+-------number: 26------Complete Match----------------
+
+------------number:-----26---------------------
+------------modelGenCode:--------------------------
+
+class ScarletPurifier(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Scarlet Purifier", 3, CHARACTER_CLASS.PALADIN, CARD_RARITY.RARE, battlecry = Battlecry(Damage(2), CharacterSelector( players =  not (player(MinionSelector(MinionSelector(MinionHasDeathrattle(), BothPlayer(), deathrattle = MurlocTidecaller), deathrattle()))))))
+
+    def create_minion (self, player) :
+        return Minion(4, 3)
+
+
+------------GroundTrueCode:--------------------------
+
+class ScarletPurifier(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Scarlet Purifier", 3, CHARACTER_CLASS.PALADIN, CARD_RARITY.RARE, battlecry = Battlecry(Damage(2), MinionSelector(MinionHasDeathrattle(), BothPlayer())))
+
+    def create_minion (self, player) :
+        return Minion(4, 3)
+
+
+------------bleu:  0.6990945782419713  --------------------------
+------------acc:  7  --------------------------
+------------bleu2:  0.7279970091541508  --------------------------
+------------acc2:  7  --------------------------
+-------number: 27------Complete Match----------------
+
+------------number:-----27---------------------
+------------modelGenCode:--------------------------
+
+class SiltfinSpiritwalker(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Siltfin Spiritwalker", 4, CHARACTER_CLASS.SHAMAN, CARD_RARITY.EPIC, minion_type = MINION_TYPE.MURLOC)
+
+    def create_minion (self, player) :
+        return Minion(2, 5, effects = [Effect(MinionDied(), ActionTag(Draw(), SelfSelector()))])
+
+
+------------GroundTrueCode:--------------------------
+
+class SiltfinSpiritwalker(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Siltfin Spiritwalker", 4, CHARACTER_CLASS.SHAMAN, CARD_RARITY.EPIC, minion_type = MINION_TYPE.MURLOC, overload = 1)
+
+    def create_minion (self, player) :
+        return Minion(2, 5, effects = [Effect(MinionDied(IsType(MINION_TYPE.MURLOC)), ActionTag(Draw(), PlayerSelector()))])
+
+
+------------bleu:  0.8247507740568376  --------------------------
+------------acc:  7  --------------------------
+------------bleu2:  0.8196637484460889  --------------------------
+------------acc2:  7  --------------------------
+-------number: 28------Complete Match----------------
+
+------------number:-----28---------------------
+------------modelGenCode:--------------------------
+
+class TinkertownTechnician(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Tinkertown Technician", 3, CHARACTER_CLASS.ALL, CARD_RARITY.COMMON, battlecry = Battlecry( +([Give([Buff([Buff(ChangeAttack(Buff(ChangeAttack(ChangeHealth(Buff(ChangeHealth(Buff(Buff(ChangeHealth(Buff(Buff(Buff(Buff(Buff(Selector(EnemyPlayer())), value = -1)))))))))))))), Battlecry( +( +( +(node_gen())), Call), Call)]), Call]), Call]), Call, Call))
+
+    FunctionDef
+
+------------GroundTrueCode:--------------------------
+
+class TinkertownTechnician(MinionCard ) : 
+    def __init__ (self) :
+        from hearthbreaker.cards.spells.neutral import spare_part_list
+        super().__init__("Tinkertown Technician", 3, CHARACTER_CLASS.ALL, CARD_RARITY.COMMON, battlecry = Battlecry(Give([Buff(ChangeAttack(1)), Buff(ChangeHealth(1))]), SelfSelector(), GreaterThan(Count(MinionSelector(IsType(MINION_TYPE.MECH))), value = 0)), Battlecry(AddCard(CardQuery( source = CARD_SOURCE.LIST, source_list = spare_part_list)), PlayerSelector(), GreaterThan(Count(MinionSelector(IsType(MINION_TYPE.MECH))), value = 0)))
+
+    def create_minion (self, player) :
+        return Minion(3, 3)
+
+
+------------bleu:  0.41353209944509206  --------------------------
+------------acc:  7  --------------------------
+------------bleu2:  0.4114401551286443  --------------------------
+------------acc2:  7  --------------------------
+-------number: 29------Complete Match----------------
+
+------------number:-----29---------------------
+------------modelGenCode:--------------------------
+
+class VolJin(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Vol'jin", 5, CHARACTER_CLASS.PRIEST, CARD_RARITY.LEGENDARY, battlecry = Battlecry(SwapStats( conditions = [ManaCost(IsMinion()), IsMinion()]), MinionSelector(), picker = Battlecry(Silence(), PlayerSelector())))
+
+    def create_minion (MinionSelector(Silence(), MinionSelector()), MinionSelector()) :
+        def create_minion (4) :
+            return Minion(6, 2)
+
+        def 2 (2, 4) :
+            2(2, 2)
+
+
+
+------------GroundTrueCode:--------------------------
+
+class Voljin(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Vol'jin", 5, CHARACTER_CLASS.PRIEST, CARD_RARITY.LEGENDARY, battlecry = Battlecry(SwapStats("health", "health", True), MinionSelector( players = BothPlayer(), picker = UserPicker())))
+
+    def create_minion (self, player) :
+        return Minion(6, 2)
+
+
+------------bleu:  0.4268998695280131  --------------------------
+------------acc:  7  --------------------------
+------------bleu2:  0.46735253772739305  --------------------------
+------------acc2:  7  --------------------------
+-------number: 30------Complete Match----------------
+
+------------number:-----30---------------------
+------------modelGenCode:--------------------------
+
+class DeathsBite(WeaponCard ) : 
+    def __init__ (self) :
+        super().__init__("Death's Bite", 4, CHARACTER_CLASS.WARRIOR, CARD_RARITY.COMMON)
+
+    def create_weapon (self, player) :
+        return Weapon(4, 2, deathrattle = Deathrattle(Damage(), Damage(1)))
+
+
+------------GroundTrueCode:--------------------------
+
+class DeathsBite(WeaponCard ) : 
+    def __init__ (self) :
+        super().__init__("Death's Bite", 4, CHARACTER_CLASS.WARRIOR, CARD_RARITY.COMMON)
+
+    def create_weapon (self, player) :
+        return Weapon(4, 2, deathrattle = Deathrattle(Damage(1), MinionSelector( players = BothPlayer())))
+
+
+------------bleu:  0.8483411817966073  --------------------------
+------------acc:  7  --------------------------
+------------bleu2:  0.8457996407015599  --------------------------
+------------acc2:  7  --------------------------
+-------number: 31------Complete Match----------------
+
+------------number:-----31---------------------
+------------modelGenCode:--------------------------
+
+class Maexxna(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Maexxna", 6, CHARACTER_CLASS.ALL, CARD_RARITY.LEGENDARY, minion_type = MINION_TYPE.BEAST)
+
+    def create_minion (self, player) :
+        return Minion(2, 8, effects = [Effect(DidDamage(Kill(), TargetSelector()), ActionTag(LaughingSister(super()), SelfSelector()))])
+
+
+------------GroundTrueCode:--------------------------
+
+class Maexxna(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Maexxna", 6, CHARACTER_CLASS.ALL, CARD_RARITY.LEGENDARY, minion_type = MINION_TYPE.BEAST)
+
+    def create_minion (self, player) :
+        return Minion(2, 8, effects = [Effect(DidDamage(), ActionTag(Kill(), TargetSelector(IsMinion())))])
+
+
+------------bleu:  0.8396428005291298  --------------------------
+------------acc:  7  --------------------------
+------------bleu2:  0.8419414095292406  --------------------------
+------------acc2:  7  --------------------------
+-------number: 32------Complete Match----------------
+
+------------number:-----32---------------------
+------------modelGenCode:--------------------------
+
+class SludgeBelcher(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Sludge Belcher", 5, CHARACTER_CLASS.ALL, CARD_RARITY.RARE)
+
+    def create_minion (self, player) :
+        return Minion(3, 5, deathrattle = Deathrattle(Summon([Summon(DamagedGolem()), PlayerSelector()], PlayerSelector()), taunt()))
+
+
+------------GroundTrueCode:--------------------------
+
+class SludgeBelcher(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Sludge Belcher", 5, CHARACTER_CLASS.ALL, CARD_RARITY.RARE)
+
+    def create_minion (self, player) :
+        return Minion(3, 5, taunt = True, deathrattle = Deathrattle(Summon(Slime()), PlayerSelector()))
+
+
+------------bleu:  0.7750529361646041  --------------------------
+------------acc:  7  --------------------------
+------------bleu2:  0.7812518110255332  --------------------------
+------------acc2:  7  --------------------------
+-------number: 33------Complete Match----------------
+
+------------number:-----33---------------------
+------------modelGenCode:--------------------------
+
+class Voidcaller(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Voidcaller", 4, CHARACTER_CLASS.WARLOCK, CARD_RARITY.COMMON, minion_type = MINION_TYPE.DEMON)
+
+    def create_minion (self, player) :
+        return Minion(3, 4, deathrattle = Deathrattle( +( +( +(IsClass( +( +( +( +( +(player(self( deathrattle = Deathrattle( +(self(), 4( source = node_genattrattrattrattrattrattrattrattrattrattrattrattrattrattrattrattrattrattrattr)), Call))))))))))), Num), Call))
+
+
+------------GroundTrueCode:--------------------------
+
+class Voidcaller(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Voidcaller", 4, CHARACTER_CLASS.WARLOCK, CARD_RARITY.COMMON, minion_type = MINION_TYPE.DEMON)
+
+    def create_minion (self, player) :
+        return Minion(3, 4, deathrattle = Deathrattle(Summon(CardQuery( conditions = [IsType(MINION_TYPE.DEMON)], source = CARD_SOURCE.MY_HAND)), PlayerSelector()))
+
+
+------------bleu:  0.5123968571501204  --------------------------
+------------acc:  7  --------------------------
+------------bleu2:  0.5330707012633393  --------------------------
+------------acc2:  7  --------------------------
+-------number: 34------Complete Match----------------
+
+------------number:-----34---------------------
+------------modelGenCode:--------------------------
+
+class Alexstrasza(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Alexstrasza", 9, CHARACTER_CLASS.ALL, CARD_RARITY.LEGENDARY, minion_type = MINION_TYPE.DRAGON, battlecry = Battlecry( +([ +(IsClass(3), HeroSelector()), BothPlayer()]), PlayerSelector()))
+
+    def DRAGON (MinionSelector(TargetAdjacent(), GreaterThan(BothPlayer())), False(BothPlayer(), 15 = BothPlayer)) :
+        def create_minion (False, RandomPicker) :
+            return Minion(8, 8)
+
+        def 8 (8, 8) :
+            return 8
+
+
+
+------------GroundTrueCode:--------------------------
+
+class Alexstrasza(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Alexstrasza", 9, CHARACTER_CLASS.ALL, CARD_RARITY.LEGENDARY, minion_type = MINION_TYPE.DRAGON, battlecry = Battlecry(SetHealth(15), HeroSelector( players = BothPlayer(), picker = UserPicker())))
+
+    def create_minion (self, player) :
+        return Minion(8, 8)
+
+
+------------bleu:  0.41611901814268  --------------------------
+------------acc:  7  --------------------------
+------------bleu2:  0.47313985417798815  --------------------------
+------------acc2:  7  --------------------------
+-------number: 35------Complete Match----------------
+
+------------number:-----35---------------------
+------------modelGenCode:--------------------------
+
+class ArcaneGolem(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Arcane Golem", 3, CHARACTER_CLASS.ALL, CARD_RARITY.RARE, minion_type = MINION_TYPE.DRAGON)
+
+    def create_minion (self, player) :
+        return Minion(4, 2, charge = True)
+
+
+------------GroundTrueCode:--------------------------
+
+class ArcaneGolem(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Arcane Golem", 3, CHARACTER_CLASS.ALL, CARD_RARITY.RARE, battlecry = Battlecry(GiveManaCrystal(), PlayerSelector( players = EnemyPlayer())))
+
+    def create_minion (self, player) :
+        return Minion(4, 2, charge = True)
+
+
+------------bleu:  0.7005678116412809  --------------------------
+------------acc:  7  --------------------------
+------------bleu2:  0.6833908324470616  --------------------------
+------------acc2:  7  --------------------------
+-------number: 36------Complete Match----------------
+
+------------number:-----36---------------------
+------------modelGenCode:--------------------------
+
+class BaineBloodhoof(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Baine Bloodhoof", 4, CHARACTER_CLASS.ALL, CARD_RARITY.LEGENDARY)
+
+    def create_minion (self, player) :
+        return Minion(4, 5)
+
+
+------------GroundTrueCode:--------------------------
+
+class BaineBloodhoof(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Baine Bloodhoof", 4, CHARACTER_CLASS.ALL, CARD_RARITY.LEGENDARY, False)
+
+    def create_minion (self, player) :
+        return Minion(4, 5)
+
+
+------------bleu:  0.9298663600557577  --------------------------
+------------acc:  7  --------------------------
+------------bleu2:  0.930266460363156  --------------------------
+------------acc2:  7  --------------------------
+-------number: 37------Complete Match----------------
+
+------------number:-----37---------------------
+------------modelGenCode:--------------------------
+
+class BladeFlurry(SpellCard ) : 
+    def __init__ (self) :
+        super().__init__("Blade Flurry", 2, CHARACTER_CLASS.ROGUE, CARD_RARITY.RARE)
+
+    def use (self, player, game) :
+        super().use(player, game)
+        
+            targets = hearthbreaker.targeting.find_enemy_minion_battlecry_target(targets)
+        
+            targets = copy.copy(game.other_player.minions)
+        targets.extend(player.hero.minions)
+        targets.append(game.hero.hero.hero)
+        if  weapon.hero.hero.hero.hero.hero > hearthbreaker.draw(self).hero(self, node_gen) and Compare : body
+
+
+------------GroundTrueCode:--------------------------
+
+class BladeFlurry(SpellCard ) : 
+    def __init__ (self) :
+        super().__init__("Blade Flurry", 2, CHARACTER_CLASS.ROGUE, CARD_RARITY.RARE)
+
+    def use (self, player, game) :
+        super().use(player, game)
+        if  player.weapon is not None : 
+            
+                attack_power = player.effective_spell_damage(player.hero.calculate_attack())
+            player.weapon.destroy()
+            for minion in copy.copy(game.other_player.minions): 
+                minion.damage(attack_power, self)
+ 
+            game.other_player.hero.damage(attack_power, self)
+
+
+
+------------bleu:  0.567764608964026  --------------------------
+------------acc:  7  --------------------------
+------------bleu2:  0.5694634235241637  --------------------------
+------------acc2:  7  --------------------------
+-------number: 38------Complete Match----------------
+
+------------number:-----38---------------------
+------------modelGenCode:--------------------------
+
+class Brawl(SpellCard ) : 
+    def __init__ (self) :
+        super().__init__("Brawl", 5, CHARACTER_CLASS.WARRIOR, CARD_RARITY.EPIC)
+
+    def use (self, player, game) :
+        super().use(player, game)
+        
+            targets = hearthbreaker.other_player.find_minion_spell_target(targets)
+        copy.copy(game.other_player.minions)
+        for minion in targets: 
+            targets.extend(targets.extend)
+ 
+
+    def can_use (targets, targets, game) :
+        super().use(player, game)
+        
+            player = player
+        node_genattrattrattrattrattrattrattrattrattrattrattrattr()
+        For
+
+
+------------GroundTrueCode:--------------------------
+
+class Brawl(SpellCard ) : 
+    def __init__ (self) :
+        super().__init__("Brawl", 5, CHARACTER_CLASS.WARRIOR, CARD_RARITY.EPIC)
+
+    def can_use (self, player, game) :
+        return super().can_use(player, game) and len(player.minions) +len(player.opponent.minions) >= 2
+
+    def use (self, player, game) :
+        super().use(player, game)
+        
+            minions = copy.copy(player.minions)
+        minions.extend(game.other_player.minions)
+        if  len(minions) > 1 : 
+            
+                survivor = game.random_choice(minions)
+            for minion in minions: 
+                if  minion is not survivor : 
+                    minion.die(self)
+
+ 
+
+
+
+------------bleu:  0.5222638008099801  --------------------------
+------------acc:  7  --------------------------
+------------bleu2:  0.5054315843394667  --------------------------
+------------acc2:  7  --------------------------
+-------number: 39------Complete Match----------------
+
+------------number:-----39---------------------
+------------modelGenCode:--------------------------
+
+class Conceal(SpellCard ) : 
+    def __init__ (self) :
+        super().__init__("Conceal", 1, CHARACTER_CLASS.ROGUE, CARD_RARITY.COMMON)
+
+    def use (self, player, game) :
+        super().use(player, game)
+        for minion in player.minions: 
+            minion.add_buff(minion())
+ 
+        player
+
+
+------------GroundTrueCode:--------------------------
+
+class Conceal(SpellCard ) : 
+    def __init__ (self) :
+        super().__init__("Conceal", 1, CHARACTER_CLASS.ROGUE, CARD_RARITY.COMMON)
+
+    def use (self, player, game) :
+        super().use(player, game)
+        for minion in player.minions: 
+            if   not minion.stealth : 
+                minion.add_buff(BuffUntil(Stealth(), TurnStarted()))
+
+ 
+
+
+------------bleu:  0.7781256919346661  --------------------------
+------------acc:  7  --------------------------
+------------bleu2:  0.7670162874932464  --------------------------
+------------acc2:  7  --------------------------
+-------number: 40------Complete Match----------------
+
+------------number:-----40---------------------
+------------modelGenCode:--------------------------
+
+class Defender(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Defender", 1, CHARACTER_CLASS.PALADIN, CARD_RARITY.COMMON)
+
+    def create_minion (self, player) :
+        return Minion(2, 1)
+
+
+------------GroundTrueCode:--------------------------
+
+class DefenderMinion(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Defender", 1, CHARACTER_CLASS.PALADIN, CARD_RARITY.COMMON)
+
+    def create_minion (self, p) :
+        return Minion(2, 1)
+
+
+------------bleu:  0.898000333150059  --------------------------
+------------acc:  7  --------------------------
+------------bleu2:  0.8984100213672169  --------------------------
+------------acc2:  7  --------------------------
+-------number: 41------Complete Match----------------
+
+------------number:-----41---------------------
+------------modelGenCode:--------------------------
+
+class Doomguard(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Doomguard", 5, CHARACTER_CLASS.WARLOCK, CARD_RARITY.RARE, minion_type = MINION_TYPE.DEMON, battlecry = Battlecry(Draw(), PlayerSelector()))
+
+    def create_minion (self, player) :
+        return Minion(5, 7)
+
+
+------------GroundTrueCode:--------------------------
+
+class Doomguard(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Doomguard", 5, CHARACTER_CLASS.WARLOCK, CARD_RARITY.RARE, minion_type = MINION_TYPE.DEMON, battlecry = Battlecry(Discard( amount = 2), PlayerSelector()))
+
+    def create_minion (self, player) :
+        return Minion(5, 7, charge = True)
+
+
+------------bleu:  0.8494977145161756  --------------------------
+------------acc:  7  --------------------------
+------------bleu2:  0.8470952820194997  --------------------------
+------------acc2:  7  --------------------------
+-------number: 42------Complete Match----------------
+
+------------number:-----42---------------------
+------------modelGenCode:--------------------------
+
+class EarthElemental(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Earth Elemental", 5, CHARACTER_CLASS.SHAMAN, CARD_RARITY.EPIC, overload = 1)
+
+    def create_minion (self, player) :
+        return Minion(7, 8, taunt = True)
+
+
+------------GroundTrueCode:--------------------------
+
+class EarthElemental(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Earth Elemental", 5, CHARACTER_CLASS.SHAMAN, CARD_RARITY.EPIC, overload = 3)
+
+    def create_minion (self, player) :
+        return Minion(7, 8, taunt = True)
+
+
+------------bleu:  0.9551190479308641  --------------------------
+------------acc:  7  --------------------------
+------------bleu2:  0.9551190479308641  --------------------------
+------------acc2:  7  --------------------------
+-------number: 43------Complete Match----------------
+
+------------number:-----43---------------------
+------------modelGenCode:--------------------------
+
+class ExplosiveTrap(SpellCard ) : 
+    def __init__ (self) :
+        super().__init__("Explosive Trap", 2, CHARACTER_CLASS.HUNTER, CARD_RARITY.COMMON)
+
+    def activate (self, player) :
+        player.game.game.bind("", self._reveal)
+
+    def _reveal (self, self) :
+        player.unbind("", self.player)
+
+    def _reveal (self, self) :
+        self
+
+
+------------GroundTrueCode:--------------------------
+
+class ExplosiveTrap(SecretCard ) : 
+    def __init__ (self) :
+        super().__init__("Explosive Trap", 2, CHARACTER_CLASS.HUNTER, CARD_RARITY.COMMON)
+
+    def activate (self, player) :
+        player.opponent.bind("character attack", self._reveal)
+
+    def deactivate (self, player) :
+        player.opponent.unbind("character attack", self._reveal)
+
+    def _reveal (self, attacker, target) :
+        if  isinstance(target, Hero) : 
+            
+                game = attacker.player.game
+            
+                enemies = copy.copy(game.current_player.minions)
+            enemies.append(game.current_player.hero)
+            for enemy in enemies: 
+                enemy.damage(2, None)
+ 
+            game.check_delayed()
+            super().reveal()
+
+
+
+------------bleu:  0.427896639589771  --------------------------
+------------acc:  7  --------------------------
+------------bleu2:  0.35202644694104523  --------------------------
+------------acc2:  7  --------------------------
+-------number: 44------Complete Match----------------
+
+------------number:-----44---------------------
+------------modelGenCode:--------------------------
+
+class FlameOfAzzinoth(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Flame of Azzinoth", 1, CHARACTER_CLASS.ALL, CARD_RARITY.COMMON)
+
+    def create_minion (self, player) :
+        return Minion(2, 1)
+
+
+------------GroundTrueCode:--------------------------
+
+class FlameOfAzzinoth(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Flame of Azzinoth", 1, CHARACTER_CLASS.ALL, CARD_RARITY.COMMON, False)
+
+    def create_minion (self, player) :
+        return Minion(2, 1)
+
+
+------------bleu:  0.9325718821645923  --------------------------
+------------acc:  7  --------------------------
+------------bleu2:  0.9329418374862198  --------------------------
+------------acc2:  7  --------------------------
+-------number: 45------Complete Match----------------
+
+------------number:-----45---------------------
+------------modelGenCode:--------------------------
+
+class Gnoll(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Gnoll", 2, CHARACTER_CLASS.ALL, CARD_RARITY.COMMON, False)
+
+    def create_minion (self, p) :
+        return Minion(2, 2, taunt = True)
+
+
+------------GroundTrueCode:--------------------------
+
+class Gnoll(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Gnoll", 2, CHARACTER_CLASS.ALL, CARD_RARITY.COMMON, False)
+
+    def create_minion (self, player) :
+        return Minion(2, 2, taunt = True)
+
+
+------------bleu:  0.9516433313522539  --------------------------
+------------acc:  7  --------------------------
+------------bleu2:  0.9516433313522539  --------------------------
+------------acc2:  7  --------------------------
+-------number: 46------Complete Match----------------
+
+------------number:-----46---------------------
+------------modelGenCode:--------------------------
+
+class HolyWrath(SpellCard ) : 
+    def __init__ (self) :
+        super().__init__("Holy Wrath", 5, CHARACTER_CLASS.PALADIN, CARD_RARITY.RARE)
+
+    def use (self, player, game) :
+        def reduce_cost (card) :
+            player.draw()
+
+        super().use(player, game)
+        player.bind_once("", reduce_cost)
+        player
+
+
+------------GroundTrueCode:--------------------------
+
+class HolyWrath(SpellCard ) : 
+    def __init__ (self) :
+        super().__init__("Holy Wrath", 5, CHARACTER_CLASS.PALADIN, CARD_RARITY.RARE, target_func = hearthbreaker.targeting.find_spell_target)
+
+    def use (self, player, game) :
+        super().use(player, game)
+        
+            fatigue = False
+        if  player.deck.left == 0 : 
+            
+                fatigue = True
+
+        player.draw()
+        if   not fatigue : 
+            
+                cost = player.hand[-1].mana
+            self.target.damage(player.effective_spell_damage(cost), self)
+
+
+
+------------bleu:  0.49757787127903697  --------------------------
+------------acc:  7  --------------------------
+------------bleu2:  0.45576139109397795  --------------------------
+------------acc2:  7  --------------------------
+-------number: 47------Complete Match----------------
+
+------------number:-----47---------------------
+------------modelGenCode:--------------------------
+
+class Infernal(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Infernal", 6, CHARACTER_CLASS.WARLOCK, CARD_RARITY.COMMON, minion_type = MINION_TYPE.DEMON)
+
+    def create_minion (self, player) :
+        return Minion(6, 6)
+
+
+------------GroundTrueCode:--------------------------
+
+class Infernal(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Infernal", 6, CHARACTER_CLASS.WARLOCK, CARD_RARITY.COMMON, False, minion_type = MINION_TYPE.DEMON)
+
+    def create_minion (self, player) :
+        return Minion(6, 6)
+
+
+------------bleu:  0.9490823237109971  --------------------------
+------------acc:  7  --------------------------
+------------bleu2:  0.9494305528578507  --------------------------
+------------acc2:  7  --------------------------
+-------number: 48------Complete Match----------------
+
+------------number:-----48---------------------
+------------modelGenCode:--------------------------
+
+class KirinTorMage(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Kirin Tor Mage", 3, CHARACTER_CLASS.MAGE, CARD_RARITY.RARE, battlecry = Battlecry( +(Draw()), PlayerSelector()))
+
+    def create_minion (False, attacker) :
+        if  Minion(4, 3) : 
+            4( +(super(super(super()))), 3())
+
+
+
+------------GroundTrueCode:--------------------------
+
+class KirinTorMage(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Kirin Tor Mage", 3, CHARACTER_CLASS.MAGE, CARD_RARITY.RARE, battlecry = Battlecry(GiveAura([AuraUntil(ManaChange(-100), CardSelector( condition = IsSecret()), CardPlayed(IsSecret()))]), PlayerSelector()))
+
+    def create_minion (self, player) :
+        return Minion(4, 3)
+
+
+------------bleu:  0.619193986063288  --------------------------
+------------acc:  7  --------------------------
+------------bleu2:  0.6166419417561368  --------------------------
+------------acc2:  7  --------------------------
+-------number: 49------Complete Match----------------
+
+------------number:-----49---------------------
+------------modelGenCode:--------------------------
+
+class Lightwarden(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Lightwarden", 1, CHARACTER_CLASS.ALL, CARD_RARITY.RARE)
+
+    def create_minion (self, player) :
+        return Minion(1, 2, effects = [Effect(CharacterHealed(ArmorIncreased(), BothPlayer()), BothPlayer())])
+
+
+------------GroundTrueCode:--------------------------
+
+class Lightwarden(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Lightwarden", 1, CHARACTER_CLASS.ALL, CARD_RARITY.RARE)
+
+    def create_minion (self, player) :
+        return Minion(1, 2, effects = [Effect(CharacterHealed( player = BothPlayer()), ActionTag(Give(ChangeAttack(2)), SelfSelector()))])
+
+
+------------bleu:  0.7645219509885723  --------------------------
+------------acc:  7  --------------------------
+------------bleu2:  0.7600273520959747  --------------------------
+------------acc2:  7  --------------------------
+-------number: 50------Complete Match----------------
+
+------------number:-----50---------------------
+------------modelGenCode:--------------------------
+
+class ManaWraith(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Mana Wraith", 2, CHARACTER_CLASS.ALL, CARD_RARITY.RARE)
+
+    def create_minion (self, player) :
+        return Minion(2, 2, auras = [Aura(ManaChange(ChangeHealth(-1)), Selector())])
+
+
+------------GroundTrueCode:--------------------------
+
+class ManaWraith(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Mana Wraith", 2, CHARACTER_CLASS.ALL, CARD_RARITY.RARE)
+
+    def create_minion (self, player) :
+        return Minion(2, 2, auras = [Aura(ManaChange(1), CardSelector(BothPlayer(), IsMinion()))])
+
+
+------------bleu:  0.8218665336456777  --------------------------
+------------acc:  7  --------------------------
+------------bleu2:  0.8211202990174055  --------------------------
+------------acc2:  7  --------------------------
+-------number: 51------Complete Match----------------
+
+------------number:-----51---------------------
+------------modelGenCode:--------------------------
+
+class Misdirection(SpellCard ) : 
+    def __init__ (self) :
+        super().__init__("Misdirection", 2, CHARACTER_CLASS.HUNTER, CARD_RARITY.RARE)
+
+    def activate (self, player) :
+        player.game.current_player.bind("", self._reveal)
+
+    def _reveal (self, self) :
+        attacker.player.player.player.unbind("", self._reveal)
+
+    def _reveal (self, self) :
+        player.unbind("", self._reveal)
+
+
+------------GroundTrueCode:--------------------------
+
+class Misdirection(SecretCard ) : 
+    def __init__ (self) :
+        super().__init__("Misdirection", 2, CHARACTER_CLASS.HUNTER, CARD_RARITY.RARE)
+
+    def activate (self, player) :
+        player.opponent.bind("character attack", self._reveal)
+
+    def deactivate (self, player) :
+        player.opponent.unbind("character attack", self._reveal)
+
+    def _reveal (self, character, target) :
+        if  isinstance(target, Hero) and  not character.removed : 
+            
+                game = character.player.game
+            
+                possibilities = copy.copy(game.current_player.minions)
+            possibilities.extend(game.other_player.minions)
+            possibilities.append(game.current_player.hero)
+            possibilities.append(game.other_player.hero)
+            possibilities.remove(character.current_target)
+            
+                character.current_target = game.random_choice(possibilities)
+            super().reveal()
+
+
+
+------------bleu:  0.3905754015085701  --------------------------
+------------acc:  7  --------------------------
+------------bleu2:  0.32360807309583145  --------------------------
+------------acc2:  7  --------------------------
+-------number: 52------Complete Match----------------
+
+------------number:-----52---------------------
+------------modelGenCode:--------------------------
+
+class NobleSacrifice(SpellCard ) : 
+    def __init__ (self) :
+        super().__init__("Noble Sacrifice", 1, CHARACTER_CLASS.PALADIN, CARD_RARITY.COMMON)
+
+    def activate (self, player) :
+        player.game.current_player.bind("", self._reveal)
+
+    def _reveal (False, self) :
+        card.game.game.game.game.game.game.game.game.game.game.unbind("", self._reveal)
+
+    def _reveal (self, self) :
+        player.unbind("", self._reveal)
+
+
+------------GroundTrueCode:--------------------------
+
+class NobleSacrifice(SecretCard ) : 
+    def __init__ (self) :
+        super().__init__("Noble Sacrifice", 1, CHARACTER_CLASS.PALADIN, CARD_RARITY.COMMON)
+
+    def _reveal (self, attacker, target) :
+        
+            player = attacker.player.game.other_player
+        if  len(player.minions) < 7 and  not attacker.removed : 
+            from hearthbreaker.cards.minions.paladin import DefenderMinion
+            
+                defender = DefenderMinion()
+            defender.summon(player, player.game, len(player.minions))
+            
+                attacker.current_target = player.minions[-1]
+            super().reveal()
+
+
+    def activate (self, player) :
+        player.opponent.bind("character attack", self._reveal)
+
+    def deactivate (self, player) :
+        player.opponent.unbind("character attack", self._reveal)
+
+
+------------bleu:  0.41003347172070775  --------------------------
+------------acc:  7  --------------------------
+------------bleu2:  0.3818412137102622  --------------------------
+------------acc2:  7  --------------------------
+-------number: 53------Complete Match----------------
+
+------------number:-----53---------------------
+------------modelGenCode:--------------------------
+
+class PowerOfTheWild(SpellCard ) : 
+    def __init__ (self) :
+        super().__init__("Power of the Wild", 2, CHARACTER_CLASS.DRUID, CARD_RARITY.COMMON)
+
+    def use (self, player, game) :
+        super().use(player, game)
+        player.current_player.base_attack += 0
+        hearthbreaker.targeting.increase_health(player.agent.find_minion_spell_target,  lambda  player : 
+            option
+)
+        if  game.other_player.hero.divine_shield : 
+            super().can_use(player, game)
+
+            else : if  player.hero.minions : 
+            return node_genattrattrattrattrattrattrattrattrattrattrattrattrattrattrattrattrattrattr()
+
+
+    FunctionDef
+
+------------GroundTrueCode:--------------------------
+
+class PowerOfTheWild(SpellCard ) : 
+    def __init__ (self) :
+        super().__init__("Power of the Wild", 2, CHARACTER_CLASS.DRUID, CARD_RARITY.COMMON)
+
+    def use (self, player, game) :
+        super().use(player, game)
+        
+            option = player.agent.choose_option([LeaderOfThePack(), SummonPanther()], player)
+        option.use(player, game)
+
+
+------------bleu:  0.5509226770190871  --------------------------
+------------acc:  7  --------------------------
+------------bleu2:  0.5694170592843197  --------------------------
+------------acc2:  7  --------------------------
+-------number: 54------Complete Match----------------
+
+------------number:-----54---------------------
+------------modelGenCode:--------------------------
+
+class Redemption(SpellCard ) : 
+    def __init__ (self) :
+        super().__init__("Redemption", 1, CHARACTER_CLASS.PALADIN, CARD_RARITY.COMMON)
+
+    def activate (self, player) :
+        player.game.current_player.bind("", self._reveal)
+
+    def _reveal (self, self) :
+        self.player.player.player.unbind("", self._reveal)
+
+    def _reveal (self, self) :
+        player.unbind("", self._reveal)
+
+
+------------GroundTrueCode:--------------------------
+
+class Redemption(SecretCard ) : 
+    def __init__ (self) :
+        super().__init__("Redemption", 1, CHARACTER_CLASS.PALADIN, CARD_RARITY.COMMON)
+
+    def _reveal (self, minion, by) :
+        
+            resurrection = minion.card.summon(minion.player, minion.game, min(minion.index, len(minion.player.minions)))
+        if  resurrection : 
+            
+                resurrection.health = 1
+            super().reveal()
+
+
+    def activate (self, player) :
+        player.bind("minion died", self._reveal)
+
+    def deactivate (self, player) :
+        player.unbind("minion died", self._reveal)
+
+
+------------bleu:  0.5074185817165859  --------------------------
+------------acc:  7  --------------------------
+------------bleu2:  0.4881782813432549  --------------------------
+------------acc2:  7  --------------------------
+-------number: 55------Complete Match----------------
+
+------------number:-----55---------------------
+------------modelGenCode:--------------------------
+
+class ShadowMadness(SpellCard ) : 
+    def __init__ (self) :
+        super().__init__("Shadow Madness", 4, CHARACTER_CLASS.PRIEST, CARD_RARITY.RARE, target_func = hearthbreaker.targeting.find_enemy_minion_spell_target)
+
+    def use (self, player, game) :
+        super().use(player, game)
+        if  len(new_minion(player(-3), player(0), player(CharacterSelector(0), player(0), len(game.other_player.minions.minions.minions))), player(hearthbreaker.get_card(), hearthbreaker(node_genattrattrattrattrattrattrattrattrattrattrattrattrattrattr)))opscomparators : body
+
+    FunctionDef
+
+------------GroundTrueCode:--------------------------
+
+class ShadowMadness(SpellCard ) : 
+    def __init__ (self) :
+        super().__init__("Shadow Madness", 4, CHARACTER_CLASS.PRIEST, CARD_RARITY.RARE, target_func = hearthbreaker.targeting.find_enemy_minion_spell_target, filter_func =  lambda  target : 
+            target.calculate_attack() <= 3 and target.spell_targetable()
+)
+
+    def use (self, player, game) :
+        super().use(player, game)
+        
+            minion = self.target.copy(player)
+        
+            minion.active = True
+        
+            minion.exhausted = False
+        self.target.remove_from_board()
+        minion.add_to_board(len(player.minions))
+        minion.add_buff(BuffUntil(Stolen(), TurnEnded()))
+
+    def can_use (self, player, game) :
+        return super().can_use(player, game) and len(player.minions) < 7
+
+
+------------bleu:  0.44049558895975954  --------------------------
+------------acc:  7  --------------------------
+------------bleu2:  0.42211359931173625  --------------------------
+------------acc2:  7  --------------------------
+-------number: 56------Complete Match----------------
+
+------------number:-----56---------------------
+------------modelGenCode:--------------------------
+
+class SiphonSoul(SpellCard ) : 
+    def __init__ (self) :
+        super().__init__("Siphon Soul", 6, CHARACTER_CLASS.WARLOCK, CARD_RARITY.RARE, target_func = hearthbreaker.targeting.find_minion_spell_target)
+
+    def use (self, player, game) :
+        super().use(player, game)
+        
+            targets = hearthbreaker.other_player.die(targets)
+        
+            self = game.other_player.other_player
+        targets.extend(player.hero.minions)
+        hero.other_player.summon(game, self)
+        if  game.check_delayed() >= 0 : 
+            node_genattrattrattrattrattrattrattrattrattrattrattrattrattr()
+
+
+
+------------GroundTrueCode:--------------------------
+
+class SiphonSoul(SpellCard ) : 
+    def __init__ (self) :
+        super().__init__("Siphon Soul", 6, CHARACTER_CLASS.WARLOCK, CARD_RARITY.RARE, target_func = hearthbreaker.targeting.find_minion_spell_target)
+
+    def use (self, player, game) :
+        super().use(player, game)
+        self.target.die(self)
+        player.hero.heal(player.effective_heal_power(3), self)
+
+
+------------bleu:  0.5979137903374755  --------------------------
+------------acc:  7  --------------------------
+------------bleu2:  0.6202296075144071  --------------------------
+------------acc2:  7  --------------------------
+-------number: 57------Complete Match----------------
+
+------------number:-----57---------------------
+------------modelGenCode:--------------------------
+
+class Spellbender(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Spellbender", 0, CHARACTER_CLASS.ALL, CARD_RARITY.EPIC, False)
+
+    def create_minion (self, player) :
+        return Minion(1, 3)
+
+
+------------GroundTrueCode:--------------------------
+
+class Spellbender(SecretCard ) : 
+    def __init__ (self) :
+        super().__init__("Spellbender", 3, CHARACTER_CLASS.MAGE, CARD_RARITY.EPIC)
+        
+            self.player = None
+
+    def _reveal (self, card, index) :
+        if  card.is_spell() and len(self.player.minions) < 7 and card.target and card.target.is_minion() : 
+            SpellbenderMinion().summon(self.player, self.player.game, len(self.player.minions))
+            
+                card.target = self.player.minions[-1]
+            super().reveal()
+
+
+    def activate (self, player) :
+        player.game.current_player.bind("card played", self._reveal)
+        
+            self.player = player
+
+    def deactivate (self, player) :
+        player.game.current_player.unbind("card played", self._reveal)
+        
+            self.player = None
+
+
+------------bleu:  0.15994822917777435  --------------------------
+------------acc:  7  --------------------------
+------------bleu2:  0.04127609931600456  --------------------------
+------------acc2:  7  --------------------------
+-------number: 58------Complete Match----------------
+
+------------number:-----58---------------------
+------------modelGenCode:--------------------------
+
+class SummoningPortal(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Summoning Portal", 4, CHARACTER_CLASS.WARLOCK, CARD_RARITY.COMMON)
+
+    def create_minion (self, player) :
+        return Minion(0, 4, auras = [Aura(ManaChange(ManaChange(-1)), ManaChange(-1))])
+
+
+------------GroundTrueCode:--------------------------
+
+class SummoningPortal(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Summoning Portal", 4, CHARACTER_CLASS.WARLOCK, CARD_RARITY.COMMON)
+
+    def create_minion (self, player) :
+        return Minion(0, 4, auras = [Aura(ManaChange(-2, 1, minimum = 1), CardSelector( condition = IsMinion()))])
+
+
+------------bleu:  0.783749082383371  --------------------------
+------------acc:  7  --------------------------
+------------bleu2:  0.7825652821038951  --------------------------
+------------acc2:  7  --------------------------
+-------number: 59------Complete Match----------------
+
+------------number:-----59---------------------
+------------modelGenCode:--------------------------
+
+class ThrallmarFarseer(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Thrallmar Farseer", 3, CHARACTER_CLASS.ALL, CARD_RARITY.COMMON)
+
+    def create_minion (self, player) :
+        return Minion(2, 3, windfury = True)
+
+
+------------GroundTrueCode:--------------------------
+
+class ThrallmarFarseer(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Thrallmar Farseer", 3, CHARACTER_CLASS.ALL, CARD_RARITY.COMMON)
+
+    def create_minion (self, player) :
+        return Minion(2, 3, windfury = True)
+
+
+------------bleu:  1.0  --------------------------
+------------acc:  8  --------------------------
+------------bleu2:  1.0  --------------------------
+------------acc2:  8  --------------------------
+-------number: 60------Complete Match----------------
+
+------------number:-----60---------------------
+------------modelGenCode:--------------------------
+
+class Upgrade(SpellCard ) : 
+    def __init__ (self) :
+        super().__init__("Upgrade!", 1, CHARACTER_CLASS.WARRIOR, CARD_RARITY.RARE)
+
+    def use (self, player, game) :
+        super().use(player, game)
+        player.base_attack.base_attack += 1
+        self.target.change_attack(1)
+        if  player.cards_played > 0 : 
+            
+                player = game.random_choice(weapon)
+            if  hearthbreaker.targeting.random_choice(player) and hearthbreaker.find_friendly_minion_battlecry_target.cards > hearthbreaker : 
+                hearthbreaker.find_friendly_minion_battlecry_target.find_friendly_minion_battlecry_target.powers.find_friendly_minion_battlecry_target.powers.powers.powers.powers.node_genattrattr()
+
+
+
+
+------------GroundTrueCode:--------------------------
+
+class Upgrade(SpellCard ) : 
+    def __init__ (self) :
+        super().__init__("Upgrade!", 1, CHARACTER_CLASS.WARRIOR, CARD_RARITY.RARE)
+
+    def use (self, player, game) :
+        super().use(player, game)
+        from hearthbreaker.cards.weapons.warrior import HeavyAxe
+        if  player.weapon : 
+            player.weapon.durability += 1
+            player.weapon.base_attack += 1
+
+            else : 
+            heavy_axe = HeavyAxe().create_weapon(player)heavy_axe.equip(player)
+
+
+------------bleu:  0.5188557676682344  --------------------------
+------------acc:  8  --------------------------
+------------bleu2:  0.5253276725411008  --------------------------
+------------acc2:  8  --------------------------
+-------number: 61------Complete Match----------------
+
+------------number:-----61---------------------
+------------modelGenCode:--------------------------
+
+class Wisp(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Wisp", 0, CHARACTER_CLASS.ALL, CARD_RARITY.COMMON)
+
+    def create_minion (self, player) :
+        return Minion(1, 1)
+
+
+------------GroundTrueCode:--------------------------
+
+class Wisp(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Wisp", 0, CHARACTER_CLASS.ALL, CARD_RARITY.COMMON)
+
+    def create_minion (self, player) :
+        return Minion(1, 1)
+
+
+------------bleu:  1.0  --------------------------
+------------acc:  9  --------------------------
+------------bleu2:  1.0  --------------------------
+------------acc2:  9  --------------------------
+-------number: 62------Complete Match----------------
+
+------------number:-----62---------------------
+------------modelGenCode:--------------------------
+
+class BlackWhelp(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Black Whelp", 1, CHARACTER_CLASS.ALL, CARD_RARITY.COMMON, False, minion_type = MINION_TYPE.DRAGON)
+
+    def create_minion (self, player) :
+        return Minion(2, 1)
+
+
+------------GroundTrueCode:--------------------------
+
+class BlackWhelp(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Black Whelp", 1, CHARACTER_CLASS.ALL, CARD_RARITY.COMMON, False, MINION_TYPE.DRAGON)
+
+    def create_minion (self, player) :
+        return Minion(2, 1)
+
+
+------------bleu:  0.9377200024313009  --------------------------
+------------acc:  9  --------------------------
+------------bleu2:  0.9374009563674955  --------------------------
+------------acc2:  9  --------------------------
+-------number: 63------Complete Match----------------
+
+------------number:-----63---------------------
+------------modelGenCode:--------------------------
+
+class DragonkinSorcerer(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Dragonkin Sorcerer", 4, CHARACTER_CLASS.ALL, CARD_RARITY.COMMON, minion_type = MINION_TYPE.DRAGON)
+
+    def create_minion (self, player) :
+        return Minion(3, 5, effects = [Effect(SpellCast(Give([ChangeAttack(ChangeAttack(ChangeAttack(SelfSelector()))), Effect(ArmorIncreased(), ActionTag( +(self()), LaughingSister(LaughingSister(), EnemyPlayer())))]), BothPlayer()), BothPlayer()), Aura(LaughingSister(1(), LaughingSister( node_gen)), Call)])
+
+
+------------GroundTrueCode:--------------------------
+
+class DragonkinSorcerer(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Dragonkin Sorcerer", 4, CHARACTER_CLASS.ALL, CARD_RARITY.COMMON, minion_type = MINION_TYPE.DRAGON)
+
+    def create_minion (self, player) :
+        return Minion(3, 5, effects = [Effect(SpellTargeted(), [ActionTag(Give([Buff(ChangeAttack(1)), Buff(ChangeHealth(1))]), SelfSelector())])])
+
+
+------------bleu:  0.4859046485999119  --------------------------
+------------acc:  9  --------------------------
+------------bleu2:  0.5280716520422074  --------------------------
+------------acc2:  9  --------------------------
+-------number: 64------Complete Match----------------
+
+------------number:-----64---------------------
+------------modelGenCode:--------------------------
+
+class HungryDragon(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Hungry Dragon", 4, CHARACTER_CLASS.ALL, CARD_RARITY.COMMON, minion_type = MINION_TYPE.DRAGON, battlecry = Battlecry(Summon( +( +( +(hearthbreaker()))), conditions = [CurrentPlayer(), DRAGON()]), PlayerSelector()))
+
+    def DRAGON () :
+        return Minion(5, 6)
+
+
+------------GroundTrueCode:--------------------------
+
+class HungryDragon(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Hungry Dragon", 4, CHARACTER_CLASS.ALL, CARD_RARITY.COMMON, minion_type = MINION_TYPE.DRAGON, battlecry = Battlecry(Summon(CardQuery( conditions = [ManaCost(1), IsMinion()])), PlayerSelector(EnemyPlayer())))
+
+    def create_minion (self, player) :
+        return Minion(5, 6)
+
+
+------------bleu:  0.7445817858835414  --------------------------
+------------acc:  9  --------------------------
+------------bleu2:  0.7445817858835414  --------------------------
+------------acc2:  9  --------------------------
+-------number: 65------Complete Match----------------
+
+------------number:-----65---------------------
+------------modelGenCode:--------------------------
+
+class SolemnVigil(SpellCard ) : 
+    def __init__ (self) :
+        super().__init__("Solemn Vigil", 5, CHARACTER_CLASS.PALADIN, CARD_RARITY.COMMON, target_func = hearthbreaker.targeting.find_spell_target, costs = Buff(ManaChange(ManaChange(ManaChange(Count(DeadMinionSelector()))), -1), Selector( players = BothPlayer()), picker = game.other_player.hero))
+
+    def cards (player, player) :
+        super().can_use(player, game)
+
+
+------------GroundTrueCode:--------------------------
+
+class SolemnVigil(SpellCard ) : 
+    def __init__ (self) :
+        super().__init__("Solemn Vigil", 5, CHARACTER_CLASS.PALADIN, CARD_RARITY.COMMON, buffs = [Buff(ManaChange(Count(DeadMinionSelector( players = BothPlayer())), -1))])
+
+    def use (self, player, game) :
+        super().use(player, game)
+        for n in range(0, 2): 
+            player.draw()
+ 
+
+
+------------bleu:  0.6288561767508766  --------------------------
+------------acc:  9  --------------------------
+------------bleu2:  0.6304970117367378  --------------------------
+------------acc2:  9  --------------------------
+-------number: 66------Complete Match----------------
+
+-------------------ALL-BLUE-------------------
+0.7294662531712685
+-------------------ACC-------------------
+9
+-------------------ALL-BLUE--2-----------------
+0.727290538035589
+-------------------ACC--2-----------------
+9
+-------------------oklist-----------------
+[0, 1, 3, 7, 11, 12, 16, 59, 61]

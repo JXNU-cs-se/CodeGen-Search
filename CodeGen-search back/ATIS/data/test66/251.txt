@@ -1,0 +1,10 @@
+root Lambda variable $0 ^ ^ type e ^ ^ body Exists variable $1 ^ ^ body And arguments Apply predicate flight ^ ^ arguments Variable variable $1 ^ ^ ^ End ^ ^ ^ Apply predicate from ^ ^ arguments Variable variable $1 ^ ^ ^ Entity entity ci0 ^ ^ ^ End ^ ^ ^ Compare op Equal ^ ^ left Apply predicate aircraft_code ^ ^ arguments Variable variable $1 ^ ^ ^ End ^ ^ ^ ^ right Variable variable $0 ^ ^ ^ ^ ^ End ^ ^ ^ ^ ^ ^ ^ ^
+-0.011973230693896934
+root Lambda variable $0 ^ ^ type e ^ ^ body Exists variable $1 ^ ^ body And arguments Apply predicate flight ^ ^ arguments Variable variable $1 ^ ^ ^ End ^ ^ ^ Apply predicate from ^ ^ arguments Variable variable $1 ^ ^ ^ Entity entity ci0 ^ ^ ^ End ^ ^ ^ Apply predicate to ^ ^ arguments Variable variable $1 ^ ^ ^ Entity entity ci0 ^ ^ ^ End ^ ^ ^ Compare op Equal ^ ^ left Apply predicate aircraft_code ^ ^ arguments Variable variable $1 ^ ^ ^ End ^ ^ ^ ^ right Variable variable $0 ^ ^ ^ ^ ^ End ^ ^ ^ ^ ^ ^ ^ ^
+-0.2369521252523716
+root Lambda variable $0 ^ ^ type e ^ ^ body Exists variable $1 ^ ^ body And arguments Apply predicate flight ^ ^ arguments Variable variable $1 ^ ^ ^ End ^ ^ ^ Apply predicate from ^ ^ arguments Variable variable $1 ^ ^ ^ Entity entity ci0 ^ ^ ^ End ^ ^ ^ Apply predicate flight ^ ^ arguments Variable variable $1 ^ ^ ^ End ^ ^ ^ Compare op Equal ^ ^ left Apply predicate aircraft_code ^ ^ arguments Variable variable $1 ^ ^ ^ End ^ ^ ^ ^ right Variable variable $0 ^ ^ ^ ^ ^ End ^ ^ ^ ^ ^ ^ ^ ^
+-0.409763544795825
+root Lambda variable $0 ^ ^ type e ^ ^ body And arguments Apply predicate flight ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ Apply predicate from ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity ci0 ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^ ^ ^
+-0.9749861049998833
+root Lambda variable $0 ^ ^ type e ^ ^ body Exists variable $1 ^ ^ body And arguments Apply predicate flight ^ ^ arguments Variable variable $1 ^ ^ ^ End ^ ^ ^ Apply predicate from ^ ^ arguments Variable variable $1 ^ ^ ^ Entity entity ci0 ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^ ^ ^ ^ ^
+-1.1042356835723075

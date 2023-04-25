@@ -1,0 +1,16 @@
+
+class Polymorph(SpellCard ) : 
+    def __init__ (self) :
+        super().__init__("Polymorph", 4, CHARACTER_CLASS.MAGE, CARD_RARITY.FREE, target_func = hearthbreaker.targeting.find_minion_spell_target)
+
+    def use (self, player, game) :
+        super().use(player, game)
+        
+            sheep = hearthbreaker.cards.minions.neutral.neutral.neutral.Frog()
+        
+            dude = player.card.card
+        if  temp_attack is 0 : 
+            player.put_back(player.game, node_genattrattrattrattrattrattrattrattrattrattrattrattrattrattrattrattrattrattrattrattrattrattrattrattrattr, Call)
+
+
+

@@ -1,0 +1,1 @@
+One - eyed Cheat NAME_END 4 ATK_END 1 DEF_END 2 COST_END -1 DUR_END Minion TYPE_END ROGUE PLAYER_CLS_END PIRATE RACE_END RARE RARITY_END whenever you summon a pirate , gain < b > stealth < /b > .

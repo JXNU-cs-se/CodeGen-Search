@@ -1,0 +1,1 @@
+show me all flight and fare from ci1 to ci0

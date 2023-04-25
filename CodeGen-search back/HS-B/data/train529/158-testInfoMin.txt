@@ -1,0 +1,1 @@
+Ogre Ninja NAME_END 6 ATK_END 6 DEF_END 5 COST_END -1 DUR_END Minion TYPE_END ROGUE PLAYER_CLS_END NIL RACE_END RARE RARITY_END < b > stealth < /b > nl 50 % chance to attack the wrong enemy .

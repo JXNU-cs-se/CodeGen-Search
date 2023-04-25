@@ -1,0 +1,1 @@
+Deathwing NAME_END 12 ATK_END 12 DEF_END 10 COST_END -1 DUR_END Minion TYPE_END NEUTRAL PLAYER_CLS_END DRAGON RACE_END LEGENDARY RARITY_END < b > battlecry : < /b > destroy all other minions and discard your hand .

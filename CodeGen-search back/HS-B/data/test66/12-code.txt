@@ -1,0 +1,9 @@
+
+class StormwindKnight(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Stormwind Knight", 4, CHARACTER_CLASS.ALL, CARD_RARITY.COMMON)
+
+    def create_minion (self, player) :
+        return Minion(2, 5, charge = True)
+
+

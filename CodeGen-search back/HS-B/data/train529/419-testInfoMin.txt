@@ -1,0 +1,1 @@
+Stoneskin Gargoyle NAME_END 1 ATK_END 4 DEF_END 3 COST_END -1 DUR_END Minion TYPE_END NEUTRAL PLAYER_CLS_END NIL RACE_END COMMON RARITY_END at the start of your turn , restore this minion to full health .

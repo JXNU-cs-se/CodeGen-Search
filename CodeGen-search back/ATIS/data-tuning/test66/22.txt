@@ -1,0 +1,10 @@
+root Entity entity al0 ^ ^ ^ ^
+-2.4665979922855515e-06
+root Apply predicate services ^ ^ arguments Entity entity al0 ^ ^ ^ End ^ ^ ^ ^
+-3.8466079113812164
+root Apply predicate equals ^ ^ arguments Entity entity al0 ^ ^ ^ End ^ ^ ^ ^
+-4.809412316567701
+root Apply predicate abbrev ^ ^ arguments Entity entity al0 ^ ^ ^ End ^ ^ ^ ^
+-5.081121185181476
+root Apply predicate services ^ ^ arguments Entity entity al0 ^ ^ ^ Entity entity delta:al ^ ^ ^ End ^ ^ ^ ^
+-6.088742939004554

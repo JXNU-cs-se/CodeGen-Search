@@ -1,0 +1,10 @@
+root Entity entity ac0 ^ ^ ^ ^
+-0.17124214980363683
+root Lambda variable $0 ^ ^ type e ^ ^ body Exists variable $1 ^ ^ body And arguments Apply predicate aircraft_code ^ ^ arguments Variable variable $1 ^ ^ ^ Entity entity ac0 ^ ^ ^ End ^ ^ ^ Compare op Equal ^ ^ left Apply predicate aircraft_code ^ ^ arguments Variable variable $1 ^ ^ ^ End ^ ^ ^ ^ right Variable variable $0 ^ ^ ^ ^ ^ End ^ ^ ^ ^ ^ ^ ^ ^
+-0.31253356275361444
+root Lambda variable $0 ^ ^ type e ^ ^ body Exists variable $1 ^ ^ body And arguments Apply predicate aircraft_code ^ ^ arguments Variable variable $1 ^ ^ ^ Entity entity ac0 ^ ^ ^ End ^ ^ ^ Apply predicate booking_class ^ ^ arguments Variable variable $1 ^ ^ ^ Entity entity ac0 ^ ^ ^ End ^ ^ ^ Compare op Equal ^ ^ left Apply predicate aircraft_code ^ ^ arguments Variable variable $1 ^ ^ ^ End ^ ^ ^ ^ right Variable variable $0 ^ ^ ^ ^ ^ End ^ ^ ^ ^ ^ ^ ^ ^
+-0.361793014600424
+root Lambda variable $0 ^ ^ type e ^ ^ body Exists variable $1 ^ ^ body And arguments Apply predicate aircraft_code ^ ^ arguments Variable variable $1 ^ ^ ^ Entity entity ac0 ^ ^ ^ End ^ ^ ^ Apply predicate from ^ ^ arguments Variable variable $1 ^ ^ ^ Entity entity call ^ ^ ^ End ^ ^ ^ Compare op Equal ^ ^ left Apply predicate aircraft_code ^ ^ arguments Variable variable $1 ^ ^ ^ End ^ ^ ^ ^ right Variable variable $0 ^ ^ ^ ^ ^ End ^ ^ ^ ^ ^ ^ ^ ^
+-0.40843856458034405
+root Lambda variable $0 ^ ^ type e ^ ^ body Exists variable $1 ^ ^ body And arguments Apply predicate aircraft_code ^ ^ arguments Variable variable $1 ^ ^ ^ Entity entity ac0 ^ ^ ^ End ^ ^ ^ Apply predicate from ^ ^ arguments Variable variable $1 ^ ^ ^ Entity entity ac0 ^ ^ ^ End ^ ^ ^ Compare op Equal ^ ^ left Apply predicate aircraft_code ^ ^ arguments Variable variable $1 ^ ^ ^ End ^ ^ ^ ^ right Variable variable $0 ^ ^ ^ ^ ^ End ^ ^ ^ ^ ^ ^ ^ ^
+-0.4370082974461099

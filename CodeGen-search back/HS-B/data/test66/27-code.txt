@@ -1,0 +1,9 @@
+
+class SiltfinSpiritwalker(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Siltfin Spiritwalker", 4, CHARACTER_CLASS.SHAMAN, CARD_RARITY.EPIC, minion_type = MINION_TYPE.MURLOC)
+
+    def create_minion (self, player) :
+        return Minion(2, 5, effects = [Effect(MinionDied(), ActionTag(Draw(), SelfSelector()))])
+
+

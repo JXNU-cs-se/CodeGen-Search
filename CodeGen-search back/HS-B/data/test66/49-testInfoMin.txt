@@ -1,0 +1,1 @@
+Murloc Tidecaller NAME_END 1 ATK_END 2 DEF_END 1 COST_END -1 DUR_END Minion TYPE_END NEUTRAL PLAYER_CLS_END MURLOC RACE_END RARE RARITY_END whenever a murloc is summoned , gain + 1 attack .

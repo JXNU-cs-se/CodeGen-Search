@@ -1,0 +1,1 @@
+Dragon 's Breath NAME_END -1 ATK_END -1 DEF_END 5 COST_END -1 DUR_END Spell TYPE_END MAGE PLAYER_CLS_END NIL RACE_END COMMON RARITY_END deal $ 4 damage . costs ( 1 ) less for each minion that died this turn .

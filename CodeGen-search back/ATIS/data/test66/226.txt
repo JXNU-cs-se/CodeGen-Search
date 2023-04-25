@@ -1,0 +1,10 @@
+root Lambda variable $0 ^ ^ type e ^ ^ body And arguments Apply predicate flight ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ Apply predicate to ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity ci0 ^ ^ ^ End ^ ^ ^ Apply predicate next_days ^ ^ arguments Variable variable $0 ^ ^ ^ Number number 2:i ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^ ^ ^
+-0.05209391247728575
+root Lambda variable $0 ^ ^ type e ^ ^ body And arguments Apply predicate flight ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ Apply predicate to ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity ci0 ^ ^ ^ End ^ ^ ^ Apply predicate next_days ^ ^ arguments Variable variable $0 ^ ^ ^ Number number 9:hr ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^ ^ ^
+-0.2267120647568515
+root Lambda variable $0 ^ ^ type e ^ ^ body And arguments Apply predicate flight ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ Apply predicate during_day ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity ci0 ^ ^ ^ End ^ ^ ^ Apply predicate next_days ^ ^ arguments Variable variable $0 ^ ^ ^ Number number 2:i ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^ ^ ^
+-0.30114554242538477
+root Lambda variable $0 ^ ^ type e ^ ^ body And arguments Apply predicate flight ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ Apply predicate from ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity ci0 ^ ^ ^ End ^ ^ ^ Apply predicate to ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity ci0 ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^ ^ ^
+-0.3457742842188775
+root Lambda variable $0 ^ ^ type e ^ ^ body And arguments Apply predicate flight ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ Apply predicate during_day ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity ci0 ^ ^ ^ End ^ ^ ^ Apply predicate next_days ^ ^ arguments Variable variable $0 ^ ^ ^ Number number 9:hr ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^ ^ ^
+-0.44144161767497475

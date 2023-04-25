@@ -1,0 +1,1 @@
+i want to fli from ci0 to ci1 and make a stopov in ci2

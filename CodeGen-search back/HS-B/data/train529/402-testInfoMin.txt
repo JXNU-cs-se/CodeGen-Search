@@ -1,0 +1,1 @@
+Dread Infernal NAME_END 6 ATK_END 6 DEF_END 6 COST_END -1 DUR_END Minion TYPE_END WARLOCK PLAYER_CLS_END DEMON RACE_END COMMON RARITY_END < b > battlecry : < /b > deal 1 damage to all other characters .

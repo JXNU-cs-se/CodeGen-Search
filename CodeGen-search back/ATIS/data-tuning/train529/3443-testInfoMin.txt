@@ -1,0 +1,1 @@
+show me all fare between ci1 and ci0 that are less than do0 one way

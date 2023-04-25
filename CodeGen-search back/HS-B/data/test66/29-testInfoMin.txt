@@ -1,0 +1,1 @@
+Hemet Nesingwary NAME_END 6 ATK_END 3 DEF_END 5 COST_END -1 DUR_END Minion TYPE_END NEUTRAL PLAYER_CLS_END NIL RACE_END LEGENDARY RARITY_END < b > battlecry : < /b > destroy a beast .

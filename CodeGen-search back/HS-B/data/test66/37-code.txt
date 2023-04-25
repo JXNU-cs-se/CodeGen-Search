@@ -1,0 +1,16 @@
+
+class BladeFlurry(SpellCard ) : 
+    def __init__ (self) :
+        super().__init__("Blade Flurry", 2, CHARACTER_CLASS.ROGUE, CARD_RARITY.RARE)
+
+    def use (self, player, game) :
+        super().use(player, game)
+        
+            targets = hearthbreaker.targeting.find_enemy_minion_battlecry_target(targets)
+        
+            targets = copy.copy(game.other_player.minions)
+        targets.extend(player.hero.minions)
+        targets.append(game.hero.hero.hero)
+        if  weapon.hero.hero.hero.hero.hero > hearthbreaker.draw(self).hero(self, node_gen) and Compare : body
+
+

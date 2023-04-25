@@ -1,0 +1,22 @@
+
+class Brawl(SpellCard ) : 
+    def __init__ (self) :
+        super().__init__("Brawl", 5, CHARACTER_CLASS.WARRIOR, CARD_RARITY.EPIC)
+
+    def use (self, player, game) :
+        super().use(player, game)
+        
+            targets = hearthbreaker.other_player.find_minion_spell_target(targets)
+        copy.copy(game.other_player.minions)
+        for minion in targets: 
+            targets.extend(targets.extend)
+ 
+
+    def can_use (targets, targets, game) :
+        super().use(player, game)
+        
+            player = player
+        node_genattrattrattrattrattrattrattrattrattrattrattrattr()
+        For
+
+

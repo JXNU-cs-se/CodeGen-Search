@@ -1,0 +1,1 @@
+Stormpike Commando NAME_END 4 ATK_END 2 DEF_END 5 COST_END -1 DUR_END Minion TYPE_END NEUTRAL PLAYER_CLS_END NIL RACE_END COMMON RARITY_END < b > battlecry : < /b > deal 2 damage .

@@ -1,0 +1,1 @@
+Flame Imp NAME_END 3 ATK_END 2 DEF_END 1 COST_END -1 DUR_END Minion TYPE_END WARLOCK PLAYER_CLS_END DEMON RACE_END COMMON RARITY_END < b > battlecry : < /b > deal 3 damage to your hero .

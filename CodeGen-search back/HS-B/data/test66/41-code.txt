@@ -1,0 +1,9 @@
+
+class Doomguard(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Doomguard", 5, CHARACTER_CLASS.WARLOCK, CARD_RARITY.RARE, minion_type = MINION_TYPE.DEMON, battlecry = Battlecry(Draw(), PlayerSelector()))
+
+    def create_minion (self, player) :
+        return Minion(5, 7)
+
+

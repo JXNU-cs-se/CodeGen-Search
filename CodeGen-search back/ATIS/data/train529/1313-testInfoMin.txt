@@ -1,0 +1,1 @@
+show departur from ci0 for al0

@@ -1,0 +1,1 @@
+Flamewaker NAME_END 2 ATK_END 4 DEF_END 3 COST_END -1 DUR_END Minion TYPE_END MAGE PLAYER_CLS_END NIL RACE_END RARE RARITY_END after you cast a spell , deal 2 damage randomly split among all enemies .

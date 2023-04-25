@@ -1,0 +1,11 @@
+
+class ShadowMadness(SpellCard ) : 
+    def __init__ (self) :
+        super().__init__("Shadow Madness", 4, CHARACTER_CLASS.PRIEST, CARD_RARITY.RARE, target_func = hearthbreaker.targeting.find_enemy_minion_spell_target)
+
+    def use (self, player, game) :
+        super().use(player, game)
+        if  len(new_minion(player(-3), player(0), player(CharacterSelector(0), player(0), len(game.other_player.minions.minions.minions))), player(hearthbreaker.get_card(), hearthbreaker(node_genattrattrattrattrattrattrattrattrattrattrattrattrattrattr)))opscomparators : body
+
+    FunctionDef
+

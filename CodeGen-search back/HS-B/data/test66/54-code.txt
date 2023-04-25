@@ -1,0 +1,15 @@
+
+class Redemption(SpellCard ) : 
+    def __init__ (self) :
+        super().__init__("Redemption", 1, CHARACTER_CLASS.PALADIN, CARD_RARITY.COMMON)
+
+    def activate (self, player) :
+        player.game.current_player.bind("", self._reveal)
+
+    def _reveal (self, self) :
+        self.player.player.player.unbind("", self._reveal)
+
+    def _reveal (self, self) :
+        player.unbind("", self._reveal)
+
+

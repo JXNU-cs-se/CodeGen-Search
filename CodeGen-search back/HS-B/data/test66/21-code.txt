@@ -1,0 +1,9 @@
+
+class GnomishExperimenter(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Gnomish Experimenter", 3, CHARACTER_CLASS.ALL, CARD_RARITY.RARE, battlecry = Battlecry(Draw(), PlayerSelector( players = BothPlayer(), picker = Battlecry(MinionIsNotTarget(), PlayerSelector()))))
+
+    def create_minion (self, player) :
+        return Minion(3, 2)
+
+

@@ -1,0 +1,9 @@
+
+class Defender(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Defender", 1, CHARACTER_CLASS.PALADIN, CARD_RARITY.COMMON)
+
+    def create_minion (self, player) :
+        return Minion(2, 1)
+
+

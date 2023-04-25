@@ -1,0 +1,1 @@
+Chromaggus NAME_END 6 ATK_END 8 DEF_END 8 COST_END -1 DUR_END Minion TYPE_END NEUTRAL PLAYER_CLS_END DRAGON RACE_END LEGENDARY RARITY_END whenever you draw a card , put another copy into your hand .

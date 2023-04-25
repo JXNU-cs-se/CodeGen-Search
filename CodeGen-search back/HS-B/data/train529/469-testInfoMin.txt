@@ -1,0 +1,1 @@
+Argent Commander NAME_END 4 ATK_END 2 DEF_END 6 COST_END -1 DUR_END Minion TYPE_END NEUTRAL PLAYER_CLS_END NIL RACE_END RARE RARITY_END < b > charge < /b > nl < b > divine_shield < /b >

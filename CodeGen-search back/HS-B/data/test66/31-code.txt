@@ -1,0 +1,9 @@
+
+class Maexxna(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Maexxna", 6, CHARACTER_CLASS.ALL, CARD_RARITY.LEGENDARY, minion_type = MINION_TYPE.BEAST)
+
+    def create_minion (self, player) :
+        return Minion(2, 8, effects = [Effect(DidDamage(Kill(), TargetSelector()), ActionTag(LaughingSister(super()), SelfSelector()))])
+
+

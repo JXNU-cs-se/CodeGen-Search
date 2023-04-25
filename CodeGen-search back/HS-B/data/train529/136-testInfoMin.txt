@@ -1,0 +1,1 @@
+Priestess of Elune NAME_END 5 ATK_END 4 DEF_END 6 COST_END -1 DUR_END Minion TYPE_END NEUTRAL PLAYER_CLS_END NIL RACE_END COMMON RARITY_END < b > battlecry : < /b > restore 4 health to your hero .

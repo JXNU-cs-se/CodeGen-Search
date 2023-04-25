@@ -1,0 +1,9 @@
+
+class DragonkinSorcerer(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Dragonkin Sorcerer", 4, CHARACTER_CLASS.ALL, CARD_RARITY.COMMON, minion_type = MINION_TYPE.DRAGON)
+
+    def create_minion (self, player) :
+        return Minion(3, 5, effects = [Effect(SpellCast(Give([ChangeAttack(ChangeAttack(ChangeAttack(SelfSelector()))), Effect(ArmorIncreased(), ActionTag( +(self()), LaughingSister(LaughingSister(), EnemyPlayer())))]), BothPlayer()), BothPlayer()), Aura(LaughingSister(1(), LaughingSister( node_gen)), Call)])
+
+

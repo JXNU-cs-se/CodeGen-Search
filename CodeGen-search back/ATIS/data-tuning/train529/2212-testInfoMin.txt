@@ -1,0 +1,1 @@
+list type of aircraft that connect ci1 and ci0

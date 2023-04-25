@@ -1,0 +1,1 @@
+Flame Leviathan NAME_END 7 ATK_END 7 DEF_END 7 COST_END -1 DUR_END Minion TYPE_END MAGE PLAYER_CLS_END MECH RACE_END LEGENDARY RARITY_END when you draw this , deal 2 damage to all characters .

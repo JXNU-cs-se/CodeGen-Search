@@ -1,0 +1,15 @@
+
+class ExplosiveTrap(SpellCard ) : 
+    def __init__ (self) :
+        super().__init__("Explosive Trap", 2, CHARACTER_CLASS.HUNTER, CARD_RARITY.COMMON)
+
+    def activate (self, player) :
+        player.game.game.bind("", self._reveal)
+
+    def _reveal (self, self) :
+        player.unbind("", self.player)
+
+    def _reveal (self, self) :
+        self
+
+

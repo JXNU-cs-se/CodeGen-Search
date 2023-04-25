@@ -1,0 +1,15 @@
+
+class Misdirection(SpellCard ) : 
+    def __init__ (self) :
+        super().__init__("Misdirection", 2, CHARACTER_CLASS.HUNTER, CARD_RARITY.RARE)
+
+    def activate (self, player) :
+        player.game.current_player.bind("", self._reveal)
+
+    def _reveal (self, self) :
+        attacker.player.player.player.unbind("", self._reveal)
+
+    def _reveal (self, self) :
+        player.unbind("", self._reveal)
+
+

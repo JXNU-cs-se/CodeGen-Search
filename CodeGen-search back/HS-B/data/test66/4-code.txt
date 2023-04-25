@@ -1,0 +1,9 @@
+
+class FrostwolfWarlord(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Frostwolf Warlord", 5, CHARACTER_CLASS.ALL, CARD_RARITY.COMMON, battlecry = Battlecry(Give([Give(ChangeAttack(ChangeAttack(ChangeAttack(ChangeAttack(BothPlayer())))), picker = UserPicker()), Battlecry(Kill(), MinionSelector(MinionSelector(TargetAdjacent(), Count(PlayerSelector())), UserPicker()))]), MinionSelector()))
+
+    def create_minion () :
+        return Minion(4, 4)
+
+

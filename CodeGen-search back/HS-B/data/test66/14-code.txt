@@ -1,0 +1,9 @@
+
+class WrathOfAirTotem(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Wrath of Air Totem", 1, CHARACTER_CLASS.SHAMAN, CARD_RARITY.FREE, minion_type = MINION_TYPE.TOTEM)
+
+    def create_minion (self, player) :
+        return Minion(0, 2, spell_damage = 1)
+
+

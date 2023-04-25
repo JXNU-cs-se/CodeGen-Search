@@ -1,0 +1,10 @@
+root Entity entity fb0 ^ ^ ^ ^
+-6.166480646183376e-08
+root Apply predicate fare_basis_code ^ ^ arguments Entity entity fb0 ^ ^ ^ Apply predicate abbrev ^ ^ arguments Entity entity fb0 ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^
+-4.2888471246906565
+root Apply predicate fare_basis_code ^ ^ arguments Entity entity fb0 ^ ^ ^ Apply predicate abbrev ^ ^ arguments Entity entity delta:al ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^
+-4.574154779283853
+root Apply predicate fare_basis_code ^ ^ arguments Entity entity fb0 ^ ^ ^ End ^ ^ ^ ^
+-4.969107000093602
+root Apply predicate fare_basis_code ^ ^ arguments Entity entity fb0 ^ ^ ^ Apply predicate abbrev ^ ^ arguments End ^ ^ ^ End ^ ^ ^ ^
+-5.933743430557804

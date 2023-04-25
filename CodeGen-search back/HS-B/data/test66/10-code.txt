@@ -1,0 +1,9 @@
+
+class SearingTotem(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Searing Totem", 1, CHARACTER_CLASS.SHAMAN, CARD_RARITY.FREE, False, minion_type = MINION_TYPE.TOTEM)
+
+    def create_minion (self, player) :
+        return Minion(1, 1)
+
+

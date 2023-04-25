@@ -1,0 +1,10 @@
+root Lambda variable $0 ^ ^ type e ^ ^ body And arguments Apply predicate city ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ Apply predicate services ^ ^ arguments Entity entity al0 ^ ^ ^ Variable variable $0 ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^ ^ ^
+-0.00442919912588672
+root Lambda variable $0 ^ ^ type e ^ ^ body And arguments Apply predicate flight ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ Apply predicate services ^ ^ arguments Entity entity al0 ^ ^ ^ Variable variable $0 ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^ ^ ^
+-1.007269232775679
+root Lambda variable $0 ^ ^ type e ^ ^ body Exists variable $1 ^ ^ body And arguments Apply predicate city ^ ^ arguments Variable variable $1 ^ ^ ^ End ^ ^ ^ Apply predicate services ^ ^ arguments Entity entity al0 ^ ^ ^ Variable variable $1 ^ ^ ^ End ^ ^ ^ Compare op Equal ^ ^ left Apply predicate city ^ ^ arguments Variable variable $1 ^ ^ ^ End ^ ^ ^ ^ right Variable variable $0 ^ ^ ^ ^ ^ End ^ ^ ^ ^ ^ ^ ^ ^
+-1.0179367569039925
+root Lambda variable $0 ^ ^ type e ^ ^ body And arguments Apply predicate city ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ Apply predicate services ^ ^ arguments Entity entity al0 ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^ ^ ^
+-1.1679992188530524
+root Lambda variable $0 ^ ^ type e ^ ^ body And arguments Apply predicate city ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ Apply predicate services ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity al0 ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^ ^ ^
+-1.4794625006312965

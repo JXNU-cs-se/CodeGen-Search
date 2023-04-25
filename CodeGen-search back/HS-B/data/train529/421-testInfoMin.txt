@@ -1,0 +1,1 @@
+Corruption NAME_END -1 ATK_END -1 DEF_END 1 COST_END -1 DUR_END Spell TYPE_END WARLOCK PLAYER_CLS_END NIL RACE_END COMMON RARITY_END choose an enemy minion . at the start of your turn , destroy it .

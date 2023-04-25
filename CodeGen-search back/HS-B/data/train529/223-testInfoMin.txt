@@ -1,0 +1,1 @@
+Water Elemental NAME_END 3 ATK_END 6 DEF_END 4 COST_END -1 DUR_END Minion TYPE_END MAGE PLAYER_CLS_END NIL RACE_END COMMON RARITY_END < b > freeze < /b > any character damaged by this minion .

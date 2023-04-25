@@ -1,0 +1,1 @@
+Metaltooth Leaper NAME_END 3 ATK_END 3 DEF_END 3 COST_END -1 DUR_END Minion TYPE_END HUNTER PLAYER_CLS_END MECH RACE_END RARE RARITY_END < b > battlecry < /b > : give your other mechs + 2 attack .

@@ -1,0 +1,1 @@
+Unstable Ghoul NAME_END 1 ATK_END 3 DEF_END 2 COST_END -1 DUR_END Minion TYPE_END NEUTRAL PLAYER_CLS_END NIL RACE_END COMMON RARITY_END < b > taunt < /b > . < b > deathrattle : < /b > deal 1 damage to all minions .

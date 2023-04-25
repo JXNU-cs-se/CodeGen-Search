@@ -1,0 +1,1 @@
+Illidan Stormrage NAME_END 7 ATK_END 5 DEF_END 6 COST_END -1 DUR_END Minion TYPE_END NEUTRAL PLAYER_CLS_END DEMON RACE_END LEGENDARY RARITY_END whenever you play a card , summon a 2/1 flame of azzinoth .

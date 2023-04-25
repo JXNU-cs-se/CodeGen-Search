@@ -1,0 +1,1 @@
+show me all flight that arriv in ci0 from ci1 ci2 or ci3

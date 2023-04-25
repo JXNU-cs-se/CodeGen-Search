@@ -1,0 +1,9 @@
+
+class SilverbackPatriarch(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Silverback Patriarch", 3, CHARACTER_CLASS.ALL, CARD_RARITY.COMMON, minion_type = MINION_TYPE.BEAST)
+
+    def create_minion (self, player) :
+        return Minion(1, 4, taunt = True)
+
+

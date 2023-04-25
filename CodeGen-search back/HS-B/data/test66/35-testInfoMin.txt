@@ -1,0 +1,1 @@
+Leeroy Jenkins NAME_END 6 ATK_END 2 DEF_END 5 COST_END -1 DUR_END Minion TYPE_END NEUTRAL PLAYER_CLS_END NIL RACE_END LEGENDARY RARITY_END < b > charge < /b > . < b > battlecry : < /b > summon two 1/1 whelps for your opponent .

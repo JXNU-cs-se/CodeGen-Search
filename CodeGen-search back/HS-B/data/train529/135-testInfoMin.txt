@@ -1,0 +1,1 @@
+Fel Cannon NAME_END 3 ATK_END 5 DEF_END 4 COST_END -1 DUR_END Minion TYPE_END WARLOCK PLAYER_CLS_END MECH RACE_END RARE RARITY_END at the end of your turn , deal 2 damage to a non - mech minion .

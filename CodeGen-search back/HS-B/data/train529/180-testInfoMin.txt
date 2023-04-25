@@ -1,0 +1,1 @@
+Ethereal Arcanist NAME_END 3 ATK_END 3 DEF_END 4 COST_END -1 DUR_END Minion TYPE_END MAGE PLAYER_CLS_END NIL RACE_END RARE RARITY_END if you control a < b > secret < /b > at the end of your turn , gain + 2 / + 2 .

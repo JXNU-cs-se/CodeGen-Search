@@ -1,0 +1,10 @@
+root Entity entity fb0 ^ ^ ^ ^
+-3.08324023120396e-08
+root Entity entity b:fb ^ ^ ^ ^
+-9.623646028783359
+root Entity entity delta:al ^ ^ ^ ^
+-9.777143526148196
+root Entity entity boeing:mf ^ ^ ^ ^
+-10.484940229789311
+root Entity entity sa:dc ^ ^ ^ ^
+-10.94655902903863

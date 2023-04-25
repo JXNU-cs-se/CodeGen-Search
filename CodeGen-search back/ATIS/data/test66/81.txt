@@ -1,0 +1,10 @@
+root Entity entity al0 ^ ^ ^ ^
+-0.0002499569798215794
+root Apply predicate equals ^ ^ arguments Entity entity al0 ^ ^ ^ Apply predicate abbrev ^ ^ arguments Entity entity delta:al ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^
+-1.7759239868663925
+root Apply predicate equals ^ ^ arguments Entity entity al0 ^ ^ ^ End ^ ^ ^ ^
+-2.5200581827307076
+root Apply predicate equals ^ ^ arguments Entity entity al0 ^ ^ ^ Apply predicate abbrev ^ ^ arguments Entity entity usair:al ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^
+-2.6746706059727807
+root Apply predicate equals ^ ^ arguments Entity entity al0 ^ ^ ^ Apply predicate abbrev ^ ^ arguments Entity entity al0 ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^
+-2.7887395053723014

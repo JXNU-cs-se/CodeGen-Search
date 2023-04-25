@@ -1,0 +1,1 @@
+Bane of Doom NAME_END -1 ATK_END -1 DEF_END 5 COST_END -1 DUR_END Spell TYPE_END WARLOCK PLAYER_CLS_END NIL RACE_END EPIC RARITY_END deal $ 2 damage to a character . if that kills it , summon a random demon .

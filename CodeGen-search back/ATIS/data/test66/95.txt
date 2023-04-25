@@ -1,0 +1,10 @@
+root Entity entity al0 ^ ^ ^ ^
+-0.00022345945479617662
+root Apply predicate equals ^ ^ arguments Entity entity al0 ^ ^ ^ End ^ ^ ^ ^
+-2.561351843226577
+root Apply predicate equals:t ^ ^ arguments Entity entity al0 ^ ^ ^ End ^ ^ ^ ^
+-2.862166066318204
+root Apply predicate airline_name ^ ^ arguments Entity entity al0 ^ ^ ^ End ^ ^ ^ ^
+-3.155529991402599
+root Apply predicate services ^ ^ arguments Entity entity al0 ^ ^ ^ End ^ ^ ^ ^
+-3.768057628865405

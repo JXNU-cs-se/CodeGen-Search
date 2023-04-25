@@ -1,0 +1,1 @@
+show me all flight out of ci0 on mn0 dn0 that have busi class

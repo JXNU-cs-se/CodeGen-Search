@@ -1,0 +1,1 @@
+Twilight Drake NAME_END 4 ATK_END 1 DEF_END 4 COST_END -1 DUR_END Minion TYPE_END NEUTRAL PLAYER_CLS_END DRAGON RACE_END RARE RARITY_END < b > battlecry : < /b > gain + 1 health for each card in your hand .

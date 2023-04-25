@@ -1,0 +1,10 @@
+root Apply predicate capacity ^ ^ arguments Entity entity ac0 ^ ^ ^ End ^ ^ ^ ^
+-0.00031010559477551294
+root Apply predicate equals ^ ^ arguments Entity entity ac0 ^ ^ ^ End ^ ^ ^ ^
+-2.2362165521703194
+root Apply predicate equals ^ ^ arguments Entity entity ac0 ^ ^ ^ Variable variable $0 ^ ^ ^ End ^ ^ ^ ^
+-2.2957100693124284
+root Apply predicate capacity ^ ^ arguments Entity entity ac0 ^ ^ ^ Entity entity ac0 ^ ^ ^ End ^ ^ ^ ^
+-2.596520174596667
+root Apply predicate equals ^ ^ arguments Entity entity ac0 ^ ^ ^ Apply predicate abbrev ^ ^ arguments End ^ ^ ^ End ^ ^ ^ ^
+-3.332724396606537

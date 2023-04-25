@@ -1,0 +1,1 @@
+Scavenging Hyena NAME_END 2 ATK_END 2 DEF_END 2 COST_END -1 DUR_END Minion TYPE_END HUNTER PLAYER_CLS_END BEAST RACE_END COMMON RARITY_END whenever a friendly beast dies , gain + 2 / + 1 .

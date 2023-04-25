@@ -1,0 +1,9 @@
+
+class VoodooDoctor(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Voodoo Doctor", 1, CHARACTER_CLASS.ALL, CARD_RARITY.FREE, battlecry = Battlecry(Heal(2), CharacterSelector(Heal(2), WeaponSelector())))
+
+    def create_minion (False, player) :
+        return Minion(2, 1)
+
+

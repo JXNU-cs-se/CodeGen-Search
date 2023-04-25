@@ -1,0 +1,1 @@
+Millhouse Manastorm NAME_END 4 ATK_END 4 DEF_END 2 COST_END -1 DUR_END Minion TYPE_END NEUTRAL PLAYER_CLS_END NIL RACE_END LEGENDARY RARITY_END < b > battlecry : < /b > enemy spells cost ( 0 ) next turn .

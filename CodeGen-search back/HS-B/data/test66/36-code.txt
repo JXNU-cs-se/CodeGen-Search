@@ -1,0 +1,9 @@
+
+class BaineBloodhoof(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Baine Bloodhoof", 4, CHARACTER_CLASS.ALL, CARD_RARITY.LEGENDARY)
+
+    def create_minion (self, player) :
+        return Minion(4, 5)
+
+

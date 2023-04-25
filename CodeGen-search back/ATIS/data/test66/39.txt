@@ -1,0 +1,10 @@
+root Entity entity ac0 ^ ^ ^ ^
+-3.08324023120396e-08
+root Apply predicate equals ^ ^ arguments Entity entity ac0 ^ ^ ^ Apply predicate abbrev ^ ^ arguments Entity entity delta:al ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^
+-4.97408782108242
+root Apply predicate equals ^ ^ arguments Entity entity ac0 ^ ^ ^ Apply predicate departure_time ^ ^ arguments Entity entity delta:al ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^
+-5.344128190292855
+root Apply predicate equals ^ ^ arguments Entity entity ac0 ^ ^ ^ End ^ ^ ^ ^
+-5.355733322179601
+root Apply predicate equals ^ ^ arguments Entity entity ac0 ^ ^ ^ Apply predicate abbrev ^ ^ arguments Entity entity usair:al ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^
+-5.373998061860779

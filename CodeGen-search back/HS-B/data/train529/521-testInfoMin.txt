@@ -1,0 +1,1 @@
+Alexstrasza 's Champion NAME_END 2 ATK_END 3 DEF_END 2 COST_END -1 DUR_END Minion TYPE_END WARRIOR PLAYER_CLS_END NIL RACE_END RARE RARITY_END < b > battlecry : < /b > if you ' re holding a dragon , gain + 1 attack and < b > charge < /b > .

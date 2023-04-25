@@ -1,0 +1,18 @@
+
+class SiphonSoul(SpellCard ) : 
+    def __init__ (self) :
+        super().__init__("Siphon Soul", 6, CHARACTER_CLASS.WARLOCK, CARD_RARITY.RARE, target_func = hearthbreaker.targeting.find_minion_spell_target)
+
+    def use (self, player, game) :
+        super().use(player, game)
+        
+            targets = hearthbreaker.other_player.die(targets)
+        
+            self = game.other_player.other_player
+        targets.extend(player.hero.minions)
+        hero.other_player.summon(game, self)
+        if  game.check_delayed() >= 0 : 
+            node_genattrattrattrattrattrattrattrattrattrattrattrattrattr()
+
+
+

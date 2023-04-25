@@ -1,0 +1,10 @@
+root Apply predicate capacity ^ ^ arguments Entity entity ac0 ^ ^ ^ End ^ ^ ^ ^
+-0.00022261427735571505
+root Sum variable $0 ^ ^ domain And arguments Apply predicate capacity ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity ac0 ^ ^ ^ End ^ ^ ^ Apply predicate airline ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity ac0 ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^ body Apply predicate capacity ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ ^ ^ ^
+-2.009341539242948
+root Apply predicate capacity ^ ^ arguments Entity entity ac0 ^ ^ ^ Apply predicate capacity ^ ^ arguments Entity entity ac0 ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^
+-2.217265942510811
+root Apply predicate capacity ^ ^ arguments Entity entity boeing:mf ^ ^ ^ End ^ ^ ^ ^
+-2.3042104007827877
+root Apply predicate capacity ^ ^ arguments Entity entity ac0 ^ ^ ^ Apply predicate capacity ^ ^ arguments Entity entity boeing:mf ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^
+-2.329051553398135

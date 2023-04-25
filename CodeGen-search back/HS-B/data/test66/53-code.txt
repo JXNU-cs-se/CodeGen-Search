@@ -1,0 +1,20 @@
+
+class PowerOfTheWild(SpellCard ) : 
+    def __init__ (self) :
+        super().__init__("Power of the Wild", 2, CHARACTER_CLASS.DRUID, CARD_RARITY.COMMON)
+
+    def use (self, player, game) :
+        super().use(player, game)
+        player.current_player.base_attack += 0
+        hearthbreaker.targeting.increase_health(player.agent.find_minion_spell_target,  lambda  player : 
+            option
+)
+        if  game.other_player.hero.divine_shield : 
+            super().can_use(player, game)
+
+            else : if  player.hero.minions : 
+            return node_genattrattrattrattrattrattrattrattrattrattrattrattrattrattrattrattrattrattr()
+
+
+    FunctionDef
+

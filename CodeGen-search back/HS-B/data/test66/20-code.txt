@@ -1,0 +1,9 @@
+
+class FloatingWatcher(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Floating Watcher", 5, CHARACTER_CLASS.WARLOCK, CARD_RARITY.COMMON, minion_type = MINION_TYPE.DEMON)
+
+    def create_minion (self, player) :
+        return Minion(4, 4, effects = [Effect(Damaged(LaughingSister(), ActionTag(Give([Buff([Buff(Buff(Buff(ChangeAttack(Buff(Buff(ChangeAttack(2(2(2()))))))))), LaughingSister(player(4(), Heal()), Draw(node_gen(), Call))]), Call]), Call)), Call)])
+
+

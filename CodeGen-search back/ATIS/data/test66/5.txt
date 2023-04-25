@@ -1,0 +1,10 @@
+root Entity entity st0 ^ ^ ^ ^
+-0.02903380938654015
+root Lambda variable $0 ^ ^ type e ^ ^ body And arguments Apply predicate airport ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ Apply predicate departure_time ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity st0 ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^ ^ ^
+-0.932651944988228
+root Apply predicate equals ^ ^ arguments Entity entity st0 ^ ^ ^ End ^ ^ ^ ^
+-1.0032548067406442
+root Apply predicate capacity ^ ^ arguments Entity entity st0 ^ ^ ^ End ^ ^ ^ ^
+-1.4401693763619552
+root Apply predicate equals ^ ^ arguments Entity entity st0 ^ ^ ^ The variable $0 ^ ^ body Apply predicate airport ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ ^ ^ End ^ ^ ^ ^
+-1.5633928908887615

@@ -1,0 +1,9 @@
+
+class MiniMage(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Mini-Mage", 4, CHARACTER_CLASS.ALL, CARD_RARITY.EPIC)
+
+    def create_minion (self, player) :
+        return Minion(4, 1, stealth = True)
+
+

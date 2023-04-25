@@ -1,0 +1,1 @@
+Dunemaul Shaman NAME_END 5 ATK_END 4 DEF_END 4 COST_END -1 DUR_END Minion TYPE_END SHAMAN PLAYER_CLS_END NIL RACE_END RARE RARITY_END < b > windfury , overload : ( 1 ) < /b > nl 50 % chance to attack the wrong enemy .

@@ -1,0 +1,10 @@
+root Lambda variable $0 ^ ^ type e ^ ^ body And arguments Apply predicate airport ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ Apply predicate loc:t ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity st0 ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^ ^ ^
+-0.05752030919472883
+root Entity entity st0 ^ ^ ^ ^
+-0.7017461706974736
+root Lambda variable $0 ^ ^ type e ^ ^ body And arguments Apply predicate airport ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ Apply predicate month ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity st0 ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^ ^ ^
+-1.178661458969577
+root Argmax variable $0 ^ ^ domain And arguments Apply predicate airport ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ Apply predicate loc:t ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity st0 ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^ body Apply predicate airport ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ ^ ^ ^
+-1.2032287830955255
+root Lambda variable $0 ^ ^ type e ^ ^ body And arguments Apply predicate airport ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ Apply predicate loc:t ^ ^ arguments Entity entity st0 ^ ^ ^ Variable variable $0 ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^ ^ ^
+-1.2096105477414043

@@ -1,0 +1,1 @@
+Gahz ' rilla NAME_END 6 ATK_END 9 DEF_END 7 COST_END -1 DUR_END Minion TYPE_END HUNTER PLAYER_CLS_END BEAST RACE_END LEGENDARY RARITY_END whenever this minion takes damage , double its attack .

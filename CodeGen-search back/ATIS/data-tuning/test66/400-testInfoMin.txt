@@ -1,0 +1,1 @@
+show me all the flight that arriv in ci0 from anywher between ti0 and ti1

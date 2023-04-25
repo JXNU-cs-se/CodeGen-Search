@@ -1,0 +1,1 @@
+Gallywix 's Coin NAME_END -1 ATK_END -1 DEF_END 0 COST_END -1 DUR_END Spell TYPE_END NEUTRAL PLAYER_CLS_END NIL RACE_END NIL RARITY_END gain 1 mana crystal this turn only . nl < i > ( won ' t trigger gallywix . ) < /i >

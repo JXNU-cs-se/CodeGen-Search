@@ -1,0 +1,10 @@
+root Entity entity al0 ^ ^ ^ ^
+-1.1223115856421136e-05
+root Lambda variable $0 ^ ^ type e ^ ^ body And arguments Apply predicate airline ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ Apply predicate services ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity al0 ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^ ^ ^
+-2.017388151469111
+root Lambda variable $0 ^ ^ type e ^ ^ body And arguments Apply predicate aircraft_code:t ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ Apply predicate airline ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity al0 ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^ ^ ^
+-2.36629833181583
+root Lambda variable $0 ^ ^ type e ^ ^ body And arguments Apply predicate aircraft_code:t ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ Apply predicate services ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity al0 ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^ ^ ^
+-2.73778762053956
+root Lambda variable $0 ^ ^ type e ^ ^ body And arguments Apply predicate airline ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ Apply predicate services ^ ^ arguments Entity entity al0 ^ ^ ^ Variable variable $0 ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^ ^ ^
+-2.9146666290711565

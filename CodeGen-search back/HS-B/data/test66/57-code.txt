@@ -1,0 +1,9 @@
+
+class Spellbender(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Spellbender", 0, CHARACTER_CLASS.ALL, CARD_RARITY.EPIC, False)
+
+    def create_minion (self, player) :
+        return Minion(1, 3)
+
+

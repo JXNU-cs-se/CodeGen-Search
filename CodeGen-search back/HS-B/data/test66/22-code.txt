@@ -1,0 +1,9 @@
+
+class IronJuggernaut(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Iron Juggernaut", 6, CHARACTER_CLASS.WARRIOR, CARD_RARITY.LEGENDARY, minion_type = MINION_TYPE.MECH, battlecry = Battlecry( +( +( +( +(self()))), players = EnemyPlayer()), PlayerSelector()))
+
+    def MECH (False, player) :
+        return Minion(6, 5)
+
+

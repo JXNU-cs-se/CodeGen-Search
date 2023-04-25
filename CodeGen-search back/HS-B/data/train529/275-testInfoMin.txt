@@ -1,0 +1,1 @@
+Northshire Cleric NAME_END 1 ATK_END 3 DEF_END 1 COST_END -1 DUR_END Minion TYPE_END PRIEST PLAYER_CLS_END NIL RACE_END FREE RARITY_END whenever a minion is healed , draw a card .

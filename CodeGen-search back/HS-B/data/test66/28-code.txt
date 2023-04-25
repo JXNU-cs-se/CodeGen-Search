@@ -1,0 +1,7 @@
+
+class TinkertownTechnician(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Tinkertown Technician", 3, CHARACTER_CLASS.ALL, CARD_RARITY.COMMON, battlecry = Battlecry( +([Give([Buff([Buff(ChangeAttack(Buff(ChangeAttack(ChangeHealth(Buff(ChangeHealth(Buff(Buff(ChangeHealth(Buff(Buff(Buff(Buff(Buff(Selector(EnemyPlayer())), value = -1)))))))))))))), Battlecry( +( +( +(node_gen())), Call), Call)]), Call]), Call]), Call, Call))
+
+    FunctionDef
+

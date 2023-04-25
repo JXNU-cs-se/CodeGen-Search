@@ -1,0 +1,9 @@
+
+class SludgeBelcher(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Sludge Belcher", 5, CHARACTER_CLASS.ALL, CARD_RARITY.RARE)
+
+    def create_minion (self, player) :
+        return Minion(3, 5, deathrattle = Deathrattle(Summon([Summon(DamagedGolem()), PlayerSelector()], PlayerSelector()), taunt()))
+
+

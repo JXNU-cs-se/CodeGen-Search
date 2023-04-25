@@ -1,0 +1,1 @@
+list all daili flight between ci0 and ci1 and between ci1 and ci0 use al0

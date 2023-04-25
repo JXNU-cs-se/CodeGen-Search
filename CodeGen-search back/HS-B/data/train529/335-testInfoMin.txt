@@ -1,0 +1,1 @@
+Bloodsail Raider NAME_END 2 ATK_END 3 DEF_END 2 COST_END -1 DUR_END Minion TYPE_END NEUTRAL PLAYER_CLS_END PIRATE RACE_END COMMON RARITY_END < b > battlecry : < /b > gain attack equal to the attack of your weapon .

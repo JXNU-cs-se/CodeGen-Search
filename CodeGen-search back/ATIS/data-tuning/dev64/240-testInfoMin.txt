@@ -1,0 +1,1 @@
+show me the flight on al0 or al1 which go through ci0

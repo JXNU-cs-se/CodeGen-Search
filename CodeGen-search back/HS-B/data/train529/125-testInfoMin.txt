@@ -1,0 +1,1 @@
+Armored Warhorse NAME_END 5 ATK_END 3 DEF_END 4 COST_END -1 DUR_END Minion TYPE_END NEUTRAL PLAYER_CLS_END BEAST RACE_END RARE RARITY_END < b > battlecry : < /b > reveal a minion in each deck . if yours costs more , gain < b > charge < /b > .

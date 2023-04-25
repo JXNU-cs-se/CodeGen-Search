@@ -1,0 +1,1 @@
+Frost Nova NAME_END -1 ATK_END -1 DEF_END 3 COST_END -1 DUR_END Spell TYPE_END MAGE PLAYER_CLS_END NIL RACE_END COMMON RARITY_END < b > freeze < /b > all enemy minions .

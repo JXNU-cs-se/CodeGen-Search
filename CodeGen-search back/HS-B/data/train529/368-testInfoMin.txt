@@ -1,0 +1,1 @@
+Captain Greenskin NAME_END 5 ATK_END 4 DEF_END 5 COST_END -1 DUR_END Minion TYPE_END NEUTRAL PLAYER_CLS_END PIRATE RACE_END LEGENDARY RARITY_END < b > battlecry : < /b > give your weapon + 1 / + 1 .

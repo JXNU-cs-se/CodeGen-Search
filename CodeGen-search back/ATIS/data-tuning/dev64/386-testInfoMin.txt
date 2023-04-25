@@ -1,0 +1,1 @@
+all flight from ci0 to ci1 after ti0 on mn0 dn0 economi class

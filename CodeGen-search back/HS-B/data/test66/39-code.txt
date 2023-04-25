@@ -1,0 +1,13 @@
+
+class Conceal(SpellCard ) : 
+    def __init__ (self) :
+        super().__init__("Conceal", 1, CHARACTER_CLASS.ROGUE, CARD_RARITY.COMMON)
+
+    def use (self, player, game) :
+        super().use(player, game)
+        for minion in player.minions: 
+            minion.add_buff(minion())
+ 
+        player
+
+

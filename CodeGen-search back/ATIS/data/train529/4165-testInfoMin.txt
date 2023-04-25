@@ -1,0 +1,1 @@
+what is the flight number of the earliest flight between ci1 and ci0

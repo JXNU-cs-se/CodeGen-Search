@@ -1,0 +1,1 @@
+Troggzor the Earthinator NAME_END 6 ATK_END 6 DEF_END 7 COST_END -1 DUR_END Minion TYPE_END NEUTRAL PLAYER_CLS_END NIL RACE_END LEGENDARY RARITY_END whenever your opponent casts a spell , summon a burly rockjaw trogg .

@@ -1,0 +1,9 @@
+
+class BlackWhelp(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Black Whelp", 1, CHARACTER_CLASS.ALL, CARD_RARITY.COMMON, False, minion_type = MINION_TYPE.DRAGON)
+
+    def create_minion (self, player) :
+        return Minion(2, 1)
+
+

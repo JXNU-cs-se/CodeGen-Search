@@ -1,0 +1,1 @@
+Hungry Crab NAME_END 1 ATK_END 2 DEF_END 1 COST_END -1 DUR_END Minion TYPE_END NEUTRAL PLAYER_CLS_END BEAST RACE_END EPIC RARITY_END < b > battlecry : < /b > destroy a murloc and gain + 2 / + 2 .

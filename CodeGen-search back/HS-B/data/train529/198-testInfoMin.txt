@@ -1,0 +1,1 @@
+Nat Pagle NAME_END 0 ATK_END 4 DEF_END 2 COST_END -1 DUR_END Minion TYPE_END NEUTRAL PLAYER_CLS_END NIL RACE_END LEGENDARY RARITY_END at the start of your turn , you have a 50 % chance to draw an extra card .

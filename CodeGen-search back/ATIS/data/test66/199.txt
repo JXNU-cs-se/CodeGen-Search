@@ -1,0 +1,10 @@
+root Apply predicate capacity ^ ^ arguments Entity entity ac0 ^ ^ ^ End ^ ^ ^ ^
+-0.022512913780334924
+root Apply predicate capacity ^ ^ arguments Entity entity boeing:mf ^ ^ ^ End ^ ^ ^ ^
+-0.828975081197715
+root Apply predicate capacity ^ ^ arguments Entity entity b:fb ^ ^ ^ End ^ ^ ^ ^
+-3.1276171158125816
+root Apply predicate capacity ^ ^ arguments Entity entity delta:al ^ ^ ^ End ^ ^ ^ ^
+-3.2028999590623135
+root Apply predicate capacity ^ ^ arguments Entity entity usair:al ^ ^ ^ End ^ ^ ^ ^
+-3.4390409379444304

@@ -1,0 +1,18 @@
+
+class Upgrade(SpellCard ) : 
+    def __init__ (self) :
+        super().__init__("Upgrade!", 1, CHARACTER_CLASS.WARRIOR, CARD_RARITY.RARE)
+
+    def use (self, player, game) :
+        super().use(player, game)
+        player.base_attack.base_attack += 1
+        self.target.change_attack(1)
+        if  player.cards_played > 0 : 
+            
+                player = game.random_choice(weapon)
+            if  hearthbreaker.targeting.random_choice(player) and hearthbreaker.find_friendly_minion_battlecry_target.cards > hearthbreaker : 
+                hearthbreaker.find_friendly_minion_battlecry_target.find_friendly_minion_battlecry_target.powers.find_friendly_minion_battlecry_target.powers.powers.powers.powers.node_genattrattr()
+
+
+
+

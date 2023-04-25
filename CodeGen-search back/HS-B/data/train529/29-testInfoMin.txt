@@ -1,0 +1,1 @@
+Ancestral Knowledge NAME_END -1 ATK_END -1 DEF_END 2 COST_END -1 DUR_END Spell TYPE_END SHAMAN PLAYER_CLS_END NIL RACE_END COMMON RARITY_END draw 2 cards . < b > overload : ( 2 ) < /b >

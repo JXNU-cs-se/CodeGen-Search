@@ -1,0 +1,1 @@
+Demonheart NAME_END -1 ATK_END -1 DEF_END 5 COST_END -1 DUR_END Spell TYPE_END WARLOCK PLAYER_CLS_END NIL RACE_END EPIC RARITY_END deal $ 5 damage to a minion . if it 's a friendly demon , give it + 5 / + 5 instead .

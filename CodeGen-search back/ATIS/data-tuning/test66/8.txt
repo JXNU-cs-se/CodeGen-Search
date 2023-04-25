@@ -1,0 +1,10 @@
+root Entity entity ac0 ^ ^ ^ ^
+-3.083240764152903e-07
+root Apply predicate equals ^ ^ arguments Entity entity ac0 ^ ^ ^ Variable variable $0 ^ ^ ^ End ^ ^ ^ ^
+-4.415378322470484
+root Apply predicate services ^ ^ arguments Entity entity ac0 ^ ^ ^ Entity entity delta:al ^ ^ ^ End ^ ^ ^ ^
+-4.645127412683203
+root Apply predicate equals ^ ^ arguments Entity entity ac0 ^ ^ ^ End ^ ^ ^ ^
+-4.88417292108293
+root Apply predicate services ^ ^ arguments Entity entity ac0 ^ ^ ^ Entity entity sa:dc ^ ^ ^ End ^ ^ ^ ^
+-5.5165621328944106

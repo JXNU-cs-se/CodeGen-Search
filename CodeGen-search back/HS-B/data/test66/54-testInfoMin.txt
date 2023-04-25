@@ -1,0 +1,1 @@
+Avenge NAME_END -1 ATK_END -1 DEF_END 1 COST_END -1 DUR_END Spell TYPE_END PALADIN PLAYER_CLS_END NIL RACE_END COMMON RARITY_END < b > secret : < /b > when one of your minions dies , give a random friendly minion + 3 / + 2 .

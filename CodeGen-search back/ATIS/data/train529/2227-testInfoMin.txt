@@ -1,0 +1,1 @@
+flight inform between ci0 and ci1 on mn0 dn0

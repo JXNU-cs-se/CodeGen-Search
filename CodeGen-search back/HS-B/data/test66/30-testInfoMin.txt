@@ -1,0 +1,1 @@
+Explosive Sheep NAME_END 1 ATK_END 1 DEF_END 2 COST_END -1 DUR_END Minion TYPE_END NEUTRAL PLAYER_CLS_END MECH RACE_END COMMON RARITY_END < b > deathrattle : < /b > deal 2 damage to all minions .

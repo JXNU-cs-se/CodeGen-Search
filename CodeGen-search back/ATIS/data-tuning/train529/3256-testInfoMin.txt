@@ -1,0 +1,1 @@
+show me the flight from ci1 to ci0 with the highest one way fare

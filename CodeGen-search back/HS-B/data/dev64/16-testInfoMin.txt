@@ -1,0 +1,1 @@
+King of Beasts NAME_END 2 ATK_END 6 DEF_END 5 COST_END -1 DUR_END Minion TYPE_END HUNTER PLAYER_CLS_END BEAST RACE_END RARE RARITY_END < b > taunt < /b > . < b > battlecry : < /b > gain + 1 attack for each other beast you have .

@@ -1,0 +1,1 @@
+Bloodmage Thalnos NAME_END 1 ATK_END 1 DEF_END 2 COST_END -1 DUR_END Minion TYPE_END NEUTRAL PLAYER_CLS_END NIL RACE_END LEGENDARY RARITY_END < b > spell_damage + 1 < /b > . < b > deathrattle : < /b > draw a card .

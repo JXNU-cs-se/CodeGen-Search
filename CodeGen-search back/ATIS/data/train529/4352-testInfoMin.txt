@@ -1,0 +1,1 @@
+give me a flight from ci0 citi to ci1 and a flight from ci2 to ci1 that arriv at the same time

@@ -1,0 +1,1 @@
+show me all flight both direct and connect from ci0 to either ci1 or ci2 that depart after ti0

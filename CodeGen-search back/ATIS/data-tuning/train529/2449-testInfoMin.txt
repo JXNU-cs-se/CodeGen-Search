@@ -1,0 +1,1 @@
+are there ani flight from ci1 to ci0 which stop in ci2

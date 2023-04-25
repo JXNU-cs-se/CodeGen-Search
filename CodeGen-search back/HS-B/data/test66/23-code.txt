@@ -1,0 +1,9 @@
+
+class MadderBomber(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Madder Bomber", 5, CHARACTER_CLASS.ALL, CARD_RARITY.RARE, battlecry = Battlecry(Damage(6), CharacterSelector( players =  not (CharacterSelector(CharacterSelector(CharacterSelector(Adjacent(), picker = CARD_SOURCE.other_player), 6()))))))
+
+    def 6 (self, player) :
+        return Minion(5, 4)
+
+

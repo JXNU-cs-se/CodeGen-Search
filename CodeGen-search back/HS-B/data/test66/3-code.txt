@@ -1,0 +1,9 @@
+
+class FieryWarAxe(WeaponCard ) : 
+    def __init__ (self) :
+        super().__init__("Fiery War Axe", 2, CHARACTER_CLASS.WARRIOR, CARD_RARITY.FREE)
+
+    def create_weapon (self, player) :
+        return Weapon(3, 2)
+
+

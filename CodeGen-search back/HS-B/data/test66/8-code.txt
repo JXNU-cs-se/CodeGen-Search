@@ -1,0 +1,11 @@
+
+class MortalCoil(SpellCard ) : 
+    def __init__ (self) :
+        super().__init__("Mortal Coil", 1, CHARACTER_CLASS.WARLOCK, CARD_RARITY.COMMON, target_func = hearthbreaker.targeting.find_minion_spell_target)
+
+    def use (self, player, game) :
+        super().use(player, game)
+        self.target.damage(player.effective_spell_damage(1), self, target_func = player.minions)
+        if  self.target.target.minion_type.player.player is node_genattrattrattrattrattrattrattrattrattrattrattrattrattrattrattrattrattrattrattrattrattrattrattrattrattrattrattrattrattrattr : body
+
+

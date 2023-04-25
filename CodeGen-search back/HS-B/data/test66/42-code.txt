@@ -1,0 +1,9 @@
+
+class EarthElemental(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Earth Elemental", 5, CHARACTER_CLASS.SHAMAN, CARD_RARITY.EPIC, overload = 1)
+
+    def create_minion (self, player) :
+        return Minion(7, 8, taunt = True)
+
+

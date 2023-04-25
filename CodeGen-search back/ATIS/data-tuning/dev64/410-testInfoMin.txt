@@ -1,0 +1,1 @@
+inform on flight from ci1 to ci0 depart on da0 befor ti0

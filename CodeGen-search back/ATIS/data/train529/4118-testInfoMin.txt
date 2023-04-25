@@ -1,0 +1,1 @@
+show me the itinerari of the connect flight from ci0 to ci1 that depart ci0 at ti0

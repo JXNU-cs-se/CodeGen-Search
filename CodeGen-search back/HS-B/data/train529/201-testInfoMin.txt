@@ -1,0 +1,1 @@
+Fireguard Destroyer NAME_END 3 ATK_END 6 DEF_END 4 COST_END -1 DUR_END Minion TYPE_END SHAMAN PLAYER_CLS_END NIL RACE_END COMMON RARITY_END < b > battlecry : < /b > gain 1-4 attack . < b > overload : < /b > ( 1)

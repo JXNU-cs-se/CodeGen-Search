@@ -1,0 +1,1 @@
+Harvest Golem NAME_END 2 ATK_END 3 DEF_END 3 COST_END -1 DUR_END Minion TYPE_END NEUTRAL PLAYER_CLS_END MECH RACE_END COMMON RARITY_END < b > deathrattle : < /b > summon a 2/1 damaged golem .

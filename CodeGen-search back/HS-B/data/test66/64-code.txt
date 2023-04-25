@@ -1,0 +1,9 @@
+
+class HungryDragon(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Hungry Dragon", 4, CHARACTER_CLASS.ALL, CARD_RARITY.COMMON, minion_type = MINION_TYPE.DRAGON, battlecry = Battlecry(Summon( +( +( +(hearthbreaker()))), conditions = [CurrentPlayer(), DRAGON()]), PlayerSelector()))
+
+    def DRAGON () :
+        return Minion(5, 6)
+
+

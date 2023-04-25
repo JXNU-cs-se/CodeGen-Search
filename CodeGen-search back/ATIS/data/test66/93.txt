@@ -1,0 +1,10 @@
+root Entity entity rc0 ^ ^ ^ ^
+0.0
+root Apply predicate equals ^ ^ arguments Entity entity rc0 ^ ^ ^ Apply predicate fare_basis_code ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^
+-5.678016228981716
+root Apply predicate equals ^ ^ arguments Entity entity rc0 ^ ^ ^ Apply predicate meal_code ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^
+-5.836268239516062
+root Apply predicate equals ^ ^ arguments Entity entity rc0 ^ ^ ^ Apply predicate abbrev ^ ^ arguments Entity entity delta:al ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^
+-5.876413123906332
+root Apply predicate equals ^ ^ arguments Entity entity rc0 ^ ^ ^ End ^ ^ ^ ^
+-5.885324375810554

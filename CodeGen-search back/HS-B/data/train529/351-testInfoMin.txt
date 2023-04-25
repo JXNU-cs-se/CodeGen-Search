@@ -1,0 +1,1 @@
+Laughing Sister NAME_END 3 ATK_END 5 DEF_END 3 COST_END -1 DUR_END Minion TYPE_END DREAM PLAYER_CLS_END NIL RACE_END NIL RARITY_END can ' t be targeted by spells or hero powers .

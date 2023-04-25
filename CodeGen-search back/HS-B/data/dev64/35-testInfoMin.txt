@@ -1,0 +1,1 @@
+Gazlowe NAME_END 3 ATK_END 6 DEF_END 6 COST_END -1 DUR_END Minion TYPE_END NEUTRAL PLAYER_CLS_END NIL RACE_END LEGENDARY RARITY_END whenever you cast a 1 - mana spell , add a random mech to your hand .

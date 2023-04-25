@@ -1,0 +1,1 @@
+Flametongue Totem NAME_END 0 ATK_END 3 DEF_END 2 COST_END -1 DUR_END Minion TYPE_END SHAMAN PLAYER_CLS_END TOTEM RACE_END COMMON RARITY_END adjacent minions have + 2 attack .

@@ -1,0 +1,16 @@
+
+class EchoOfMedivh(SpellCard ) : 
+    def __init__ (self) :
+        super().__init__("Echo of Medivh", 4, CHARACTER_CLASS.MAGE, CARD_RARITY.EPIC, target_func = hearthbreaker.targeting.find_friendly_minion_spell_target)
+
+    def use (self, player, game) :
+        super().use(player, game)
+        if  len(self.target.card) > 0 : 
+            
+                copy = copy.copy(copy)
+            copy.summon(player, player)
+            
+                player.copy = player
+
+
+

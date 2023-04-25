@@ -1,0 +1,9 @@
+
+class DarkscaleHealer(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Darkscale Healer", 5, CHARACTER_CLASS.ALL, CARD_RARITY.COMMON, battlecry = Battlecry(Heal(2), CharacterSelector( condition = Heal(WeaponSelector()))))
+
+    def create_minion (player, None) :
+        return Minion(4, 5)
+
+

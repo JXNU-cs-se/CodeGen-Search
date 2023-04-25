@@ -1,0 +1,1 @@
+Healing Totem NAME_END 0 ATK_END 2 DEF_END 1 COST_END -1 DUR_END Minion TYPE_END SHAMAN PLAYER_CLS_END TOTEM RACE_END FREE RARITY_END at the end of your turn , restore 1 health to all friendly minions .

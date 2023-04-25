@@ -1,0 +1,10 @@
+root Apply predicate capacity ^ ^ arguments Entity entity ac0 ^ ^ ^ End ^ ^ ^ ^
+-0.00010143685290202197
+root Apply predicate capacity ^ ^ arguments Entity entity ac0 ^ ^ ^ Entity entity ac0 ^ ^ ^ End ^ ^ ^ ^
+-2.2372383460306473
+root Apply predicate capacity ^ ^ arguments Entity entity ac0 ^ ^ ^ Entity entity usair:al ^ ^ ^ End ^ ^ ^ ^
+-3.643772358787147
+root Apply predicate capacity ^ ^ arguments Entity entity ac0 ^ ^ ^ Entity entity delta:al ^ ^ ^ End ^ ^ ^ ^
+-4.0391014445352305
+root Apply predicate capacity ^ ^ arguments Entity entity ac0 ^ ^ ^ Entity entity sa:dc ^ ^ ^ End ^ ^ ^ ^
+-4.863010679120234

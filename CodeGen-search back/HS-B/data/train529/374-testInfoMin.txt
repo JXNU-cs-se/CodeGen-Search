@@ -1,0 +1,1 @@
+Quartermaster NAME_END 2 ATK_END 5 DEF_END 5 COST_END -1 DUR_END Minion TYPE_END PALADIN PLAYER_CLS_END NIL RACE_END EPIC RARITY_END < b > battlecry : < /b > give your silver hand recruits + 2 / + 2 .

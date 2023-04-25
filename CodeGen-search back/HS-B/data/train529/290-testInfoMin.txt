@@ -1,0 +1,1 @@
+Frothing Berserker NAME_END 2 ATK_END 4 DEF_END 3 COST_END -1 DUR_END Minion TYPE_END WARRIOR PLAYER_CLS_END NIL RACE_END RARE RARITY_END whenever a minion takes damage , gain + 1 attack .

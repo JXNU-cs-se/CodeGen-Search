@@ -1,0 +1,1 @@
+Blessing of Kings NAME_END -1 ATK_END -1 DEF_END 4 COST_END -1 DUR_END Spell TYPE_END PALADIN PLAYER_CLS_END NIL RACE_END COMMON RARITY_END give a minion + 4 / + 4 . < i > ( + 4 attack / + 4 health ) < /i >

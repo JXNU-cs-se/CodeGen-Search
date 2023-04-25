@@ -1,0 +1,9 @@
+
+class ArcaneGolem(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Arcane Golem", 3, CHARACTER_CLASS.ALL, CARD_RARITY.RARE, minion_type = MINION_TYPE.DRAGON)
+
+    def create_minion (self, player) :
+        return Minion(4, 2, charge = True)
+
+

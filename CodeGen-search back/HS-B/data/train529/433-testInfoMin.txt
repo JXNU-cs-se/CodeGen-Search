@@ -1,0 +1,1 @@
+Unbound Elemental NAME_END 2 ATK_END 4 DEF_END 3 COST_END -1 DUR_END Minion TYPE_END SHAMAN PLAYER_CLS_END NIL RACE_END COMMON RARITY_END whenever you play a card with < b > overload < /b > , gain + 1 / + 1 .

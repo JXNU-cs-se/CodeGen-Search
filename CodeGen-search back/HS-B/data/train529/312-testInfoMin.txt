@@ -1,0 +1,1 @@
+Houndmaster NAME_END 4 ATK_END 3 DEF_END 4 COST_END -1 DUR_END Minion TYPE_END HUNTER PLAYER_CLS_END NIL RACE_END FREE RARITY_END < b > battlecry : < /b > give a friendly beast + 2 / + 2 and < b > taunt < /b > .

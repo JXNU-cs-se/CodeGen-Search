@@ -1,0 +1,12 @@
+
+class Innervate(SpellCard ) : 
+    def __init__ (self) :
+        super().__init__("Innervate", 0, CHARACTER_CLASS.DRUID, CARD_RARITY.FREE)
+
+    def use (self, player, game) :
+        super().use(player, game)
+        if  player.max_mana < 10 : 
+            player.max_mana += 1
+
+
+

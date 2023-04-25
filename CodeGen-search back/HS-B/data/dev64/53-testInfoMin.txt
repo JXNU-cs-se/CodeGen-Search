@@ -1,0 +1,1 @@
+Circle of Healing NAME_END -1 ATK_END -1 DEF_END 0 COST_END -1 DUR_END Spell TYPE_END PRIEST PLAYER_CLS_END NIL RACE_END COMMON RARITY_END restore # 4 health to all minions .

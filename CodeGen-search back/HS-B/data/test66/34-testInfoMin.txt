@@ -1,0 +1,1 @@
+Onyxia NAME_END 8 ATK_END 8 DEF_END 9 COST_END -1 DUR_END Minion TYPE_END NEUTRAL PLAYER_CLS_END DRAGON RACE_END LEGENDARY RARITY_END < b > battlecry : < /b > summon 1/1 whelps until your side of the battlefield is full .

@@ -1,0 +1,14 @@
+
+class VolJin(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Vol'jin", 5, CHARACTER_CLASS.PRIEST, CARD_RARITY.LEGENDARY, battlecry = Battlecry(SwapStats( conditions = [ManaCost(IsMinion()), IsMinion()]), MinionSelector(), picker = Battlecry(Silence(), PlayerSelector())))
+
+    def create_minion (MinionSelector(Silence(), MinionSelector()), MinionSelector()) :
+        def create_minion (4) :
+            return Minion(6, 2)
+
+        def 2 (2, 4) :
+            2(2, 2)
+
+
+

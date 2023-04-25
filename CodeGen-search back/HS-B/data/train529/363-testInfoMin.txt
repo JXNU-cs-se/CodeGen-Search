@@ -1,0 +1,1 @@
+Gurubashi Berserker NAME_END 2 ATK_END 7 DEF_END 5 COST_END -1 DUR_END Minion TYPE_END NEUTRAL PLAYER_CLS_END NIL RACE_END COMMON RARITY_END whenever this minion takes damage , gain + 3 attack .

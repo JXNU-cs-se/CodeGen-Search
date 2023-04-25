@@ -1,0 +1,1 @@
+Avenging Wrath NAME_END -1 ATK_END -1 DEF_END 6 COST_END -1 DUR_END Spell TYPE_END PALADIN PLAYER_CLS_END NIL RACE_END EPIC RARITY_END deal $ 8 damage randomly split among all enemies .

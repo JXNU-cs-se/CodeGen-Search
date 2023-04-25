@@ -1,0 +1,1 @@
+Shieldmaiden NAME_END 5 ATK_END 5 DEF_END 6 COST_END -1 DUR_END Minion TYPE_END WARRIOR PLAYER_CLS_END NIL RACE_END RARE RARITY_END < b > battlecry : < /b > gain 5 armor .

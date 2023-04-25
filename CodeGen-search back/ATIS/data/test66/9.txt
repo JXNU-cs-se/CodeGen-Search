@@ -1,0 +1,10 @@
+root Entity entity ap0 ^ ^ ^ ^
+-9.249720877387337e-08
+root Apply predicate equals ^ ^ arguments Entity entity ap0 ^ ^ ^ The variable $0 ^ ^ body Apply predicate airport ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ ^ ^ End ^ ^ ^ ^
+-3.060066657551359
+root Lambda variable $0 ^ ^ type e ^ ^ body And arguments Apply predicate fare_basis_code ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity ap0 ^ ^ ^ End ^ ^ ^ Apply predicate airport ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^ ^ ^
+-3.207850356028134
+root Lambda variable $0 ^ ^ type e ^ ^ body And arguments Apply predicate airport ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ Apply predicate to_city ^ ^ arguments Entity entity ap0 ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^ ^ ^
+-3.345080874693947
+root Lambda variable $0 ^ ^ type e ^ ^ body And arguments Apply predicate airport ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ Apply predicate to_city ^ ^ arguments Variable variable $0 ^ ^ ^ Entity entity ap0 ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^ ^ ^
+-3.6277512625241557

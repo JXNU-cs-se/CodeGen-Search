@@ -1,0 +1,1 @@
+Dream NAME_END -1 ATK_END -1 DEF_END 0 COST_END -1 DUR_END Spell TYPE_END DREAM PLAYER_CLS_END NIL RACE_END NIL RARITY_END return a minion to its owner 's hand .

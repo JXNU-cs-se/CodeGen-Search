@@ -1,0 +1,10 @@
+root Apply predicate capacity ^ ^ arguments Entity entity ac0 ^ ^ ^ End ^ ^ ^ ^
+-5.6600479099263456e-05
+root Apply predicate capacity ^ ^ arguments Entity entity ac0 ^ ^ ^ Entity entity ac0 ^ ^ ^ End ^ ^ ^ ^
+-2.402461647378187
+root Apply predicate aircraft ^ ^ arguments Entity entity ac0 ^ ^ ^ End ^ ^ ^ ^
+-3.0521039838198614
+root Apply predicate stop_arrival_time ^ ^ arguments Entity entity ac0 ^ ^ ^ End ^ ^ ^ ^
+-3.8431805530088594
+root Apply predicate capacity ^ ^ arguments Entity entity ac0 ^ ^ ^ Entity entity capac ^ ^ ^ End ^ ^ ^ ^
+-4.167411033724419

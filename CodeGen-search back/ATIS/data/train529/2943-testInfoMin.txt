@@ -1,0 +1,1 @@
+which flight depart ci0 after ti0 and arriv in ci1 by ti1

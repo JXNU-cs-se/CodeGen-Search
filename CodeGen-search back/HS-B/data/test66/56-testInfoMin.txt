@@ -1,0 +1,1 @@
+Sacrificial Pact NAME_END -1 ATK_END -1 DEF_END 0 COST_END -1 DUR_END Spell TYPE_END WARLOCK PLAYER_CLS_END NIL RACE_END COMMON RARITY_END destroy a demon . restore # 5 health to your hero .

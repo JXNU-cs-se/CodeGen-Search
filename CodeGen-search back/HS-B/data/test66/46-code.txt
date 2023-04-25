@@ -1,0 +1,14 @@
+
+class HolyWrath(SpellCard ) : 
+    def __init__ (self) :
+        super().__init__("Holy Wrath", 5, CHARACTER_CLASS.PALADIN, CARD_RARITY.RARE)
+
+    def use (self, player, game) :
+        def reduce_cost (card) :
+            player.draw()
+
+        super().use(player, game)
+        player.bind_once("", reduce_cost)
+        player
+
+

@@ -1,0 +1,9 @@
+
+class Lightwarden(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Lightwarden", 1, CHARACTER_CLASS.ALL, CARD_RARITY.RARE)
+
+    def create_minion (self, player) :
+        return Minion(1, 2, effects = [Effect(CharacterHealed(ArmorIncreased(), BothPlayer()), BothPlayer())])
+
+

@@ -1,0 +1,1 @@
+Azure Drake NAME_END 4 ATK_END 4 DEF_END 5 COST_END -1 DUR_END Minion TYPE_END NEUTRAL PLAYER_CLS_END DRAGON RACE_END RARE RARITY_END < b > spell_damage + 1 < /b > . < b > battlecry : < /b > draw a card .

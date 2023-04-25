@@ -1,0 +1,9 @@
+
+class DeathsBite(WeaponCard ) : 
+    def __init__ (self) :
+        super().__init__("Death's Bite", 4, CHARACTER_CLASS.WARRIOR, CARD_RARITY.COMMON)
+
+    def create_weapon (self, player) :
+        return Weapon(4, 2, deathrattle = Deathrattle(Damage(), Damage(1)))
+
+

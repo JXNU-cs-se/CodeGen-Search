@@ -1,0 +1,1 @@
+Ironbeak Owl NAME_END 2 ATK_END 1 DEF_END 2 COST_END -1 DUR_END Minion TYPE_END NEUTRAL PLAYER_CLS_END BEAST RACE_END COMMON RARITY_END < b > battlecry : < /b > < b > silence < /b > a minion .

@@ -1,0 +1,10 @@
+root Entity entity ac0 ^ ^ ^ ^
+-1.8499442673652038e-07
+root Apply predicate equals ^ ^ arguments Entity entity ac0 ^ ^ ^ The variable $0 ^ ^ body Apply predicate airport ^ ^ arguments Variable variable $0 ^ ^ ^ End ^ ^ ^ ^ ^ End ^ ^ ^ ^
+-4.222652711636829
+root Apply predicate equals ^ ^ arguments Entity entity ac0 ^ ^ ^ End ^ ^ ^ ^
+-4.763789668342834
+root Apply predicate equals ^ ^ arguments Entity entity ac0 ^ ^ ^ Apply predicate abbrev ^ ^ arguments Entity entity delta:al ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^
+-4.826760641324098
+root Apply predicate equals ^ ^ arguments Entity entity ac0 ^ ^ ^ Apply predicate abbrev ^ ^ arguments Entity entity usair:al ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^
+-4.9892413697179885

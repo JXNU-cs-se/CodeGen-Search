@@ -1,0 +1,14 @@
+
+class Alexstrasza(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Alexstrasza", 9, CHARACTER_CLASS.ALL, CARD_RARITY.LEGENDARY, minion_type = MINION_TYPE.DRAGON, battlecry = Battlecry( +([ +(IsClass(3), HeroSelector()), BothPlayer()]), PlayerSelector()))
+
+    def DRAGON (MinionSelector(TargetAdjacent(), GreaterThan(BothPlayer())), False(BothPlayer(), 15 = BothPlayer)) :
+        def create_minion (False, RandomPicker) :
+            return Minion(8, 8)
+
+        def 8 (8, 8) :
+            return 8
+
+
+

@@ -1,0 +1,14 @@
+
+class AstralCommunion(SpellCard ) : 
+    def __init__ (self) :
+        super().__init__("Astral Communion", 4, CHARACTER_CLASS.DRUID, CARD_RARITY.EPIC)
+
+    def use (self, player, game) :
+        super().use(player, game)
+        if  player.hand < 10 : 
+            player.max_mana += 1
+
+            else : player.bind_once()
+            player.upcoming_overload = player
+
+

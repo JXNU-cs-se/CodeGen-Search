@@ -1,0 +1,1 @@
+inform on al0 flight from ci0 to ci1

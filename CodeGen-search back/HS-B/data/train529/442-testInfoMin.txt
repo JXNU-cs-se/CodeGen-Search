@@ -1,0 +1,1 @@
+Junkbot NAME_END 1 ATK_END 5 DEF_END 5 COST_END -1 DUR_END Minion TYPE_END NEUTRAL PLAYER_CLS_END MECH RACE_END EPIC RARITY_END whenever a friendly mech dies , gain + 2 / + 2 .

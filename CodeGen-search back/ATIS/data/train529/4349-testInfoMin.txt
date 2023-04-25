@@ -1,0 +1,1 @@
+find me the earliest flight from ci0 to ci1 and the latest return to ci0 on the same day

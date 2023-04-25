@@ -1,0 +1,11 @@
+
+class KirinTorMage(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Kirin Tor Mage", 3, CHARACTER_CLASS.MAGE, CARD_RARITY.RARE, battlecry = Battlecry( +(Draw()), PlayerSelector()))
+
+    def create_minion (False, attacker) :
+        if  Minion(4, 3) : 
+            4( +(super(super(super()))), 3())
+
+
+

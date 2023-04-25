@@ -1,0 +1,1 @@
+Master of Disguise NAME_END 4 ATK_END 4 DEF_END 4 COST_END -1 DUR_END Minion TYPE_END ROGUE PLAYER_CLS_END NIL RACE_END RARE RARITY_END < b > battlecry : < /b > give a friendly minion < b > stealth < /b > .

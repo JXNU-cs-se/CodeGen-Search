@@ -1,0 +1,1 @@
+Snowchugger NAME_END 2 ATK_END 3 DEF_END 2 COST_END -1 DUR_END Minion TYPE_END MAGE PLAYER_CLS_END MECH RACE_END COMMON RARITY_END < b > freeze < /b > any character damaged by this minion .

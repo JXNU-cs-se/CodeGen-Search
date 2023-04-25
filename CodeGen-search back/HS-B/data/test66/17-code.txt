@@ -1,0 +1,9 @@
+
+class BurlyRockjawTrogg(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Burly Rockjaw Trogg", 4, CHARACTER_CLASS.ALL, CARD_RARITY.COMMON)
+
+    def create_minion (self, player) :
+        return Minion(3, 5, effects = [Effect(SpellCast(ManaCost(2, player = MinionIsTarget()), SelfSelector()), ActionTag(2(), SelfSelector()))])
+
+

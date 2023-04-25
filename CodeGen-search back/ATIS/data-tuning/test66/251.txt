@@ -1,0 +1,10 @@
+root Lambda variable $0 ^ ^ type e ^ ^ body Exists variable $1 ^ ^ body And arguments Apply predicate flight ^ ^ arguments Variable variable $1 ^ ^ ^ End ^ ^ ^ Apply predicate from ^ ^ arguments Variable variable $1 ^ ^ ^ Entity entity ci0 ^ ^ ^ End ^ ^ ^ Compare op Equal ^ ^ left Apply predicate aircraft_code ^ ^ arguments Variable variable $1 ^ ^ ^ End ^ ^ ^ ^ right Variable variable $0 ^ ^ ^ ^ ^ End ^ ^ ^ ^ ^ ^ ^ ^
+-2.3813379456038125e-05
+root Lambda variable $0 ^ ^ type e ^ ^ body Exists variable $1 ^ ^ body And arguments Apply predicate flight ^ ^ arguments Variable variable $1 ^ ^ ^ End ^ ^ ^ Apply predicate from ^ ^ arguments Variable variable $1 ^ ^ ^ Entity entity ci0 ^ ^ ^ End ^ ^ ^ Compare op Equal ^ ^ left Apply predicate aircraft_code ^ ^ arguments Variable variable $1 ^ ^ ^ End ^ ^ ^ ^ right Variable variable $1 ^ ^ ^ ^ ^ End ^ ^ ^ ^ ^ ^ ^ ^
+-1.1208164954475033
+root Lambda variable $0 ^ ^ type e ^ ^ body Exists variable $1 ^ ^ body And arguments Apply predicate flight ^ ^ arguments Variable variable $1 ^ ^ ^ End ^ ^ ^ Apply predicate to ^ ^ arguments Variable variable $1 ^ ^ ^ Entity entity ci0 ^ ^ ^ End ^ ^ ^ Compare op Equal ^ ^ left Apply predicate aircraft_code ^ ^ arguments Variable variable $1 ^ ^ ^ End ^ ^ ^ ^ right Variable variable $0 ^ ^ ^ ^ ^ End ^ ^ ^ ^ ^ ^ ^ ^
+-1.2070666541695132
+root Lambda variable $0 ^ ^ type e ^ ^ body Exists variable $1 ^ ^ body And arguments Apply predicate flight ^ ^ arguments Variable variable $1 ^ ^ ^ End ^ ^ ^ Apply predicate from ^ ^ arguments Variable variable $1 ^ ^ ^ Entity entity ci0 ^ ^ ^ End ^ ^ ^ Compare op Equal ^ ^ left Apply predicate aircraft_code:t ^ ^ arguments Variable variable $1 ^ ^ ^ End ^ ^ ^ ^ right Variable variable $0 ^ ^ ^ ^ ^ End ^ ^ ^ ^ ^ ^ ^ ^
+-1.3291618971258754
+root Lambda variable $0 ^ ^ type e ^ ^ body Exists variable $1 ^ ^ body And arguments Apply predicate flight ^ ^ arguments Variable variable $1 ^ ^ ^ End ^ ^ ^ Apply predicate from ^ ^ arguments Variable variable $1 ^ ^ ^ Entity entity ci0 ^ ^ ^ End ^ ^ ^ Apply predicate to ^ ^ arguments Variable variable $1 ^ ^ ^ Entity entity ci0 ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^ ^ ^ ^ ^
+-1.3407193035477458

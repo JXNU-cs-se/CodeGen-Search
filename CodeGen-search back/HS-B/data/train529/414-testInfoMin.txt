@@ -1,0 +1,1 @@
+Mountain Giant NAME_END 8 ATK_END 8 DEF_END 12 COST_END -1 DUR_END Minion TYPE_END NEUTRAL PLAYER_CLS_END NIL RACE_END EPIC RARITY_END costs ( 1 ) less for each other card in your hand .

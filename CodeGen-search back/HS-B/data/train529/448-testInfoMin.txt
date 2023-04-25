@@ -1,0 +1,1 @@
+Bouncing Blade NAME_END -1 ATK_END -1 DEF_END 3 COST_END -1 DUR_END Spell TYPE_END WARRIOR PLAYER_CLS_END NIL RACE_END EPIC RARITY_END deal $ 1 damage to a random minion . repeat until a minion dies .

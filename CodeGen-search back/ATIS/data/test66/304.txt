@@ -1,0 +1,10 @@
+root Apply predicate capacity ^ ^ arguments Entity entity ac0 ^ ^ ^ End ^ ^ ^ ^
+-0.3200652349299581
+root Lambda variable $0 ^ ^ type e ^ ^ body Exists variable $1 ^ ^ body And arguments Apply predicate aircraft_code ^ ^ arguments Variable variable $1 ^ ^ ^ Entity entity ac0 ^ ^ ^ End ^ ^ ^ Apply predicate to ^ ^ arguments Variable variable $1 ^ ^ ^ Entity entity call ^ ^ ^ End ^ ^ ^ Compare op Equal ^ ^ left Apply predicate aircraft_code ^ ^ arguments Variable variable $1 ^ ^ ^ End ^ ^ ^ ^ right Variable variable $0 ^ ^ ^ ^ ^ End ^ ^ ^ ^ ^ ^ ^ ^
+-0.38438039501369686
+root Lambda variable $0 ^ ^ type e ^ ^ body Exists variable $1 ^ ^ body And arguments Compare op Equal ^ ^ left Apply predicate aircraft_code ^ ^ arguments Variable variable $1 ^ ^ ^ End ^ ^ ^ ^ right Variable variable $0 ^ ^ ^ ^ ^ Apply predicate aircraft_code ^ ^ arguments Variable variable $1 ^ ^ ^ Entity entity ac0 ^ ^ ^ End ^ ^ ^ Apply predicate aircraft_code ^ ^ arguments Variable variable $1 ^ ^ ^ Variable variable $0 ^ ^ ^ End ^ ^ ^ End ^ ^ ^ ^ ^ ^ ^ ^
+-0.44224399223626526
+root Apply predicate abbrev ^ ^ arguments Entity entity ac0 ^ ^ ^ End ^ ^ ^ ^
+-0.6244112662517052
+root Lambda variable $0 ^ ^ type e ^ ^ body Exists variable $1 ^ ^ body And arguments Apply predicate aircraft_code ^ ^ arguments Variable variable $1 ^ ^ ^ Entity entity ac0 ^ ^ ^ End ^ ^ ^ Apply predicate aircraft_code ^ ^ arguments Variable variable $1 ^ ^ ^ Entity entity ac0 ^ ^ ^ End ^ ^ ^ Apply predicate aircraft_code ^ ^ arguments Variable variable $1 ^ ^ ^ Variable variable $0 ^ ^ ^ End ^ ^ ^ Compare op Equal ^ ^ left Apply predicate aircraft_code ^ ^ arguments Variable variable $1 ^ ^ ^ End ^ ^ ^ ^ right Variable variable $0 ^ ^ ^ ^ ^ End ^ ^ ^ ^ ^ ^ ^ ^
+-0.911412666620677

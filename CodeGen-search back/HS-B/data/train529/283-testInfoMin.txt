@@ -1,0 +1,1 @@
+Ancient of War NAME_END 5 ATK_END 5 DEF_END 7 COST_END -1 DUR_END Minion TYPE_END DRUID PLAYER_CLS_END NIL RACE_END EPIC RARITY_END < b > choose_one < /b > - nl + 5 attack ; or + 5 health and < b > taunt < /b > .

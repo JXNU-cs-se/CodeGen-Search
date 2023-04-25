@@ -1,0 +1,1 @@
+Blood Imp NAME_END 0 ATK_END 1 DEF_END 1 COST_END -1 DUR_END Minion TYPE_END WARLOCK PLAYER_CLS_END DEMON RACE_END COMMON RARITY_END < b > stealth < /b > . at the end of your turn , give another random friendly minion + 1 health .

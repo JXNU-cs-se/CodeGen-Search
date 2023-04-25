@@ -1,0 +1,1 @@
+Argent Protector NAME_END 2 ATK_END 2 DEF_END 2 COST_END -1 DUR_END Minion TYPE_END PALADIN PLAYER_CLS_END NIL RACE_END COMMON RARITY_END < b > battlecry : < /b > give a friendly minion < b > divine_shield < /b > .

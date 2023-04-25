@@ -1,0 +1,1 @@
+Ancestral Spirit NAME_END -1 ATK_END -1 DEF_END 2 COST_END -1 DUR_END Spell TYPE_END SHAMAN PLAYER_CLS_END NIL RACE_END RARE RARITY_END give a minion " < b > deathrattle : < /b > resummon this minion . "

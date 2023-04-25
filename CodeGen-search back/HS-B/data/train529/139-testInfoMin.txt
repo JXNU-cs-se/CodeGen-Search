@@ -1,0 +1,1 @@
+Antique Healbot NAME_END 3 ATK_END 3 DEF_END 5 COST_END -1 DUR_END Minion TYPE_END NEUTRAL PLAYER_CLS_END MECH RACE_END COMMON RARITY_END < b > battlecry : < /b > restore 8 health to your hero .

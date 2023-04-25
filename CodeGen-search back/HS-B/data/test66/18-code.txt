@@ -1,0 +1,9 @@
+
+class CogmastersWrench(WeaponCard ) : 
+    def __init__ (self) :
+        super().__init__("Cogmaster's Wrench", 3, CHARACTER_CLASS.ROGUE, CARD_RARITY.EPIC)
+
+    def create_weapon (self, player) :
+        return Weapon(1, 3, buffs = [Aura(ChangeAttack(ChangeAttack(-1)), ManaChange(-1))])
+
+

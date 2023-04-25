@@ -1,0 +1,1 @@
+is there a flight between ci1 and ci2 with a stopov at ci0

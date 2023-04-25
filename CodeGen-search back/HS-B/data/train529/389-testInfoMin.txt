@@ -1,0 +1,1 @@
+Coldlight Oracle NAME_END 2 ATK_END 2 DEF_END 3 COST_END -1 DUR_END Minion TYPE_END NEUTRAL PLAYER_CLS_END MURLOC RACE_END RARE RARITY_END < b > battlecry : < /b > each player draws 2 cards .

@@ -1,0 +1,1 @@
+Grommash Hellscream NAME_END 4 ATK_END 9 DEF_END 8 COST_END -1 DUR_END Minion TYPE_END WARRIOR PLAYER_CLS_END NIL RACE_END LEGENDARY RARITY_END < b > charge < /b > nl < b > enrage : < /b > + 6 Attack

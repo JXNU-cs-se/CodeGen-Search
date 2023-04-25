@@ -1,0 +1,1 @@
+Dragon Egg NAME_END 0 ATK_END 2 DEF_END 1 COST_END -1 DUR_END Minion TYPE_END NEUTRAL PLAYER_CLS_END NIL RACE_END RARE RARITY_END whenever this minion takes damage , summon a 2/1 whelp .

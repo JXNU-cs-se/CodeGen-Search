@@ -1,0 +1,1 @@
+Blingtron 3000 NAME_END 3 ATK_END 4 DEF_END 5 COST_END -1 DUR_END Minion TYPE_END NEUTRAL PLAYER_CLS_END MECH RACE_END LEGENDARY RARITY_END < b > battlecry : < /b > equip a random weapon for each player .

@@ -1,0 +1,1 @@
+Southsea Deckhand NAME_END 2 ATK_END 1 DEF_END 1 COST_END -1 DUR_END Minion TYPE_END NEUTRAL PLAYER_CLS_END PIRATE RACE_END COMMON RARITY_END has < b > charge < /b > while you have a weapon equipped .

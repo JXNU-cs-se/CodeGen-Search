@@ -1,0 +1,1 @@
+Mana Addict NAME_END 1 ATK_END 3 DEF_END 2 COST_END -1 DUR_END Minion TYPE_END NEUTRAL PLAYER_CLS_END NIL RACE_END RARE RARITY_END whenever you cast a spell , gain + 2 attack this turn .
