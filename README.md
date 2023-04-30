@@ -12,15 +12,23 @@ HS数据集：https://github.com/JXNU-cs-se/CodeGen-Search/tree/main/CodeGen-sea
 ### 2. 模型调用和使用： 
 首先使用原始数据集对模型进行训练，然后再使用CodeGen-search get中的genSearchFIle.py检索相似样例，并将相似样例文件放入该文件夹CodeGen-Search/CodeGen-search back/ATIS
 /data/ 对应的数据集文件夹中，并再次进行模型训练。
+
 训练模型
+
 python3 run.py ATIS|HS-B
+
 模型测试（ATIS|HS）
+
 python3 predict.py ATIS 5
+
 python3 predict_HS-B.py HS-B 5
+
 结果评估
+
 python3 eval.py ATIS|HS-B
 
 实验环境
+
 NLTK 3.2.1
 Tensorflow 1.12.1
 Python 3.7
