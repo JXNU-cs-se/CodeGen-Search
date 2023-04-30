@@ -2,7 +2,8 @@
 
 ## 1. 介绍 codegen-search模型的主要思想和方法
 
-## 2. 项目中使用的数据集： 如果是已公开的，请给出链接；如果是未公开的，同时我们有的，请在这个项目下建设目录，并将数据集上传，（同时说明该数据的位置）。
+## 2. 项目中使用的数据集： ATIS数据集：https://github.com/JXNU-cs-se/CodeGen-Search/tree/main/CodeGen-search%20back/ATIS
+HS数据集：
 
 
 ## 3. 介绍如何使用项目：  (使用的步骤：)
