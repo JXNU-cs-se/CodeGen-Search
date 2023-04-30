@@ -4,7 +4,9 @@
 
 We proposes a CodeGen-Search model to improve code generation quality by incorporating similar samples. To fully utilize the information of similar samples, the model adopts the “pre- training+fine-tuning” pattern. The model uses a minimum edit distance algorithm to find some similar samples with natural language, and uses different encoders to extract the features of the natural language and the code in similar samples.
 
-## 2. 项目中使用的数据集： ATIS数据集：https://github.com/JXNU-cs-se/CodeGen-Search/tree/main/CodeGen-search%20back/ATIS
+## 2. 项目中使用的数据集：
+ATIS数据集：https://github.com/JXNU-cs-se/CodeGen-Search/tree/main/CodeGen-search%20back/ATIS
+
 HS数据集：https://github.com/JXNU-cs-se/CodeGen-Search/tree/main/CodeGen-search%20back/HS-B
 
 
