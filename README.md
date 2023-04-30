@@ -17,7 +17,7 @@ HS数据集：https://github.com/JXNU-cs-se/CodeGen-Search/tree/main/CodeGen-sea
 ### 1. 数据集准备和预处理 ： 两个数据集均源自TreeGen：https://github.com/zysszy/TreeGen ，该项目提供了已经预处理的数据集，并未提供数据集预处理的代码。本项目使用的是已经预处理的数据集。 
 
 ### 2. 模型调用和使用： 
-首先使用原始数据集对模型进行训练，然后再使用CodeGen-search get中的genSearchFIle.py检索相似样例，并将相似样例文件放入该文件夹CodeGen-Search/CodeGen-search back/ATIS
+首先使用原始数据集对模型进行训练，然后再分别使用CodeGen-search get中gensearchflies1,2,3得到相似数据的训练集 验证集和测试集，并将相似样例文件放入该文件夹CodeGen-Search/CodeGen-search back/ATIS
 /data/ 对应的数据集文件夹中，并再次进行模型训练。
 
 训练模型
